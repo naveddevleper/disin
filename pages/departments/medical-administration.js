@@ -1,26 +1,26 @@
-import React from 'react';
+import React from "react";
 // import TopHeader from '../components/_App/TopHeader';
-import TopHeader from '../../components/_App/TopHeader';
-import Navbar from '../../components/_App/Navbar';
-import PageBanner from '../../components/Common/PageBanner';
-import AppointmentFormTwo from '../../components/Common/AppointmentFormTwo';
-import Footer from '../../components/_App/Footer';
+import TopHeader from "../../components/_App/TopHeader";
+import Navbar from "../../components/_App/Navbar";
+import PageBanner from "../../components/Common/PageBanner";
+import AppointmentFormTwo from "../../components/Common/AppointmentFormTwo";
+import Footer from "../../components/_App/Footer";
 
 const MedicalAdministration = () => {
     return (
         <>
             <TopHeader />
-            
+
             <Navbar />
 
-            <PageBanner 
-                pageTitle="Medical Administration" 
-                homePageUrl="/" 
-                homePageText="Home" 
-                activePageText="Departments" 
-                bgImage="page-title-five" 
-            /> 
- 
+            <PageBanner
+                pageTitle="Medical Administration"
+                homePageUrl="/"
+                homePageText="Home"
+                activePageText="Departments"
+                bgImage="page-title-five"
+            />
+
             <div className="doctor-details-area pt-100 pb-70">
                 <div className="container">
                     <div className="row">
@@ -51,10 +51,18 @@ const MedicalAdministration = () => {
                                     <div className="appointment-item-two-right">
                                         <div className="appointment-item-content">
                                             <ul>
-                                                <li>Monday <span>9:00 AM - 8:00 PM</span></li>
-                                                <li>Tuesday <span>9:00 AM - 8:00 PM</span></li>
-                                                <li>Wednesday <span>9:00 AM - 8:00 PM</span></li>
-                                                <li>Sunday <span>9:00 AM - 8:00 PM</span></li>
+                                                <li>
+                                                    Monday <span>9:00 AM - 8:00 PM</span>
+                                                </li>
+                                                <li>
+                                                    Tuesday <span>9:00 AM - 8:00 PM</span>
+                                                </li>
+                                                <li>
+                                                    Wednesday <span>9:00 AM - 8:00 PM</span>
+                                                </li>
+                                                <li>
+                                                    Sunday <span>9:00 AM - 8:00 PM</span>
+                                                </li>
                                             </ul>
                                         </div>
                                     </div>
@@ -65,7 +73,7 @@ const MedicalAdministration = () => {
                         <div className="col-lg-7">
                             <div className="doctor-details-item">
                                 <div className="doctor-details-right">
-                                    <div className="doctor-details-biography">
+                                    {/* <div className="doctor-details-biography">
                                         <h3>Dr. Sarah Taylor (Neurosurgeon)</h3>
                                         <p>MBBS in Neurology, PHD in Neurosurgeon</p>
                                     </div>
@@ -93,17 +101,159 @@ const MedicalAdministration = () => {
                                     <div className="doctor-details-biography">
                                         <h3>Experience</h3>
                                         <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa.</p>
-                                    </div>
+                                    </div> */}
+                                    {/* <div class="col-md-8">
+                    <div class="message-box"> */}
+                                    <p align="justify">
+                                        The Medical Administration along with its reporting
+                                        departments is responsible for a good patient experience
+                                        and seamless patient services. Various steps in this
+                                        direction were taken to achieve this goal. Standard
+                                        Operating Procedures for all departments are being made
+                                        for all to streamline the processes. The Medical Records
+                                        Office has been started under the medical administration
+                                        for providing patient services. With a registration of
+                                        over 19035 patients in 2021, the challenge of crowd
+                                        control was dealt with by bringing in new policies for
+                                        patient waiting and physical distancing. The Medical
+                                        Administration oversaw the operations at HBCH &amp;
+                                        MPMMCC.
+                                    </p>
+                                    <p align="justify">
+                                        <strong>
+                                            The highlights of the activities of Medical
+                                            Administration during 2021 has been:
+                                        </strong>
+                                    </p>
+                                    <ul>
+                                        <li
+                                        // style="line-height: 20pt;"
+                                        >
+                                            Running of COVID facility at HBCH, Varanasi.{" "}
+                                        </li>
+                                        <br></br>
+                                        <li
+                                        // style="line-height: 20pt;"
+                                        >
+                                            Un-interrupted cancer care during COVID pandemic.
+                                        </li>
+                                        <br></br>
+                                        <li
+                                        // style="line-height: 20pt;"
+                                        >
+                                            Coordination of Donation of 150 Oxygen Concentrator to
+                                            Varanasi Division.
+                                        </li>
+                                        <br></br>
+                                        <li
+                                        // style="line-height: 20pt;"
+                                        >
+                                            Coordination with Varanasi Administration and other
+                                            Institutions/ Organizations.
+                                        </li>
+                                        <br></br>
+                                        <li
+                                        // style="line-height: 20pt;"
+                                        >
+                                            Coordination of Installation of Oxygen Plant at HBCH
+                                            &amp; MPMMCC.
+                                        </li>
+                                        <br></br>
+                                    </ul>
+                                    <p align="justify">
+                                        The departments of Nursing, Biomedical Engineering,
+                                        Central Registration Office, CSSD, Pharmacy and Stores,
+                                        Medical Social Work, Physiotherapy, Occupational
+                                        Therapy, Patient Dietary Services and Hospital Staff
+                                        Clinic work in tandem with Medical Administration.
+                                    </p>
+
+                                    <h4 class="itemTitle">
+                                        <strong>Staff Members:</strong>
+                                    </h4>
+
+                                    <table
+                                        class="table-style style-colorheader"
+                                        width="100%"
+                                        border="0"
+                                        cellspacing="0"
+                                        cellpadding="1"
+                                    >
+                                        <tbody>
+                                            <tr></tr>
+                                            <tr>
+                                                <td
+                                                    scope="col"
+                                                //   style="border: double; padding: 10px;"
+                                                >
+                                                    Medical Superintendent
+                                                </td>
+                                                <td
+                                                    scope="col"
+                                                //   style="border: double; padding: 10px;"
+                                                >
+                                                    Dr. Akash Anand{" "}
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td
+                                                    scope="col"
+                                                //   style="border: double; padding: 10px;"
+                                                >
+                                                    Assistant Medical Superintendent{" "}
+                                                </td>
+                                                <td
+                                                    scope="col"
+                                                //   style="border: double; padding: 10px;"
+                                                >
+                                                    Dr. Ruchi Kushwaha{" "}
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td
+                                                    scope="col"
+                                                //   style="border: double; padding: 10px;"
+                                                >
+                                                    Assistant Administrative Officer{" "}
+                                                </td>
+                                                <td
+                                                    scope="col"
+                                                //   style="border: double; padding: 10px;"
+                                                >
+                                                    Mr. Ravindra Bundela
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td
+                                                    scope="col"
+                                                //   style="border: double; padding: 10px;"
+                                                >
+                                                    Others
+                                                </td>
+                                                <td
+                                                    scope="col"
+                                                //   style="border: double; padding: 10px;"
+                                                >
+                                                    Ms. Shreya Dicholkar, LDC<br></br>
+                                                    Mr. Ram Sumer Yadav, Attendant<br></br>
+                                                    Mr. Maheep Kumar, Trade Helper<br></br>
+                                                    Mr. Ganesh Kannojiya, Outsourcing Clerk
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    {/* </div>
+          </div> */}
                 </div>
             </div>
-    
+
             <Footer />
         </>
-    )
-}
+    );
+};
 
 export default MedicalAdministration;

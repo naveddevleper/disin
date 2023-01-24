@@ -1,26 +1,26 @@
-import React from 'react';
+import React from "react";
 // import TopHeader from '../components/_App/TopHeader';
-import TopHeader from '../../components/_App/TopHeader';
-import Navbar from '../../components/_App/Navbar';
-import PageBanner from '../../components/Common/PageBanner';
-import AppointmentFormTwo from '../../components/Common/AppointmentFormTwo';
-import Footer from '../../components/_App/Footer';
+import TopHeader from "../../components/_App/TopHeader";
+import Navbar from "../../components/_App/Navbar";
+import PageBanner from "../../components/Common/PageBanner";
+import AppointmentFormTwo from "../../components/Common/AppointmentFormTwo";
+import Footer from "../../components/_App/Footer";
 
 const Dietetics = () => {
     return (
         <>
             <TopHeader />
-            
+
             <Navbar />
 
-            <PageBanner 
-                pageTitle="Dietetics" 
-                homePageUrl="/" 
-                homePageText="Home" 
-                activePageText="Departments" 
-                bgImage="page-title-five" 
-            /> 
- 
+            <PageBanner
+                pageTitle="Dietetics"
+                homePageUrl="/"
+                homePageText="Home"
+                activePageText="Departments"
+                bgImage="page-title-five"
+            />
+
             <div className="doctor-details-area pt-100 pb-70">
                 <div className="container">
                     <div className="row">
@@ -51,10 +51,18 @@ const Dietetics = () => {
                                     <div className="appointment-item-two-right">
                                         <div className="appointment-item-content">
                                             <ul>
-                                                <li>Monday <span>9:00 AM - 8:00 PM</span></li>
-                                                <li>Tuesday <span>9:00 AM - 8:00 PM</span></li>
-                                                <li>Wednesday <span>9:00 AM - 8:00 PM</span></li>
-                                                <li>Sunday <span>9:00 AM - 8:00 PM</span></li>
+                                                <li>
+                                                    Monday <span>9:00 AM - 8:00 PM</span>
+                                                </li>
+                                                <li>
+                                                    Tuesday <span>9:00 AM - 8:00 PM</span>
+                                                </li>
+                                                <li>
+                                                    Wednesday <span>9:00 AM - 8:00 PM</span>
+                                                </li>
+                                                <li>
+                                                    Sunday <span>9:00 AM - 8:00 PM</span>
+                                                </li>
                                             </ul>
                                         </div>
                                     </div>
@@ -65,7 +73,7 @@ const Dietetics = () => {
                         <div className="col-lg-7">
                             <div className="doctor-details-item">
                                 <div className="doctor-details-right">
-                                    <div className="doctor-details-biography">
+                                    {/* <div className="doctor-details-biography">
                                         <h3>Dr. Sarah Taylor (Neurosurgeon)</h3>
                                         <p>MBBS in Neurology, PHD in Neurosurgeon</p>
                                     </div>
@@ -93,6 +101,183 @@ const Dietetics = () => {
                                     <div className="doctor-details-biography">
                                         <h3>Experience</h3>
                                         <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa.</p>
+                                    </div> */}
+
+                                    <div class="message-box">
+                                        <p align="justify">
+                                            Nutrition is a basic human need and a prerequisite to a
+                                            healthy life. A proper diet is essential to meet the daily
+                                            needs of humans to remain healthy and in disease free
+                                            condition.
+                                        </p>
+                                        <p align="justify">
+                                            Daily ward rounds are taken by the dieticians in their
+                                            respective wards and diet is prescribed/implemented in
+                                            consultation with the doctors. Individual diet counselling
+                                            along with diet chart is provided to indoor as well as
+                                            outdoor patients.
+                                        </p>
+                                        <br></br>
+                                        <p>
+                                            <strong>Clinical Rounds:</strong>
+                                        </p>
+                                        <ul>
+                                            <li
+                                            //  style="line-height: 20pt;"
+                                            >
+                                                A Standard Operating Protocol (SOP) has been formulated
+                                                in order to provide right diet of good quality &amp;
+                                                adequate quantity to the inpatients.{" "}
+                                            </li>
+                                            <br></br>
+                                            <li
+                                            //  style="line-height: 20pt;"
+                                            >
+                                                Dietician conduct daily bed to bed ward rounds and sees
+                                                the doctor’s instruction regarding diet based on
+                                                diagnosis.
+                                            </li>
+                                            <br></br>
+                                            <li
+                                            //  style="line-height: 20pt;"
+                                            >
+                                                Observe the condition of the patients in terms of
+                                                his/her illness, appetite, oral tolerance vis-à-vis
+                                                requirement
+                                            </li>
+                                            <br></br>
+                                            <li
+                                            //  style="line-height: 20pt;"
+                                            >
+                                                Required diet modification Is done as per requirement,
+                                                after consultation with treating doctor.
+                                            </li>
+                                            <br></br>
+                                            <li
+                                            //  style="line-height: 20pt;"
+                                            >
+                                                Briefly counsel the patient’s attendant regarding the
+                                                diet to be provided from the hospital
+                                            </li>
+                                            <br></br>
+                                            <li
+                                            //  style="line-height: 20pt;"
+                                            >
+                                                Get feedback regarding the diet acceptance or tolerance
+                                                by the patient
+                                            </li>
+                                        </ul>
+                                        <h5 align="CENTER">
+                                            <u>Dietetics Department Consultations, 2021:</u>
+                                        </h5>
+                                        <table
+                                        // class="table-style style-colorheader"
+                                        // width="50%"
+                                        // border="0"
+                                        // cellspacing="0"
+                                        // cellpadding="1"
+                                        >
+                                            <tbody>
+                                                <tr>
+                                                    <td
+                                                        scope="col"
+                                                    // style="border: double; padding: 10px; width: 30%"
+                                                    >
+                                                        <strong>Hospital</strong>
+                                                    </td>
+                                                    <td
+                                                        scope="col"
+                                                        // style="border: double; padding: 10px;"
+                                                        colspan="3"
+                                                    >
+                                                        OPD
+                                                    </td>
+                                                    <td
+                                                        scope="col"
+                                                        // style="border: double; padding: 10px;"
+                                                        colspan="3"
+                                                    >
+                                                        IPD
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td
+                                                        scope="col"
+                                                    // style="border: double; padding: 10px; width: 30%"
+                                                    >
+                                                        <strong>HBCH</strong>
+                                                    </td>
+                                                    <td
+                                                        scope="col"
+                                                        // style="border: double; padding: 10px;"
+                                                        colspan="3"
+                                                    >
+                                                        369
+                                                    </td>
+                                                    <td
+                                                        scope="col"
+                                                        // style="border: double; padding: 10px;"
+                                                        colspan="3"
+                                                    >
+                                                        2087
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td
+                                                        scope="col"
+                                                    // style="border: double; padding: 10px; width: 30%"
+                                                    >
+                                                        <strong>MPMMCC </strong>
+                                                    </td>
+                                                    <td
+                                                        scope="col"
+                                                        // style="border: double; padding: 10px;"
+                                                        colspan="3"
+                                                    >
+                                                        3429
+                                                    </td>
+                                                    <td
+                                                        scope="col"
+                                                        // style="border: double; padding: 10px;"
+                                                        colspan="3"
+                                                    >
+                                                        9601
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <br></br>
+                                        <h5 align="left">
+                                            <u>Staff Members:</u>
+                                        </h5>
+                                        <table
+                                            class="table-style style-colorheader"
+                                            width="50%"
+                                            border="0"
+                                            cellspacing="0"
+                                            cellpadding="1"
+                                        >
+                                            <tbody>
+                                                <tr>
+                                                    <td
+                                                        scope="col"
+                                                    // style="border: double; padding: 10px; width: 30%"
+                                                    >
+                                                        <strong>Asst. Dietician</strong>
+                                                    </td>
+                                                    <td
+                                                        scope="col"
+                                                        // style="border: double; padding: 10px;"
+                                                        colspan="2"
+                                                    >
+                                                        Ms. Navneet Kaur, (Adhoc)
+                                                        <br></br>
+                                                        Ms. Anjali Priya, (Contractual)
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
                                     </div>
                                 </div>
                             </div>
@@ -100,10 +285,10 @@ const Dietetics = () => {
                     </div>
                 </div>
             </div>
-    
+
             <Footer />
         </>
-    )
-}
+    );
+};
 
 export default Dietetics;
