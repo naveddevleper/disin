@@ -168,7 +168,7 @@ const HBCHVaranasi = () => {
               </div>
             </div>
           </div>
-          <div className="col about-item about-right">
+          <div className="col about-item">
             <h2>Hospital Services</h2>
             <p>
               HBCH, Varanasi mainly caters to Paediatric Medical Oncology as
