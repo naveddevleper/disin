@@ -10,17 +10,17 @@ const PreventiveOncology = () => {
     return (
         <>
             <TopHeader />
-            
+
             <Navbar />
 
-            <PageBanner 
-                pageTitle="Preventive Oncology" 
-                homePageUrl="/" 
-                homePageText="Home" 
-                activePageText="Departments" 
-                bgImage="page-title-five" 
-            /> 
- 
+            <PageBanner
+                pageTitle="Preventive Oncology"
+                homePageUrl="/"
+                homePageText="Home"
+                activePageText="Departments"
+                bgImage="page-title-five"
+            />
+
             <div className="doctor-details-area pt-100 pb-70">
                 <div className="container">
                     <div className="row">
@@ -37,11 +37,11 @@ const PreventiveOncology = () => {
                                         </li>
                                         <li>
                                             <i className="icofont-ui-message"></i>
-                                            hello@disin.com
+                                            preventive@mpmmcc.tmc.gov.in
                                         </li>
                                         <li>
                                             <i className="icofont-location-pin"></i>
-                                            4th Floor, 408 No Chamber
+                                            IPD Ground Floor OPD - 40
                                         </li>
                                     </ul>
                                 </div>
@@ -100,7 +100,7 @@ const PreventiveOncology = () => {
                     </div>
                 </div>
             </div>
-    
+
             <Footer />
         </>
     )

@@ -10,17 +10,17 @@ const PalliativeMedicine = () => {
     return (
         <>
             <TopHeader />
-            
+
             <Navbar />
 
-            <PageBanner 
-                pageTitle="Palliative Medicine" 
-                homePageUrl="/" 
-                homePageText="Home" 
-                activePageText="Departments" 
-                bgImage="page-title-five" 
-            /> 
- 
+            <PageBanner
+                pageTitle="Palliative Medicine"
+                homePageUrl="/"
+                homePageText="Home"
+                activePageText="Departments"
+                bgImage="page-title-five"
+            />
+
             <div className="doctor-details-area pt-100 pb-70">
                 <div className="container">
                     <div className="row">
@@ -37,11 +37,11 @@ const PalliativeMedicine = () => {
                                         </li>
                                         <li>
                                             <i className="icofont-ui-message"></i>
-                                            hello@disin.com
+                                            palliative@mpmmcc.tmc.gov.in
                                         </li>
                                         <li>
                                             <i className="icofont-location-pin"></i>
-                                            4th Floor, 408 No Chamber
+                                            DNT Building  OPD - 18
                                         </li>
                                     </ul>
                                 </div>
@@ -100,7 +100,7 @@ const PalliativeMedicine = () => {
                     </div>
                 </div>
             </div>
-    
+
             <Footer />
         </>
     )

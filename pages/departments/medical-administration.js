@@ -37,11 +37,11 @@ const MedicalAdministration = () => {
                                         </li>
                                         <li>
                                             <i className="icofont-ui-message"></i>
-                                            hello@disin.com
+                                            ms@mpmmcc.tmc.gov.in
                                         </li>
                                         <li>
                                             <i className="icofont-location-pin"></i>
-                                            4th Floor, 408 No Chamber
+                                            DNT Building 1st Floor
                                         </li>
                                     </ul>
                                 </div>

@@ -10,17 +10,17 @@ const PediatricOncology = () => {
     return (
         <>
             <TopHeader />
-            
+
             <Navbar />
 
-            <PageBanner 
-                pageTitle="Pediatric Oncology" 
-                homePageUrl="/" 
-                homePageText="Home" 
-                activePageText="Departments" 
-                bgImage="page-title-five" 
-            /> 
- 
+            <PageBanner
+                pageTitle="Pediatric Oncology"
+                homePageUrl="/"
+                homePageText="Home"
+                activePageText="Departments"
+                bgImage="page-title-five"
+            />
+
             <div className="doctor-details-area pt-100 pb-70">
                 <div className="container">
                     <div className="row">
@@ -41,7 +41,7 @@ const PediatricOncology = () => {
                                         </li>
                                         <li>
                                             <i className="icofont-location-pin"></i>
-                                            4th Floor, 408 No Chamber
+                                            IPD Ground OPD - 38
                                         </li>
                                     </ul>
                                 </div>
@@ -100,7 +100,7 @@ const PediatricOncology = () => {
                     </div>
                 </div>
             </div>
-    
+
             <Footer />
         </>
     )

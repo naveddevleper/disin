@@ -10,17 +10,17 @@ const Microbiology = () => {
     return (
         <>
             <TopHeader />
-            
+
             <Navbar />
 
-            <PageBanner 
-                pageTitle="Microbiology" 
-                homePageUrl="/" 
-                homePageText="Home" 
-                activePageText="Departments" 
-                bgImage="page-title-five" 
-            /> 
- 
+            <PageBanner
+                pageTitle="Microbiology"
+                homePageUrl="/"
+                homePageText="Home"
+                activePageText="Departments"
+                bgImage="page-title-five"
+            />
+
             <div className="doctor-details-area pt-100 pb-70">
                 <div className="container">
                     <div className="row">
@@ -37,11 +37,11 @@ const Microbiology = () => {
                                         </li>
                                         <li>
                                             <i className="icofont-ui-message"></i>
-                                            hello@disin.com
+                                            microbiology@mpmmcc.tmc.gov.in
                                         </li>
                                         <li>
                                             <i className="icofont-location-pin"></i>
-                                            4th Floor, 408 No Chamber
+                                            RT Building 3rd Floor
                                         </li>
                                     </ul>
                                 </div>
@@ -100,7 +100,7 @@ const Microbiology = () => {
                     </div>
                 </div>
             </div>
-    
+
             <Footer />
         </>
     )

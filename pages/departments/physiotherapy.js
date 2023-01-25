@@ -10,17 +10,17 @@ const Physiotherapy = () => {
     return (
         <>
             <TopHeader />
-            
+
             <Navbar />
 
-            <PageBanner 
-                pageTitle="Physiotherapy" 
-                homePageUrl="/" 
-                homePageText="Home" 
-                activePageText="Departments" 
-                bgImage="page-title-five" 
-            /> 
- 
+            <PageBanner
+                pageTitle="Physiotherapy"
+                homePageUrl="/"
+                homePageText="Home"
+                activePageText="Departments"
+                bgImage="page-title-five"
+            />
+
             <div className="doctor-details-area pt-100 pb-70">
                 <div className="container">
                     <div className="row">
@@ -37,11 +37,11 @@ const Physiotherapy = () => {
                                         </li>
                                         <li>
                                             <i className="icofont-ui-message"></i>
-                                            hello@disin.com
+                                            physiotherapy@mpmmcc.tmc.gov.in
                                         </li>
                                         <li>
                                             <i className="icofont-location-pin"></i>
-                                            4th Floor, 408 No Chamber
+                                            IPD Ground Floor
                                         </li>
                                     </ul>
                                 </div>
@@ -100,7 +100,7 @@ const Physiotherapy = () => {
                     </div>
                 </div>
             </div>
-    
+
             <Footer />
         </>
     )

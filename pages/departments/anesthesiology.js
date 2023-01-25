@@ -37,11 +37,11 @@ const Anesthesiology = () => {
                                         </li>
                                         <li>
                                             <i className="icofont-ui-message"></i>
-                                            hello@disin.com
+                                            anesthesia@mpmmcc.tmc.gov.in
                                         </li>
                                         <li>
                                             <i className="icofont-location-pin"></i>
-                                            4th Floor, 408 No Chamber
+                                            RT Building 4th Floor
                                         </li>
                                     </ul>
                                 </div>

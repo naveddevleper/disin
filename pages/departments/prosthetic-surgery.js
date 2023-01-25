@@ -37,11 +37,11 @@ const ProstheticSurgery = () => {
                     </li>
                     <li>
                       <i className="icofont-ui-message"></i>
-                      hello@disin.com
+                      prosthetics@mpmmcc.tmc.gov.in
                     </li>
                     <li>
                       <i className="icofont-location-pin"></i>
-                      4th Floor, 408 No Chamber
+                      IPD Building G OPD - 43
                     </li>
                   </ul>
                 </div>
