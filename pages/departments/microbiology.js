@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 // import TopHeader from '../components/_App/TopHeader';
-import TopHeader from '../../components/_App/TopHeader';
-import Navbar from '../../components/_App/Navbar';
-import PageBanner from '../../components/Common/PageBanner';
-import AppointmentFormTwo from '../../components/Common/AppointmentFormTwo';
-import Footer from '../../components/_App/Footer';
+import TopHeader from "../../components/_App/TopHeader";
+import Navbar from "../../components/_App/Navbar";
+import PageBanner from "../../components/Common/PageBanner";
+import AppointmentFormTwo from "../../components/Common/AppointmentFormTwo";
+import Footer from "../../components/_App/Footer";
 
 const Microbiology = () => {
     return (
@@ -51,10 +51,18 @@ const Microbiology = () => {
                                     <div className="appointment-item-two-right">
                                         <div className="appointment-item-content">
                                             <ul>
-                                                <li>Monday <span>9:00 AM - 8:00 PM</span></li>
-                                                <li>Tuesday <span>9:00 AM - 8:00 PM</span></li>
-                                                <li>Wednesday <span>9:00 AM - 8:00 PM</span></li>
-                                                <li>Sunday <span>9:00 AM - 8:00 PM</span></li>
+                                                <li>
+                                                    Monday <span>9:00 AM - 8:00 PM</span>
+                                                </li>
+                                                <li>
+                                                    Tuesday <span>9:00 AM - 8:00 PM</span>
+                                                </li>
+                                                <li>
+                                                    Wednesday <span>9:00 AM - 8:00 PM</span>
+                                                </li>
+                                                <li>
+                                                    Sunday <span>9:00 AM - 8:00 PM</span>
+                                                </li>
                                             </ul>
                                         </div>
                                     </div>
@@ -66,33 +74,142 @@ const Microbiology = () => {
                             <div className="doctor-details-item">
                                 <div className="doctor-details-right">
                                     <div className="doctor-details-biography">
-                                        <h3>Dr. Sarah Taylor (Neurosurgeon)</h3>
-                                        <p>MBBS in Neurology, PHD in Neurosurgeon</p>
-                                    </div>
-
-                                    <div className="doctor-details-biography">
-                                        <h3>Biography</h3>
-
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-
-                                        <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.</p>
-
-                                        <p></p>
-                                    </div>
-
-                                    <div className="doctor-details-biography">
-                                        <h3>Education</h3>
+                                        <h3>DEPARTMENT OF MICROBIOLOGY</h3>
+                                        <p align="justify">
+                                            The Department has established Mycology laboratory in the
+                                            year 2021. In the day to day functioning, the Microbiology
+                                            Laboratory maintains high standards, good quality control
+                                            and “turnaround-time”.
+                                        </p>
+                                        <p align="justify">
+                                            A total of 38,628 Microbiology investigations have been
+                                            done between 1st January to 31st December 2021 by the
+                                            Department. With regard to distribution among the various
+                                            sections, the investigations done were as:
+                                        </p>
                                         <ul>
-                                            <li>PHD Degree in Neurology at University of UCLan School of Medicine Preston (2006)</li>
-                                            <li>Master of Neurosurgery at University of University of Exeter Medical School Exeter (2002)</li>
+                                            <li>Bacteriology- 10,726</li>
+                                            <br></br>
+                                            <li>Clinical Microbiology Section- 3,299</li>
+                                            <br></br>
+                                            <li>Molecular Microbiology- 6,616 </li>
+                                            <br></br>
+                                            <li>Mycobacteriology-288 </li>
+                                            <br></br>
+                                            <li>Mycology- 113 </li>
+                                            <br></br>
+                                            <li>Serology Section- 17,586 </li>
+                                            <br></br>
                                         </ul>
+                                        <p align="justify">
+                                            The laboratory regularly participates in External Quality
+                                            and Assurance Schemes for different parameters and also
+                                            performs environmental surveillance for the hospital. The
+                                            Microbiology Department has started new tests in the scope
+                                            of laboratory: Automated Identification and Sensitivity
+                                            testing and Widal test for Typhoid.
+                                        </p>
                                     </div>
 
                                     <div className="doctor-details-biography">
-                                        <h3>Experience</h3>
-                                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa.</p>
+                                        <h3 class="itemTitle" align="left">
+                                            <u>Infection Prevention and Control:</u>
+                                        </h3>
+                                        <p align="justify">
+                                            The Department has been conducting regular infection
+                                            control rounds in all the wards, OPDs, ICU and BMT of the
+                                            hospital and training classes for the doctors, nurses and
+                                            housekeeping staff about infection prevention and control
+                                            practices to reduce healthcare associated infections.
+                                            Regular in service classes is conducted for Nursing OICs
+                                            twice in month for various hospital infection prevention
+                                            and control practices.
+                                        </p>
+                                        <p align="justify">
+                                            The Department has been participating in Hospital Acquired
+                                            Infection Surveillance Network (CLABSI, CAUTI) in
+                                            collaboration with AIIMS, New Delhi, funded by CDC
+                                            Atlanta, USA.
+                                        </p>
+                                        <p align="justify">
+                                            The Department has been contributing immensely ever since
+                                            the commencement of COVID pandemic. Different infection
+                                            control measures have been put in place and regular
+                                            monitoring is being done. The Department is also involved
+                                            in COVID-19 awareness for all the doctors, staff members
+                                            and security personnel of the hospital. The Department has
+                                            been participating in “IPC Capacity Building-Orientation
+                                            Training for COVID-19 Preparedness and IPC for Healthcare
+                                            Facilities” with AIIMS, New Delhi, Funded by Bill Melinda
+                                            Gates Foundation, USA.
+                                        </p>
+                                    </div>
+
+                                    <div className="doctor-details-biography">
+                                        <h3 class="itemTitle" align="left">
+                                            <u>Bio-Medical Waste Management:</u>
+                                        </h3>
+                                        <p align="justify">
+                                            The Department also caters to the Bio-Medical Waste
+                                            Management of the hospital. In light of the COVID
+                                            pandemic, BMW management has also been adapted to the
+                                            latest government guidelines. A total of 1,23,260 Kg
+                                            Bio-Medical Waste was generated by the hospital during the
+                                            calendar year 2021 of which 62,472 Kg was Yellow waste,
+                                            4,157 Kg was sharp waste, 7,832 Kg was Blue waste and
+                                            48,799 Kg was Red waste. Classes are held regularly for
+                                            the health care workers and they are updated about the
+                                            changes in the BMW guidelines.
+                                        </p>
+                                    </div>
+
+                                    <div className="doctor-details-biography">
+                                        <h3 class="itemTitle" align="left">
+                                            <u>Bio-Medical Waste Management:</u>
+                                        </h3>
+                                        <p align="justify">
+                                            Regular Seminars and Journal Clubs are held in the
+                                            Department for doctors and the technical personnel. Two
+                                            trainees have successfully completed training under the
+                                            Short Term Training Certificate Course in the Department
+                                            and the third candidate is currently undergoing training.
+                                            Continuous Medical Education, trainings and workshops are
+                                            also held to maintain an academic environment in the
+                                            department.
+                                        </p>
+                                    </div>
+
+                                    <div className="doctor-details-biography">
+                                        <h3 class="itemTitle" align="left">
+                                            <u>Research:</u>
+                                        </h3>
+                                        <p align="justify">
+                                            The Department takes a keen interest in research
+                                            activities and presently different projects are underway.
+                                            The Microbiology department also undertakes different
+                                            diagnostic challenges. The faculty, Senior Residents and
+                                            technical personnel are involved in research and relevant
+                                            publications are also being pursued.
+                                        </p>
+                                    </div>
+
+                                    <div className="doctor-details-biography">
+                                        <h3 class="itemTitle" align="left">
+                                            <u>Staff Members:</u>
+                                        </h3>
+                                        <table class="table table-hover table-bordered">
+                                            <tbody>
+                                                <tr></tr>
+                                                <tr>
+                                                    <th scope="col">Assistant Professor</th>
+                                                    <td scope="col">
+                                                        Dr. Rahul Jagannath Sarode<br></br>
+                                                        Dr. Vijeta Bajpai<br></br>
+                                                        Dr. Sujit Bharti
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
                                     </div>
                                 </div>
                             </div>
@@ -103,7 +220,7 @@ const Microbiology = () => {
 
             <Footer />
         </>
-    )
-}
+    );
+};
 
 export default Microbiology;

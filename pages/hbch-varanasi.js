@@ -56,16 +56,16 @@ const HBCHVaranasi = () => {
                     <div className="appointment-item-content">
                       <ul>
                         <li>
-                          Monday <span>9:00 AM - 8:00 PM</span>
+                          Monday - Friday <span>9:00 AM - 5:00 PM</span>
                         </li>
                         <li>
-                          Tuesday <span>9:00 AM - 8:00 PM</span>
+                          Saturday <span>9:00 AM - 2:00 PM</span>
                         </li>
-                        <li>
+                        {/* <li>
                           Wednesday <span>9:00 AM - 8:00 PM</span>
-                        </li>
+                        </li> */}
                         <li>
-                          Sunday <span>9:00 AM - 8:00 PM</span>
+                          Sunday <span>Weekoff</span>
                         </li>
                       </ul>
                     </div>
@@ -342,7 +342,7 @@ const HBCHVaranasi = () => {
                 </tbody>
               </table>
               <h3 className="mb-4">
-                DEPARTMENT OF RADIODIAGNOSISDEPARTMENT OF NUCLEAR MEDICINE
+                DEPARTMENT OF RADIODIAGNOSIS & DEPARTMENT OF NUCLEAR MEDICINE
               </h3>
               <table class="table table-hover table-bordered mb-5">
                 <thead>

@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 // import TopHeader from '../components/_App/TopHeader';
-import TopHeader from '../../components/_App/TopHeader';
-import Navbar from '../../components/_App/Navbar';
-import PageBanner from '../../components/Common/PageBanner';
-import AppointmentFormTwo from '../../components/Common/AppointmentFormTwo';
-import Footer from '../../components/_App/Footer';
+import TopHeader from "../../components/_App/TopHeader";
+import Navbar from "../../components/_App/Navbar";
+import PageBanner from "../../components/Common/PageBanner";
+import AppointmentFormTwo from "../../components/Common/AppointmentFormTwo";
+import Footer from "../../components/_App/Footer";
 
 const MedicalOncology = () => {
     return (
@@ -51,10 +51,18 @@ const MedicalOncology = () => {
                                     <div className="appointment-item-two-right">
                                         <div className="appointment-item-content">
                                             <ul>
-                                                <li>Monday <span>9:00 AM - 8:00 PM</span></li>
-                                                <li>Tuesday <span>9:00 AM - 8:00 PM</span></li>
-                                                <li>Wednesday <span>9:00 AM - 8:00 PM</span></li>
-                                                <li>Sunday <span>9:00 AM - 8:00 PM</span></li>
+                                                <li>
+                                                    Monday <span>9:00 AM - 8:00 PM</span>
+                                                </li>
+                                                <li>
+                                                    Tuesday <span>9:00 AM - 8:00 PM</span>
+                                                </li>
+                                                <li>
+                                                    Wednesday <span>9:00 AM - 8:00 PM</span>
+                                                </li>
+                                                <li>
+                                                    Sunday <span>9:00 AM - 8:00 PM</span>
+                                                </li>
                                             </ul>
                                         </div>
                                     </div>
@@ -66,33 +74,223 @@ const MedicalOncology = () => {
                             <div className="doctor-details-item">
                                 <div className="doctor-details-right">
                                     <div className="doctor-details-biography">
-                                        <h3>Dr. Sarah Taylor (Neurosurgeon)</h3>
-                                        <p>MBBS in Neurology, PHD in Neurosurgeon</p>
+                                        <h3>DEPARTMENT OF MEDICAL ONCOLOGY</h3>
+                                        <p align="justify">
+                                            In a short span of less than three years, since its
+                                            inception, the department of Medical Oncology, has seen
+                                            exponential patient foot fall, with total patient
+                                            registrations of 18004 for the current calendar year. We
+                                            have been able to deliver, in this calendar year, 40%
+                                            higher chemotherapies (n= 59798), than in the previous
+                                            year (n=42628). Furthermore, the department functioned
+                                            during the three waves of COVID pandemic.
+                                        </p>
+                                        <p align="center">
+                                            <strong>
+                                                Year wise New Patient Registrations in the Department of
+                                                Medical Oncology.
+                                            </strong>
+                                        </p>
+                                        <table class="table table-hover table-bordered">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="row">
+                                                        <div align="left">Sl. No</div>
+                                                    </th>
+                                                    <th scope="row" align="left">
+                                                        <div align="left">Year</div>
+                                                    </th>
+                                                    <th scope="row" align="left">
+                                                        <div align="left">New Patients</div>
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td scope="col">1</td>
+                                                    <td scope="col">2019 </td>
+                                                    <td scope="col">13237</td>
+                                                </tr>
+                                                <tr>
+                                                    <td scope="col">2 </td>
+                                                    <td scope="col">2020 </td>
+                                                    <td scope="col">14437</td>
+                                                </tr>
+                                                <tr>
+                                                    <td scope="col">3</td>
+                                                    <td scope="col">2021 </td>
+                                                    <td scope="col">18004</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
                                     </div>
 
                                     <div className="doctor-details-biography">
-                                        <h3>Biography</h3>
+                                        <p align="justify">
+                                            Under Adult Haemato-oncology service, a BMT unit with 7
+                                            beds has been inaugurated. This unit has state of the art
+                                            6 Hepa filtered positive pressure rooms. In first phase,
+                                            autologous transplants have been started.
+                                        </p>
+                                        <p align="justify">
+                                            A regional conference has been conducted. in the month Feb
+                                            2020, on Institute’s Foundation day, with a theme of
+                                            affordable and accessible cancer care. This conference saw
+                                            participation of several oncologists from outside of the
+                                            region.
+                                        </p>
+                                        <p align="justify">
+                                            An audit of Gall bladder cancer treated in the Department
+                                            of Medical Oncology has been done and presented in the
+                                            Institution’s weekly academic meeting.
+                                        </p>
+                                        <p align="justify">
+                                            The department is actively involved in clinical research,
+                                            which include investigator initiated clinical trials in
+                                            cancers of importance for this region. The department is
+                                            also participating in multicentric studies.
+                                        </p>
+                                        <p align="center">
+                                            <strong>
+                                                Overview of Clinical trials being conducted in the
+                                                Department of Medical Oncology
+                                            </strong>
+                                        </p>
 
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-
-                                        <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.</p>
-
-                                        <p></p>
+                                        <table class="table table-hover table-bordered">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col" colspan="2">
+                                                        <p align="center">
+                                                            <strong>Total Number of Clinical Trials</strong>
+                                                            <br></br>
+                                                        </p>
+                                                    </th>
+                                                    <th scope="col" colspan="2">
+                                                        <p align="center">
+                                                            <strong>Completed Trials</strong>
+                                                            <br></br>
+                                                        </p>
+                                                    </th>
+                                                    <th scope="col" colspan="2">
+                                                        <p align="center">
+                                                            <strong>Ongoing Trials</strong>
+                                                            <br></br>
+                                                        </p>
+                                                    </th>
+                                                    <th scope="col">
+                                                        <p align="center">
+                                                            <strong>Overall Patients </strong>
+                                                            <br></br>
+                                                        </p>
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <th scope="col">
+                                                        <p align="center">
+                                                            <strong>Investigator Initiated</strong>
+                                                            <br></br>
+                                                        </p>
+                                                    </th>
+                                                    <th scope="col">Sponsored Trials</th>
+                                                    <th scope="col">
+                                                        <p align="center">
+                                                            <strong>Investigator Initiated</strong>
+                                                            <br></br>
+                                                        </p>
+                                                    </th>
+                                                    <th scope="col">Sponsored Trials</th>
+                                                    <th scope="col">
+                                                        <p align="center">
+                                                            <strong>Investigator Initiated</strong>
+                                                            <br></br>
+                                                        </p>
+                                                    </th>
+                                                    <th scope="col">
+                                                        <p align="center">
+                                                            <strong>Sponsored Trials</strong>
+                                                            <br></br>
+                                                        </p>
+                                                    </th>
+                                                    <th scope="col">
+                                                        <p align="center">
+                                                            <strong></strong>
+                                                            <br></br>
+                                                        </p>
+                                                    </th>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="col">
+                                                        <p align="center">
+                                                            <strong>8</strong>
+                                                            <br></br>
+                                                        </p>
+                                                    </th>
+                                                    <th scope="col">None</th>
+                                                    <th scope="col">
+                                                        <p align="center">
+                                                            <strong>None</strong>
+                                                            <br></br>
+                                                        </p>
+                                                    </th>
+                                                    <th scope="col">None</th>
+                                                    <th scope="col">
+                                                        <p align="center">
+                                                            <strong>8</strong>
+                                                            <br></br>
+                                                        </p>
+                                                    </th>
+                                                    <th scope="col">None</th>
+                                                    <th scope="col">
+                                                        <p align="center">
+                                                            <strong>78</strong>
+                                                            <br></br>
+                                                        </p>
+                                                    </th>
+                                                </tr>
+                                            </tbody>
+                                        </table>
                                     </div>
 
                                     <div className="doctor-details-biography">
-                                        <h3>Education</h3>
-                                        <ul>
-                                            <li>PHD Degree in Neurology at University of UCLan School of Medicine Preston (2006)</li>
-                                            <li>Master of Neurosurgery at University of University of Exeter Medical School Exeter (2002)</li>
-                                        </ul>
-                                    </div>
-
-                                    <div className="doctor-details-biography">
-                                        <h3>Experience</h3>
-                                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa.</p>
+                                        <h3 class="itemTitle">Staff Members:</h3>
+                                        <table class="table table-hover table-bordered">
+                                            <tbody>
+                                                <tr></tr>
+                                                <tr>
+                                                    <td scope="col">
+                                                        <strong>Consultant Medical Oncology</strong>
+                                                    </td>
+                                                    <td scope="col">
+                                                        Dr. Bal Krishna Mishra, Deputy Director
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td scope="col">
+                                                        <strong>Professor</strong>
+                                                    </td>
+                                                    <td scope="col">Dr. Sambasivaiah Kuraparthy </td>
+                                                </tr>
+                                                <tr>
+                                                    <td scope="col">
+                                                        <strong>Associate Professor</strong>
+                                                    </td>
+                                                    <td scope="col">Dr. Akhil Kapoor</td>
+                                                </tr>
+                                                <tr>
+                                                    <td scope="col">
+                                                        <strong>Assistant Professor</strong>
+                                                    </td>
+                                                    <td scope="col">
+                                                        Dr. Anuj Gupta<br></br>
+                                                        Dr. Bipinesh Sansar<br></br>
+                                                        Dr. Sujeet Kumar
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
                                     </div>
                                 </div>
                             </div>
@@ -103,7 +301,7 @@ const MedicalOncology = () => {
 
             <Footer />
         </>
-    )
-}
+    );
+};
 
 export default MedicalOncology;

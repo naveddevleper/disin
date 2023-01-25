@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 // import TopHeader from '../components/_App/TopHeader';
-import TopHeader from '../../components/_App/TopHeader';
-import Navbar from '../../components/_App/Navbar';
-import PageBanner from '../../components/Common/PageBanner';
-import AppointmentFormTwo from '../../components/Common/AppointmentFormTwo';
-import Footer from '../../components/_App/Footer';
+import TopHeader from "../../components/_App/TopHeader";
+import Navbar from "../../components/_App/Navbar";
+import PageBanner from "../../components/Common/PageBanner";
+import AppointmentFormTwo from "../../components/Common/AppointmentFormTwo";
+import Footer from "../../components/_App/Footer";
 
 const NuclearMedicine = () => {
     return (
@@ -51,10 +51,18 @@ const NuclearMedicine = () => {
                                     <div className="appointment-item-two-right">
                                         <div className="appointment-item-content">
                                             <ul>
-                                                <li>Monday <span>9:00 AM - 8:00 PM</span></li>
-                                                <li>Tuesday <span>9:00 AM - 8:00 PM</span></li>
-                                                <li>Wednesday <span>9:00 AM - 8:00 PM</span></li>
-                                                <li>Sunday <span>9:00 AM - 8:00 PM</span></li>
+                                                <li>
+                                                    Monday <span>9:00 AM - 8:00 PM</span>
+                                                </li>
+                                                <li>
+                                                    Tuesday <span>9:00 AM - 8:00 PM</span>
+                                                </li>
+                                                <li>
+                                                    Wednesday <span>9:00 AM - 8:00 PM</span>
+                                                </li>
+                                                <li>
+                                                    Sunday <span>9:00 AM - 8:00 PM</span>
+                                                </li>
                                             </ul>
                                         </div>
                                     </div>
@@ -66,33 +74,156 @@ const NuclearMedicine = () => {
                             <div className="doctor-details-item">
                                 <div className="doctor-details-right">
                                     <div className="doctor-details-biography">
-                                        <h3>Dr. Sarah Taylor (Neurosurgeon)</h3>
-                                        <p>MBBS in Neurology, PHD in Neurosurgeon</p>
-                                    </div>
-
-                                    <div className="doctor-details-biography">
-                                        <h3>Biography</h3>
-
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-
-                                        <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.</p>
-
-                                        <p></p>
-                                    </div>
-
-                                    <div className="doctor-details-biography">
-                                        <h3>Education</h3>
-                                        <ul>
-                                            <li>PHD Degree in Neurology at University of UCLan School of Medicine Preston (2006)</li>
-                                            <li>Master of Neurosurgery at University of University of Exeter Medical School Exeter (2002)</li>
+                                        <h3>DEPARTMENT OF NUCLEAR MEDICINE</h3>
+                                        <p align="justify">
+                                            In the year 2021, the Department of Nuclear Medicine and
+                                            Molecular Imaging, MPMMCC and HBCH set multiple new
+                                            milestones. With the commencement of a new gamma camera,
+                                            gates were opened to a whole new spectrum of diagnostic
+                                            tests that are now available:
+                                        </p>
+                                        <ul type="disc">
+                                            <li>
+                                                <p>
+                                                    Imaging and quantitative tests such as estimation of
+                                                    GFR using gamma camera and MUGA imaging for evaluation
+                                                    of cardiac ejection fraction was made available for
+                                                    pre and post chemotherapy patient assessment.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>MDP bone scan was introduced for disease staging.</p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    In collaboration with breast DMG, sentinel node
+                                                    imaging was introduced with close communication
+                                                    between nuclear medicine physicians and surgeons- a
+                                                    new standardised protocol was set for accurate
+                                                    localization of axillary nodes with fusion imaging
+                                                    made available for presurgery visualization of
+                                                    location of nodes (a first in TMC), nuclear medicine
+                                                    physicians are also present during nodal dissection to
+                                                    ensure gamma probes are optimally used and for
+                                                    recording of count statistics of radioactivity emitted
+                                                    from axillary nodes.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    In collaboration with thoracic DMG, lung perfusion
+                                                    imaging was introduced for accurate prediction of post
+                                                    pneumonectomy lung function.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    In collaboration with GI and Thoracic DMG,
+                                                    Tc-HYNIC-TOC was introduced for SSTR imaging, useful
+                                                    in accurate staging of SSTR expressing neoplasms. Just
+                                                    like Tc-HYNIC-PSMA imaging, a new protocol was
+                                                    standardized with fusion imaging available for review
+                                                    by referring physicians and surgeons via online PACS
+                                                    viewer.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    The Department has experienced a never before increase
+                                                    in patient footfall. Besides starting multiple new
+                                                    diagnostic tests, focus was set on increasing capacity
+                                                    for FDG PET/CT imaging as well. By creating a new
+                                                    logistical pathway, patient capacity was gradually
+                                                    increased to nearly ~500 scan per month to help in
+                                                    reducing patient waiting lists and allowing timely
+                                                    imaging for accurate staging.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    Communication with clinicians was encouraged with
+                                                    Nuclear Medicine physicians visiting different OPDs to
+                                                    increase awareness about the new diagnostic modalities
+                                                    and explaining the optimal indications for the same.
+                                                    Regular participation in Joint Clinics (JC) was also
+                                                    undertaken. Dept of Nuclear medicine increased its
+                                                    participation in pediatric JCs which is now being held
+                                                    almost 3 times a week with different case
+                                                    subdivisions. There was regularization of Thoracic JCs
+                                                    which was made possible because of close collaboration
+                                                    between surgery, radiotherapy and Nuclear Medicine.
+                                                    General bilateral communication with live feedback has
+                                                    always been emphasized for precise reporting.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    After receiving regulatory clearance from AERB, a new
+                                                    2 bedded therapy ward was commissioned. In
+                                                    collaboration with Head Neck DMG first thyroid cancer
+                                                    patients were undertaken for high dose radioactive
+                                                    iodine therapy. Other therapeutic options such as
+                                                    I-131 MIBG therapy for neuroblastoma, PSMA therapy for
+                                                    prostate cancer, and PRRT for neuroendocrine tumors
+                                                    have also been taken approval for.
+                                                </p>
+                                            </li>
                                         </ul>
+                                        {/* <p align="center">
+                                            <img src="assets\img\doctors\PET 1.png" width="100%" height="400" hspace="10" vspace="10"></p>
+                                        <p align="center">
+                                            <img src="assets\img\doctors\PET 2.png" width="100%" height="400" hspace="10" vspace="10"></p> */}
                                     </div>
 
                                     <div className="doctor-details-biography">
-                                        <h3>Experience</h3>
-                                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa.</p>
+                                        <h3 align="center">
+                                            <u>Staff Members</u>
+                                        </h3>
+                                        <table class="table table-hover table-bordered">
+                                            <tbody>
+                                                <tr></tr>
+                                                <tr>
+                                                    <td scope="col">
+                                                        <strong>Assistant Professor</strong>
+                                                    </td>
+                                                    <td scope="col">
+                                                        Dr. Varun Shukla<br></br>
+                                                        Dr. Manikandan M V
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td scope="col">
+                                                        <strong>Senior Resident</strong>
+                                                    </td>
+                                                    <td scope="col">
+                                                        Dr. Nihit Mhatre<br></br>
+                                                        Dr. Keerti Sitani
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td scope="col">
+                                                        <strong>RSO</strong>
+                                                    </td>
+                                                    <td scope="col">
+                                                        Mr. Santosh Gupta, RSO (III) Cyclotron<br></br>
+                                                        Mr. Jay Prakash Kumar, RSO (III) MPMMCC<br></br>
+                                                        Mr. Manoj Chauhan, RSO (II) HBCH
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td scope="col">
+                                                        <strong>SAC (HBCH/ MPMMCC)</strong>
+                                                    </td>
+                                                    <td scope="col">
+                                                        Mr. Ravi Chauhan
+                                                        <br></br>
+                                                        Mr. Ritvik Sinha<br></br>
+                                                        Mr. Uddeshya Narayan Jha<br></br>
+                                                        Mr. Ajay Rajbhar
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
                                     </div>
                                 </div>
                             </div>
@@ -103,7 +234,7 @@ const NuclearMedicine = () => {
 
             <Footer />
         </>
-    )
-}
+    );
+};
 
 export default NuclearMedicine;

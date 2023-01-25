@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 // import TopHeader from '../components/_App/TopHeader';
-import TopHeader from '../../components/_App/TopHeader';
-import Navbar from '../../components/_App/Navbar';
-import PageBanner from '../../components/Common/PageBanner';
-import AppointmentFormTwo from '../../components/Common/AppointmentFormTwo';
-import Footer from '../../components/_App/Footer';
+import TopHeader from "../../components/_App/TopHeader";
+import Navbar from "../../components/_App/Navbar";
+import PageBanner from "../../components/Common/PageBanner";
+import AppointmentFormTwo from "../../components/Common/AppointmentFormTwo";
+import Footer from "../../components/_App/Footer";
 
 const MedicalSocialWorks = () => {
     return (
@@ -51,10 +51,18 @@ const MedicalSocialWorks = () => {
                                     <div className="appointment-item-two-right">
                                         <div className="appointment-item-content">
                                             <ul>
-                                                <li>Monday <span>9:00 AM - 8:00 PM</span></li>
-                                                <li>Tuesday <span>9:00 AM - 8:00 PM</span></li>
-                                                <li>Wednesday <span>9:00 AM - 8:00 PM</span></li>
-                                                <li>Sunday <span>9:00 AM - 8:00 PM</span></li>
+                                                <li>
+                                                    Monday <span>9:00 AM - 8:00 PM</span>
+                                                </li>
+                                                <li>
+                                                    Tuesday <span>9:00 AM - 8:00 PM</span>
+                                                </li>
+                                                <li>
+                                                    Wednesday <span>9:00 AM - 8:00 PM</span>
+                                                </li>
+                                                <li>
+                                                    Sunday <span>9:00 AM - 8:00 PM</span>
+                                                </li>
                                             </ul>
                                         </div>
                                     </div>
@@ -66,33 +74,95 @@ const MedicalSocialWorks = () => {
                             <div className="doctor-details-item">
                                 <div className="doctor-details-right">
                                     <div className="doctor-details-biography">
-                                        <h3>Dr. Sarah Taylor (Neurosurgeon)</h3>
-                                        <p>MBBS in Neurology, PHD in Neurosurgeon</p>
-                                    </div>
-
-                                    <div className="doctor-details-biography">
-                                        <h3>Biography</h3>
-
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-
-                                        <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.</p>
-
-                                        <p></p>
-                                    </div>
-
-                                    <div className="doctor-details-biography">
-                                        <h3>Education</h3>
+                                        <h3>MEDICAL SOCIAL WORKS DEPARTMENT</h3>
                                         <ul>
-                                            <li>PHD Degree in Neurology at University of UCLan School of Medicine Preston (2006)</li>
-                                            <li>Master of Neurosurgery at University of University of Exeter Medical School Exeter (2002)</li>
+                                            <li>
+                                                The activities of the MSW Department at MPMMCC &amp;
+                                                HBCH include:
+                                            </li>
+                                            <br></br>
+                                            <li>
+                                                In the year 2021-22, the processes and systems at the
+                                                Medical Social Services department were crystalized.
+                                            </li>
+                                            <br></br>
+                                            <li>
+                                                Nearly 36,526 patients, frequently approached the
+                                                Department (MSW), out of which approx. 11,985
+                                                beneficiaries received railway concession.
+                                            </li>
+                                            <br></br>
+                                            <li>
+                                                Medical Social Workers addressed their psycho - social,
+                                                emotional, and financial needs, by advocating,
+                                                facilitating and being a bridge between the doctor and
+                                                the patient as well as the care givers.
+                                            </li>
+                                            <br></br>
+                                            <li>
+                                                656 patients were accommodated at Rain Basera, a free of
+                                                cost accommodation facility, provided for attendants of
+                                                Pediatric patients.
+                                            </li>
+                                            <br></br>
+                                            <li>
+                                                We were fortunate to get funds from Tata Memorial
+                                                Hospital which empowered us to provide continuous
+                                                treatment to the underprivileged class of the patients
+                                                who visited MPMMCC/HBCH.
+                                            </li>
+                                            <br></br>
+                                            <li>
+                                                Collaboration with ICS-Cancer Cure Fund and V-Care
+                                                Foundation helped us provide financial assistance to
+                                                theCancer patients. New Statutory funding from Rastriya
+                                                Arogya Nidhi (RAN), HMCPF and NHM further strengthened
+                                                the supply funds whereby we were able to help a
+                                                considerable number of patients who would have
+                                                otherwisedropped out of treatment.
+                                            </li>
+                                            <br></br>
+                                            <li>
+                                                The local stakeholders have proactively participated in
+                                                the cancer initiatives. The Rotary club has donated an
+                                                lectric rickshaw to facilitate travel of the old and
+                                                needy.
+                                            </li>
+                                            <br></br>
+                                            <li>
+                                                Department networked with two NGO’s, i.e. Varanasi
+                                                Masonic Lodge Trust &amp; Varanasi Elite Round
+                                                Table,which culminated in a donation for patient care
+                                                specifically for treatment of COVID patients, admitted
+                                                at HBCH, Varanasi.
+                                            </li>
+                                            <br></br>
+                                            <li>
+                                                Palliative counselling has commenced and the Medical
+                                                Social Workers are involved in teleconsultancy for the
+                                                terminally ill patients.
+                                            </li>
+                                            <br></br>
+                                            <li>
+                                                Department has also participated in Free COVID
+                                                vaccination drive organized by HBCH/MPMMCC and ALKEM,
+                                                for local resident (boatman, vendors, hawkers) at
+                                                Subah-eBanaras Assi Ghat, Varanasi.
+                                            </li>
+                                            <br></br>
+                                            <li>
+                                                Medical Social Service department organizes many
+                                                recreational activities on the occasion of festivals
+                                                like Dussehra and Diwali to bring happiness to patients
+                                                and caregivers.
+                                            </li>
+                                            <br></br>
+                                            <li>
+                                                Coordination with the officials of Patna Secretariat to
+                                                streamline and Expedite the process of Bihar Chief
+                                                Minister Relief Fund.
+                                            </li>
                                         </ul>
-                                    </div>
-
-                                    <div className="doctor-details-biography">
-                                        <h3>Experience</h3>
-                                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa.</p>
                                     </div>
                                 </div>
                             </div>
@@ -103,7 +173,7 @@ const MedicalSocialWorks = () => {
 
             <Footer />
         </>
-    )
-}
+    );
+};
 
 export default MedicalSocialWorks;

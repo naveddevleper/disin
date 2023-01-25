@@ -117,7 +117,7 @@ const Departments = () => {
                                     Medical Administration is administration or management
                                     utilising the medical and clinical knowledge, skill, and
                                     judgement of a registered medical practitioner, and capable of
-                                    affecting the health and safety of the public or any person.{" "}
+                                    affecting the health and safety of the public or any person.
                                 </p>
                                 <p className="flex-grow-1"></p>
                                 <p className="flex-grow-1"></p>
