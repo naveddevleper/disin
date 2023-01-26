@@ -208,7 +208,7 @@ const HBCHVaranasi = () => {
 
           </div>
           <div className="row">
-            <h2 className="text-center mb-4">MAJOR EQUIPMENTS</h2>
+            <h2 className="text-center mb-4 border-bottom">MAJOR EQUIPMENTS</h2>
           </div>
           <div className="row">
             <div className="col-md-6">
