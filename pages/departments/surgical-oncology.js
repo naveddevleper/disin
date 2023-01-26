@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 // import TopHeader from '../components/_App/TopHeader';
-import TopHeader from '../../components/_App/TopHeader';
-import Navbar from '../../components/_App/Navbar';
-import PageBanner from '../../components/Common/PageBanner';
-import AppointmentFormTwo from '../../components/Common/AppointmentFormTwo';
-import Footer from '../../components/_App/Footer';
+import TopHeader from "../../components/_App/TopHeader";
+import Navbar from "../../components/_App/Navbar";
+import PageBanner from "../../components/Common/PageBanner";
+import AppointmentFormTwo from "../../components/Common/AppointmentFormTwo";
+import Footer from "../../components/_App/Footer";
 
 const SurgicalOncology = () => {
     return (
@@ -51,10 +51,18 @@ const SurgicalOncology = () => {
                                     <div className="appointment-item-two-right">
                                         <div className="appointment-item-content">
                                             <ul>
-                                                <li>Monday <span>9:00 AM - 8:00 PM</span></li>
-                                                <li>Tuesday <span>9:00 AM - 8:00 PM</span></li>
-                                                <li>Wednesday <span>9:00 AM - 8:00 PM</span></li>
-                                                <li>Sunday <span>9:00 AM - 8:00 PM</span></li>
+                                                <li>
+                                                    Monday <span>9:00 AM - 8:00 PM</span>
+                                                </li>
+                                                <li>
+                                                    Tuesday <span>9:00 AM - 8:00 PM</span>
+                                                </li>
+                                                <li>
+                                                    Wednesday <span>9:00 AM - 8:00 PM</span>
+                                                </li>
+                                                <li>
+                                                    Sunday <span>9:00 AM - 8:00 PM</span>
+                                                </li>
                                             </ul>
                                         </div>
                                     </div>
@@ -66,123 +74,243 @@ const SurgicalOncology = () => {
                             <div className="doctor-details-item">
                                 <div className="doctor-details-right">
                                     <div className="doctor-details-biography">
-                                        <h3>DIETETICS DEPARTMENT</h3>
+                                        <h3>DEPARTMENT OF SURGICAL ONCOLOGY</h3>
                                     </div>
 
                                     <div className="doctor-details-biography">
-                                        <p align="justify">
-                                            Nutrition is a basic human need and a prerequisite to a
-                                            healthy life. A proper diet is essential to meet the daily
-                                            needs of humans to remain healthy and in disease free
-                                            condition.
-                                        </p>
-                                        <p align="justify">
-                                            Daily ward rounds are taken by the dieticians in their
-                                            respective wards and diet is prescribed/implemented in
-                                            consultation with the doctors. Individual diet counselling
-                                            along with diet chart is provided to indoor as well as
-                                            outdoor patients.
-                                        </p>
-                                        <br></br>
                                         <p>
-                                            <strong>Clinical Rounds:</strong>
+                                            <strong>ABOUT:</strong>
                                         </p>
-                                        <ul>
-                                            <li>
-                                                A Standard Operating Protocol (SOP) has been formulated
-                                                in order to provide right diet of good quality &amp;
-                                                adequate quantity to the inpatients.
-                                            </li>
-                                            <br></br>
-                                            <li>
-                                                Dietician conduct daily bed to bed ward rounds and sees
-                                                the doctor’s instruction regarding diet based on
-                                                diagnosis.
-                                            </li>
-                                            <br></br>
-                                            <li>
-                                                Observe the condition of the patients in terms of
-                                                his/her illness, appetite, oral tolerance vis-à-vis
-                                                requirement
-                                            </li>
-                                            <br></br>
-                                            <li>
-                                                Required diet modification Is done as per requirement,
-                                                after consultation with treating doctor.
-                                            </li>
-                                            <br></br>
-                                            <li>
-                                                Briefly counsel the patient’s attendant regarding the
-                                                diet to be provided from the hospital
-                                            </li>
-                                            <br></br>
-                                            <li>
-                                                Get feedback regarding the diet acceptance or tolerance
-                                                by the patient
-                                            </li>
-                                        </ul>
-                                    </div>
+                                        <p align="justify">
+                                            Department of Surgical Oncology at HBCH Varanasi was
+                                            commissioned in April 2018 with 2 faculties. We started
+                                            doing basic and semi advanced cancer surgeries. OPD
+                                            registration has grown up to more than 3500 patients in a
+                                            year. In the last almost four years, department has gained
+                                            strength with the addition of more faculties in various
+                                            disciplines like Head and Neck Surgery, Neurosurgery,
+                                            Gynaec-Oncology, Urology, Orthopedics Oncology, Pediatric
+                                            Surgery, Gastrointestinal and Thoracic Surgical Oncology
+                                            and Plastic and Reconstructive Surgery.
+                                        </p>
+                                        <p align="justify">
+                                            Department has started performing minimal invasive
+                                            surgeries in various disciplines like laparoscopy in
+                                            colorectal surgeries, Uro-Onocology , Gynaec-oncology and
+                                            thoracic divisions.
+                                        </p>
+                                        <p align="justify">
+                                            We are consistently growing in profession as well as
+                                            academic fields. Various research projects are going on in
+                                            the department and publications have been done in various
+                                            journals of national and international repute. Also,
+                                            department of surgical oncology is actively engaged in
+                                            teaching of senior residents and fellows.
+                                        </p>
 
-                                    <div className="doctor-details-biography">
-                                        <h5>
-                                            <u>Dietetics Department Consultations, 2021:</u>
-                                        </h5>
+                                        <table
+                                            class="table table-hover table-bordered"
+                                            width="100%"
+                                            border="0"
+                                            cellspacing="0"
+                                            cellpadding="1"
+                                        >
+                                            <tbody>
+                                                <tr>
+                                                    <th height="40" colspan="5" scope="col">
+                                                        <p align="center">
+                                                            DEPARTMENT OF SURGERY (SURGICAL ONCOLOGY)<br></br>
+                                                            PERFORMANCE STATISTICS<br></br>
+                                                            (2018-2021)
+                                                        </p>
+                                                    </th>
+                                                </tr>
+                                                <tr>
+                                                    <th height="40" scope="col"></th>
+                                                    <th height="40" scope="col">
+                                                        2018<br></br>
+                                                        (No. of patients)
+                                                    </th>
+                                                    <th height="40" scope="col">
+                                                        2019<br></br>
+                                                        (No. of patients)
+                                                    </th>
+                                                    <th height="40" scope="col">
+                                                        2020<br></br>
+                                                        (No. of patients)
+                                                    </th>
+                                                    <th height="40" scope="col">
+                                                        2021<br></br>
+                                                        (No. of patients)
+                                                    </th>
+                                                </tr>
+                                                <tr>
+                                                    <th height="40" scope="col">
+                                                        No. of Surgeries
+                                                        <br></br>
+                                                        performed (Major +<br></br>
+                                                        Minor)
+                                                    </th>
+                                                    <th height="40" scope="col">
+                                                        478
+                                                    </th>
+                                                    <th height="40" scope="col">
+                                                        4098
+                                                    </th>
+                                                    <th height="40" scope="col">
+                                                        6162
+                                                    </th>
+                                                    <th height="40" scope="col">
+                                                        11583
+                                                    </th>
+                                                </tr>
+                                                <tr>
+                                                    <th height="40" scope="col">
+                                                        No. of New Patients
+                                                        <br></br>
+                                                        registered Surgical
+                                                        <br></br>
+                                                        Oncology OPD
+                                                    </th>
+                                                    <th height="40" scope="col">
+                                                        HBCH: 4158<br></br>
+                                                        MPMMCC: not started
+                                                    </th>
+                                                    <th height="40" scope="col">
+                                                        HBCH:9590
+                                                        <br></br>
+                                                        MPMMCC:855
+                                                    </th>
+                                                    <th height="40" scope="col">
+                                                        HBCH: 11346<br></br>
+                                                        MPMMCC: 1450
+                                                    </th>
+                                                    <th height="40" scope="col">
+                                                        HBCH: 668<br></br>
+                                                        MPMMCC:15283
+                                                    </th>
+                                                </tr>
+                                                <tr>
+                                                    <th height="40" scope="col">
+                                                        No. of Patients visiting
+                                                        <br></br>
+                                                        Surgical Oncology OPD
+                                                    </th>
+                                                    <th height="40" scope="col">
+                                                        HBCH: 5623<br></br>
+                                                        MPMMCC: not
+                                                        <br></br>
+                                                        started
+                                                    </th>
+                                                    <th height="40" scope="col">
+                                                        HBCH: 18699<br></br>
+                                                        MPMMCC: 703
+                                                    </th>
+                                                    <th height="40" scope="col">
+                                                        HBCH: 20436<br></br>
+                                                        MPMMCC: 9229
+                                                    </th>
+                                                    <th height="40" scope="col">
+                                                        HBCH:6812<br></br>
+                                                        MPMMCC:
+                                                        <br></br>
+                                                        58700
+                                                    </th>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <p align="justify">
+                                            <strong>STAFF:</strong>
+                                        </p>
+                                        <p align="justify">
+                                            The Department currently comprises of 9 Surgical Oncology
+                                            Faculty Members, 7 Senior Residents and 3 Fellows.
+                                        </p>
+                                        <p align="justify">
+                                            <strong>EDUCATIONAL COURSES:</strong>
+                                        </p>
+                                        <p align="justify">
+                                            1. M. Ch. (Surgical Oncology): Received LOP from the NMC
+                                            to start the course from the academic session 2021-22.
+                                        </p>
+                                        <p align="justify">
+                                            <strong>RESEARCH ACTIVITIES:</strong>
+                                        </p>
+                                        <p align="justify">
+                                            All the faculty and staff are encouraged to involve
+                                            themselves in in basic and clinical research. The
+                                            departmental faculty have submitted independent projects
+                                            in Head and Neck and Brain Tumors to the Institutional
+                                            Ethics Committee for approval. The department is
+                                            collaborating with other departments of HBCH, Varanasi and
+                                            Tata Memorial Hospital, Mumbai. Some of the important
+                                            studies being carried out are:
+                                        </p>
+
                                         <table class="table table-hover table-bordered">
                                             <tbody>
                                                 <tr>
+                                                    <td scope="col">S.No.</td>
+                                                    <td scope="col">Name of the Study</td>
+                                                </tr>
+                                                <tr>
+                                                    <td scope="col">1.</td>
                                                     <td scope="col">
-                                                        <strong>Hospital</strong>
-                                                    </td>
-                                                    <td scope="col" colspan="3">
-                                                        OPD
-                                                    </td>
-                                                    <td scope="col" colspan="3">
-                                                        IPD
+                                                        Nutritional assessment in Oral cancer patients and
+                                                        nutritional factors responsible for postop morbidity
                                                     </td>
                                                 </tr>
                                                 <tr>
+                                                    <td scope="col">1.</td>
                                                     <td scope="col">
-                                                        <strong>HBCH</strong>
-                                                    </td>
-                                                    <td scope="col" colspan="3">
-                                                        369
-                                                    </td>
-                                                    <td scope="col" colspan="3">
-                                                        2087
+                                                        The efficacy of conventional screening versus
+                                                        mHealth screening in early detection of oral
+                                                        potentially malignant disorders and oral cancer
+                                                        amongst the rural population of Varanasi: A
+                                                        Prospective and blinded study
                                                     </td>
                                                 </tr>
-
                                                 <tr>
+                                                    <td scope="col">1.</td>
                                                     <td scope="col">
-                                                        <strong>MPMMCC </strong>
+                                                        A Qualitative Study to Explore the Factors
+                                                        Influencing Health Seeking Decisions and Treatment
+                                                        Completion in Pediatric Malignancy
                                                     </td>
-                                                    <td scope="col" colspan="3">
-                                                        3429
+                                                </tr>
+                                                <tr>
+                                                    <td scope="col">1.</td>
+                                                    <td scope="col">
+                                                        Intra-operative gross examination versus frozen
+                                                        section for achievement of adequate margin in
+                                                        patients undergoing surgery for oral cavity squamous
+                                                        cell carcinoma: A randomized controlled trial.
                                                     </td>
-                                                    <td scope="col" colspan="3">
-                                                        9601
+                                                </tr>
+                                                <tr>
+                                                    <td scope="col">1.</td>
+                                                    <td scope="col">
+                                                        Phase 1 study of safety and feasibility of Ayurvedic
+                                                        oral cannabis preparation in the Peri-operative
+                                                        period in hepatobiliary and pancreatic cancers.
                                                     </td>
                                                 </tr>
                                             </tbody>
                                         </table>
                                         <br></br>
-                                        <h5 align="left">
-                                            <u>Staff Members:</u>
-                                        </h5>
-                                        <table class="table table-hover table-bordered">
-                                            <tbody>
-                                                <tr>
-                                                    <td scope="col">
-                                                        <strong>Asst. Dietician</strong>
-                                                    </td>
-                                                    <td scope="col" colspan="2">
-                                                        Ms. Navneet Kaur, (Adhoc)
-                                                        <br></br>
-                                                        Ms. Anjali Priya, (Contractual)
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
+                                        <p align="justify">
+                                            <strong>
+                                                <u>Departmental Contact details:</u>
+                                            </strong>
+                                        </p>
+                                        <p align="justify">
+                                            MPMMCC Tel. +91-0542-2225022; MPMMCC: Extension number
+                                            -1141(Office) for Department of Surgical Oncology; HBCH:
+                                            Extension number 4122 for Department of Surgical Oncology
+                                        </p>
+                                        <p align="justify">
+                                            <strong>E-mail ID:</strong> mpmmcc.info@tmc.gov.in
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -193,7 +321,7 @@ const SurgicalOncology = () => {
 
             <Footer />
         </>
-    )
-}
+    );
+};
 
 export default SurgicalOncology;

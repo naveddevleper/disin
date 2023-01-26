@@ -79,7 +79,7 @@ const Microbiology = () => {
                                             The Department has established Mycology laboratory in the
                                             year 2021. In the day to day functioning, the Microbiology
                                             Laboratory maintains high standards, good quality control
-                                            and “turnaround-time”.
+                                            and “turnaround-time”.
                                         </p>
                                         <p align="justify">
                                             A total of 38,628 Microbiology investigations have been

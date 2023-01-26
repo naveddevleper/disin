@@ -139,7 +139,7 @@ const MedicalSocialWorks = () => {
                                             <br></br>
                                             <li>
                                                 Palliative counselling has commenced and the Medical
-                                                Social Workers are involved in teleconsultancy for the
+                                                Social Workers are involved in teleconsultancy for the
                                                 terminally ill patients.
                                             </li>
                                             <br></br>
@@ -147,7 +147,7 @@ const MedicalSocialWorks = () => {
                                                 Department has also participated in Free COVID
                                                 vaccination drive organized by HBCH/MPMMCC and ALKEM,
                                                 for local resident (boatman, vendors, hawkers) at
-                                                Subah-eBanaras Assi Ghat, Varanasi.
+                                                Subah-eBanaras Assi Ghat, Varanasi.
                                             </li>
                                             <br></br>
                                             <li>

@@ -74,119 +74,138 @@ const ProstheticSurgery = () => {
               <div className="doctor-details-item">
                 <div className="doctor-details-right">
                   <div className="doctor-details-biography">
-                    <h3>DIETETICS DEPARTMENT</h3>
-                  </div>
-
-                  <div className="doctor-details-biography">
+                    <h3>DEPARTMENT OF DENTAL AND PROSTHETIC SURGERY</h3>
                     <p align="justify">
-                      Nutrition is a basic human need and a prerequisite to a
-                      healthy life. A proper diet is essential to meet the daily
-                      needs of humans to remain healthy and in disease free
-                      condition.
-                    </p>
-                    <p align="justify">
-                      Daily ward rounds are taken by the dieticians in their
-                      respective wards and diet is prescribed/implemented in
-                      consultation with the doctors. Individual diet counselling
-                      along with diet chart is provided to indoor as well as
-                      outdoor patients.
-                    </p>
-                    <br></br>
-                    <p>
-                      <strong>Clinical Rounds:</strong>
+                      The Department provides various clinical services for
+                      cancer patients:
                     </p>
                     <ul>
                       <li>
-                        A Standard Operating Protocol (SOP) has been formulated
-                        in order to provide right diet of good quality &amp;
-                        adequate quantity to the inpatients.
+                        General dental services which include dental
+                        extractions, restorations, sharp tooth filing to prevent
+                        trauma to the oral soft tissues.
                       </li>
-                      <br></br>
+
                       <li>
-                        Dietician conduct daily bed to bed ward rounds and sees
-                        the doctor’s instruction regarding diet based on
-                        diagnosis.
+                        Pre-radiation check-up and proving fluoride gel
+                        application and oral prophylaxis for prevention of
+                        radiation induced caries and post radiated sensitivity.
                       </li>
-                      <br></br>
+
                       <li>
-                        Observe the condition of the patients in terms of
-                        his/her illness, appetite, oral tolerance vis-à-vis
-                        requirement
+                        Post radiation management of oral complications like
+                        xerostomia, mucositis and ulceration. Medical and
+                        surgical management of osteoradionecrosis (ORN).
                       </li>
-                      <br></br>
+
                       <li>
-                        Required diet modification Is done as per requirement,
-                        after consultation with treating doctor.
+                        Management of oral complications for pre- and
+                        post-chemotherapy patients. Medical and surgical
+                        management of medication related osteonecrosis of the
+                        jaw (MRONJ).
                       </li>
-                      <br></br>
+
                       <li>
-                        Briefly counsel the patient’s attendant regarding the
-                        diet to be provided from the hospital
+                        Maxillofacial Prosthetic rehabilitation in pre and
+                        post-surgical intervention cases which include intraoral
+                        and extraoral prostheses. At present, the department has
+                        managed to deliver, interim and definitive obturators,
+                        guide flange prosthesis, complete denture, removable
+                        partial denture, acrylic lip prosthesis, orbital
+                        prosthesis, facial prosthesis and brachytherapy
+                        applicators.
                       </li>
-                      <br></br>
+
                       <li>
-                        Get feedback regarding the diet acceptance or tolerance
-                        by the patient
+                        The department is in the process of starting intraoral
+                        implant system for Head &amp; Neck cancer patients.{" "}
                       </li>
                     </ul>
                   </div>
 
                   <div className="doctor-details-biography">
-                    <h5>
-                      <u>Dietetics Department Consultations, 2021:</u>
-                    </h5>
-                    <table class="table table-hover table-bordered">
-                      <tbody>
-                        <tr>
-                          <td scope="col">
-                            <strong>Hospital</strong>
-                          </td>
-                          <td scope="col" colspan="3">
-                            OPD
-                          </td>
-                          <td scope="col" colspan="3">
-                            IPD
-                          </td>
-                        </tr>
-                        <tr>
-                          <td scope="col">
-                            <strong>HBCH</strong>
-                          </td>
-                          <td scope="col" colspan="3">
-                            369
-                          </td>
-                          <td scope="col" colspan="3">
-                            2087
-                          </td>
-                        </tr>
 
-                        <tr>
-                          <td scope="col">
-                            <strong>MPMMCC </strong>
-                          </td>
-                          <td scope="col" colspan="3">
-                            3429
-                          </td>
-                          <td scope="col" colspan="3">
-                            9601
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                    <br></br>
-                    <h5 align="left">
-                      <u>Staff Members:</u>
-                    </h5>
+                    <h4 align="left">
+                      <u>
+                        Annual Dental Services provided from January 2021 to
+                        December 2021:
+                      </u>
+                    </h4>
+                    <ul>
+                      <li>Consultation done in the Dental OPD: 2995</li>
+
+                      <li>Number of teeth extraction done: 693</li>
+
+                      <li>
+                        Number of patients undergoing oral prophylaxis: 192{" "}
+                      </li>
+
+                      <li>
+                        Number of patients undergoing Fluoride Gel Application
+                        (FGA): 197{" "}
+                      </li>
+
+                      <li>Number of restorations done: 17 </li>
+
+                      <li>Number of obturators delivered: 50</li>
+
+                      <li>Number of guide plane prostheses delivered: 63</li>
+
+                      <li>
+                        Total number of patients received miscellaneous
+                        (Prostheses): 07
+                      </li>
+                    </ul>
+                    <h4>
+                      <strong>
+                        <u>Research:</u>
+                      </strong>
+                    </h4>
+                    <p align="justify">
+                      <strong>
+                        <u>Publication:</u>
+                      </strong>{" "}
+                      One
+                    </p>
+                    <p align="justify">
+                      Department is conducting a certified training Course in
+                      “Dental and Maxillofacial OncoProsthodontics” for
+                      Laboratory Technicians, to empower dental technicians to
+                      deliver maxillofacial prosthetic services to the cancer
+                      patients. This course is open throughout the year and
+                      consists of six months’ training followed by six months’
+                      internship from the date of joining. There is regular
+                      academic presentation in the Department and participation
+                      in the Institute academic programme. There has been
+                      scientific presentation/lectures in other Institutes and
+                      webinars.
+                    </p>
+                    <h4>
+                      <strong>
+                        <u>Staff Members:</u>
+                      </strong>
+                    </h4>
                     <table class="table table-hover table-bordered">
                       <tbody>
+                        <tr></tr>
                         <tr>
                           <td scope="col">
-                            <strong>Asst. Dietician</strong>
+                            <strong>Professor</strong>{" "}
                           </td>
-                          <td scope="col" colspan="2">
-                            Ms. Navneet Kaur, (Adhoc)
-                            <br></br>
-                            Ms. Anjali Priya, (Contractual)
+                          <td scope="col">Dr. Lokendra Gupta </td>
+                        </tr>
+                        <tr>
+                          <td scope="col">
+                            <strong>Dental Technician </strong>
+                          </td>
+                          <td scope="col">Mr. Dev Anand, (Contractual) </td>
+                        </tr>
+                        <tr>
+                          <td scope="col">
+                            <strong>Dental Hygienist</strong>
+                          </td>
+                          <td scope="col">
+                            Mr. Navnit Prajapati, (Contractual)
                           </td>
                         </tr>
                       </tbody>

@@ -81,7 +81,7 @@ const Biochemistry = () => {
                       Laboratory has also been set up at MPMMCC, Varanasi
                       and has been functional since February 2019. Both
                       the laboratories are equipped with high-end and high
-                      throughput state of art autoanalysers and have been
+                      throughput state of art auto analysers and have been
                       participating in internal and external quality
                       assurance schemes providing a very strong base to
                       support the reporting of patient results.

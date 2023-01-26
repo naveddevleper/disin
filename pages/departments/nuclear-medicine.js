@@ -101,7 +101,7 @@ const NuclearMedicine = () => {
                                                     between nuclear medicine physicians and surgeons- a
                                                     new standardised protocol was set for accurate
                                                     localization of axillary nodes with fusion imaging
-                                                    made available for presurgery visualization of
+                                                    made available for presurgery visualization of
                                                     location of nodes (a first in TMC), nuclear medicine
                                                     physicians are also present during nodal dissection to
                                                     ensure gamma probes are optimally used and for

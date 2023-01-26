@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 // import TopHeader from '../components/_App/TopHeader';
-import TopHeader from '../../components/_App/TopHeader';
-import Navbar from '../../components/_App/Navbar';
-import PageBanner from '../../components/Common/PageBanner';
-import AppointmentFormTwo from '../../components/Common/AppointmentFormTwo';
-import Footer from '../../components/_App/Footer';
+import TopHeader from "../../components/_App/TopHeader";
+import Navbar from "../../components/_App/Navbar";
+import PageBanner from "../../components/Common/PageBanner";
+import AppointmentFormTwo from "../../components/Common/AppointmentFormTwo";
+import Footer from "../../components/_App/Footer";
 
 const TransfusionMedicine = () => {
     return (
@@ -51,10 +51,18 @@ const TransfusionMedicine = () => {
                                     <div className="appointment-item-two-right">
                                         <div className="appointment-item-content">
                                             <ul>
-                                                <li>Monday <span>9:00 AM - 8:00 PM</span></li>
-                                                <li>Tuesday <span>9:00 AM - 8:00 PM</span></li>
-                                                <li>Wednesday <span>9:00 AM - 8:00 PM</span></li>
-                                                <li>Sunday <span>9:00 AM - 8:00 PM</span></li>
+                                                <li>
+                                                    Monday <span>9:00 AM - 8:00 PM</span>
+                                                </li>
+                                                <li>
+                                                    Tuesday <span>9:00 AM - 8:00 PM</span>
+                                                </li>
+                                                <li>
+                                                    Wednesday <span>9:00 AM - 8:00 PM</span>
+                                                </li>
+                                                <li>
+                                                    Sunday <span>9:00 AM - 8:00 PM</span>
+                                                </li>
                                             </ul>
                                         </div>
                                     </div>
@@ -66,119 +74,177 @@ const TransfusionMedicine = () => {
                             <div className="doctor-details-item">
                                 <div className="doctor-details-right">
                                     <div className="doctor-details-biography">
-                                        <h3>DIETETICS DEPARTMENT</h3>
+                                        <h3>DEPARTMENT OF TRANSFUSION MEDICINE</h3>
+                                        <p align="justify">
+                                            Two separate Licensed Blood Centers exist at HBCH and
+                                            MPMMCC. The newly installed Blood Irradiation Chamber and
+                                            the HLA Immunodiagnostics Laboratory are located at HBCH.
+                                        </p>
                                     </div>
 
                                     <div className="doctor-details-biography">
-                                        <p align="justify">
-                                            Nutrition is a basic human need and a prerequisite to a
-                                            healthy life. A proper diet is essential to meet the daily
-                                            needs of humans to remain healthy and in disease free
-                                            condition.
+                                        <p align="center">
+                                            <strong>
+                                                <u>
+                                                    Overview of Transfusion Medicine Activities: 1st
+                                                    January 2021 to 31st December 2021
+                                                </u>
+                                            </strong>
                                         </p>
-                                        <p align="justify">
-                                            Daily ward rounds are taken by the dieticians in their
-                                            respective wards and diet is prescribed/implemented in
-                                            consultation with the doctors. Individual diet counselling
-                                            along with diet chart is provided to indoor as well as
-                                            outdoor patients.
-                                        </p>
-                                        <br></br>
-                                        <p>
-                                            <strong>Clinical Rounds:</strong>
-                                        </p>
-                                        <ul>
-                                            <li>
-                                                A Standard Operating Protocol (SOP) has been formulated
-                                                in order to provide right diet of good quality &amp;
-                                                adequate quantity to the inpatients.
-                                            </li>
-                                            <br></br>
-                                            <li>
-                                                Dietician conduct daily bed to bed ward rounds and sees
-                                                the doctor’s instruction regarding diet based on
-                                                diagnosis.
-                                            </li>
-                                            <br></br>
-                                            <li>
-                                                Observe the condition of the patients in terms of
-                                                his/her illness, appetite, oral tolerance vis-à-vis
-                                                requirement
-                                            </li>
-                                            <br></br>
-                                            <li>
-                                                Required diet modification Is done as per requirement,
-                                                after consultation with treating doctor.
-                                            </li>
-                                            <br></br>
-                                            <li>
-                                                Briefly counsel the patient’s attendant regarding the
-                                                diet to be provided from the hospital
-                                            </li>
-                                            <br></br>
-                                            <li>
-                                                Get feedback regarding the diet acceptance or tolerance
-                                                by the patient
-                                            </li>
-                                        </ul>
-                                    </div>
 
-                                    <div className="doctor-details-biography">
-                                        <h5>
-                                            <u>Dietetics Department Consultations, 2021:</u>
-                                        </h5>
                                         <table class="table table-hover table-bordered">
                                             <tbody>
                                                 <tr>
-                                                    <td scope="col">
-                                                        <strong>Hospital</strong>
-                                                    </td>
-                                                    <td scope="col" colspan="3">
-                                                        OPD
-                                                    </td>
-                                                    <td scope="col" colspan="3">
-                                                        IPD
-                                                    </td>
+                                                    <th height="40" scope="col">
+                                                        Activities
+                                                    </th>
+                                                    <th height="40" scope="col">
+                                                        HBCH Blood Centre
+                                                    </th>
+                                                    <th height="40" scope="col">
+                                                        MPMMCC Blood Centre
+                                                    </th>
                                                 </tr>
                                                 <tr>
-                                                    <td scope="col">
-                                                        <strong>HBCH</strong>
-                                                    </td>
-                                                    <td scope="col" colspan="3">
-                                                        369
-                                                    </td>
-                                                    <td scope="col" colspan="3">
-                                                        2087
-                                                    </td>
+                                                    <th colspan="3" scope="row">
+                                                        <div align="left">Blood Donation</div>
+                                                    </th>
                                                 </tr>
-
                                                 <tr>
-                                                    <td scope="col">
-                                                        <strong>MPMMCC </strong>
-                                                    </td>
-                                                    <td scope="col" colspan="3">
-                                                        3429
-                                                    </td>
-                                                    <td scope="col" colspan="3">
-                                                        9601
-                                                    </td>
+                                                    <th height="40" scope="col">
+                                                        Total Donation
+                                                    </th>
+                                                    <th height="40" scope="col">
+                                                        5549
+                                                    </th>
+                                                    <th height="40" scope="col">
+                                                        4743
+                                                    </th>
+                                                </tr>
+                                                <tr>
+                                                    <th height="40" scope="col">
+                                                        Apheresis
+                                                    </th>
+                                                    <th height="40" scope="col">
+                                                        1861(33.5%)
+                                                    </th>
+                                                    <th height="40" scope="col">
+                                                        249 (5.3%)
+                                                    </th>
+                                                </tr>
+                                                <tr>
+                                                    <th height="40" scope="col">
+                                                        Components prepared
+                                                    </th>
+                                                    <th height="40" scope="col">
+                                                        PRBC-3656 (99.1%),<br></br>
+                                                        RDP-3488 (94.6%),<br></br>
+                                                        FFP-3450 (93.6%),<br></br>
+                                                        Cryo-206 (5.6%),<br></br>
+                                                        CSP-206 (5.6%)
+                                                    </th>
+                                                    <th height="40" scope="col">
+                                                        PRBC-4457 (99.2%),<br></br>
+                                                        RDP-3891 (86.6%),<br></br>
+                                                        FFP-4113 (82.4%),<br></br>
+                                                        Cryo-197 (3.9%),<br></br>
+                                                        CSP-197 (3.9%)
+                                                    </th>
+                                                </tr>
+                                                <tr>
+                                                    <th height="40" scope="col">
+                                                        Granulocytapheresis
+                                                    </th>
+                                                    <th height="40" scope="col">
+                                                        7 (0.4%)
+                                                    </th>
+                                                    <th height="40" scope="col"></th>
+                                                </tr>
+                                                <tr>
+                                                    <th colspan="3" scope="row">
+                                                        <div align="left">Laboratory Investigations</div>
+                                                    </th>
+                                                </tr>
+                                                <tr>
+                                                    <th height="40" scope="col">
+                                                        Blood Grouping (Both<br></br>
+                                                        Donors &amp; Patients)
+                                                    </th>
+                                                    <th height="40" scope="col">
+                                                        13970
+                                                    </th>
+                                                    <th height="40" scope="col">
+                                                        18099
+                                                    </th>
+                                                </tr>
+                                                <tr>
+                                                    <th height="40" scope="col">
+                                                        Cross-Matching
+                                                    </th>
+                                                    <th height="40" scope="col">
+                                                        1861(33.5%)
+                                                    </th>
+                                                    <th height="40" scope="col">
+                                                        249 (5.3%)
+                                                    </th>
+                                                </tr>
+                                                <tr>
+                                                    <th height="40" scope="col">
+                                                        Apheresis
+                                                    </th>
+                                                    <th height="40" scope="col">
+                                                        6380
+                                                    </th>
+                                                    <th height="40" scope="col">
+                                                        12350
+                                                    </th>
+                                                </tr>
+                                                <tr>
+                                                    <th height="40" scope="col">
+                                                        Antibody Detection
+                                                    </th>
+                                                    <th height="40" scope="col">
+                                                        2030
+                                                    </th>
+                                                    <th height="40" scope="col">
+                                                        15037
+                                                    </th>
+                                                </tr>
+                                                <tr>
+                                                    <th colspan="3" scope="row">
+                                                        <div align="left">
+                                                            Laboratory Investigations at HLA &amp;
+                                                            Immunogenetics Lab<br></br>
+                                                            1. HLA Typing - 124<br></br>
+                                                            2. Antibody Screening - 0
+                                                        </div>
+                                                    </th>
                                                 </tr>
                                             </tbody>
                                         </table>
-                                        <br></br>
-                                        <h5 align="left">
-                                            <u>Staff Members:</u>
-                                        </h5>
+
+                                        <p>
+                                            <strong>Research:</strong>
+                                        </p>
+                                        <p>Total Number of Ongoing Studies - 2</p>
+                                        <p>
+                                            <strong>Staff Members:</strong>
+                                        </p>
+                                        <h4 class="itemTitle" align="left">
+                                            <strong>Staff Members:</strong>
+                                        </h4>
+
                                         <table class="table table-hover table-bordered">
                                             <tbody>
                                                 <tr>
+                                                    <td scope="col">Assistant Professor</td>
+                                                    <td scope="col">Dr Akshay Batra </td>
+                                                </tr>
+                                                <tr>
+                                                    <td scope="col">Senior Resident</td>
                                                     <td scope="col">
-                                                        <strong>Asst. Dietician</strong>
-                                                    </td>
-                                                    <td scope="col" colspan="2">
-                                                        Ms. Navneet Kaur, (Adhoc)
-                                                        <br></br>
-                                                        Ms. Anjali Priya, (Contractual)
+                                                        Dr Shalakha Agrawal<br></br>
+                                                        Dr Sadia Khan
                                                     </td>
                                                 </tr>
                                             </tbody>
@@ -193,7 +259,7 @@ const TransfusionMedicine = () => {
 
             <Footer />
         </>
-    )
-}
+    );
+};
 
 export default TransfusionMedicine;

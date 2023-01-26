@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 // import TopHeader from '../components/_App/TopHeader';
-import TopHeader from '../../components/_App/TopHeader';
-import Navbar from '../../components/_App/Navbar';
-import PageBanner from '../../components/Common/PageBanner';
-import AppointmentFormTwo from '../../components/Common/AppointmentFormTwo';
-import Footer from '../../components/_App/Footer';
+import TopHeader from "../../components/_App/TopHeader";
+import Navbar from "../../components/_App/Navbar";
+import PageBanner from "../../components/Common/PageBanner";
+import AppointmentFormTwo from "../../components/Common/AppointmentFormTwo";
+import Footer from "../../components/_App/Footer";
 
 const Physiotherapy = () => {
     return (
@@ -51,10 +51,18 @@ const Physiotherapy = () => {
                                     <div className="appointment-item-two-right">
                                         <div className="appointment-item-content">
                                             <ul>
-                                                <li>Monday <span>9:00 AM - 8:00 PM</span></li>
-                                                <li>Tuesday <span>9:00 AM - 8:00 PM</span></li>
-                                                <li>Wednesday <span>9:00 AM - 8:00 PM</span></li>
-                                                <li>Sunday <span>9:00 AM - 8:00 PM</span></li>
+                                                <li>
+                                                    Monday <span>9:00 AM - 8:00 PM</span>
+                                                </li>
+                                                <li>
+                                                    Tuesday <span>9:00 AM - 8:00 PM</span>
+                                                </li>
+                                                <li>
+                                                    Wednesday <span>9:00 AM - 8:00 PM</span>
+                                                </li>
+                                                <li>
+                                                    Sunday <span>9:00 AM - 8:00 PM</span>
+                                                </li>
                                             </ul>
                                         </div>
                                     </div>
@@ -66,119 +74,112 @@ const Physiotherapy = () => {
                             <div className="doctor-details-item">
                                 <div className="doctor-details-right">
                                     <div className="doctor-details-biography">
-                                        <h3>DIETETICS DEPARTMENT</h3>
-                                    </div>
+                                        <h3>PHYSIOTHERAPY DEPARTMENT</h3>
 
-                                    <div className="doctor-details-biography">
                                         <p align="justify">
-                                            Nutrition is a basic human need and a prerequisite to a
-                                            healthy life. A proper diet is essential to meet the daily
-                                            needs of humans to remain healthy and in disease free
-                                            condition.
+                                            The Physiotherapy Department is successfully providing
+                                            patient care at Homi Bhabha Cancer Hospital, since
+                                            November, 2018 and at Mahamana Pandit Madan Mohan Malviya
+                                            Cancer Centre, since August, 2020. The team provides
+                                            patient care in treating patients on IPD basis in ICU,
+                                            Recovery, Paediatric &amp; Adult Wards as well as on OPD
+                                            basis.
                                         </p>
                                         <p align="justify">
-                                            Daily ward rounds are taken by the dieticians in their
-                                            respective wards and diet is prescribed/implemented in
-                                            consultation with the doctors. Individual diet counselling
-                                            along with diet chart is provided to indoor as well as
-                                            outdoor patients.
-                                        </p>
-                                        <br></br>
-                                        <p>
-                                            <strong>Clinical Rounds:</strong>
+                                            The services provided by the department include:
                                         </p>
                                         <ul>
                                             <li>
-                                                A Standard Operating Protocol (SOP) has been formulated
-                                                in order to provide right diet of good quality &amp;
-                                                adequate quantity to the inpatients.
+                                                Evaluation, diagnosis and management of movement
+                                                dysfunction and enhancement of physical and functional
+                                                abilities.
                                             </li>
-                                            <br></br>
                                             <li>
-                                                Dietician conduct daily bed to bed ward rounds and sees
-                                                the doctor’s instruction regarding diet based on
-                                                diagnosis.
+                                                Restoration, maintenance and promotion of optimal
+                                                physical function, fitness and optimal quality of life.
                                             </li>
-                                            <br></br>
                                             <li>
-                                                Observe the condition of the patients in terms of
-                                                his/her illness, appetite, oral tolerance vis-à-vis
-                                                requirement
+                                                Prevention and treatment of disabilities, that may
+                                                result from diseases or as a side effect of treatment.
                                             </li>
-                                            <br></br>
                                             <li>
-                                                Required diet modification Is done as per requirement,
-                                                after consultation with treating doctor.
+                                                Evaluation, management and regular follow up of upper
+                                                limb, lower limb and facial lymphedema patients.
                                             </li>
-                                            <br></br>
                                             <li>
-                                                Briefly counsel the patient’s attendant regarding the
-                                                diet to be provided from the hospital
+                                                Conducting ‘Pulmonary Rehabilitation session’ for
+                                                pre-operative patients, especially from Thoracic and
+                                                Gastrointestinal unit, to create awareness about
+                                                post-operative complications and its prevention.
                                             </li>
-                                            <br></br>
                                             <li>
-                                                Get feedback regarding the diet acceptance or tolerance
-                                                by the patient
+                                                Conducting ‘Post-Operative Breast session’ to create
+                                                awareness about precautions and exercises to prevent
+                                                lymphedema and reduce shoulder morbidity.
+                                            </li>
+                                            <li>
+                                                Evaluation, management and regular follow up of elderly
+                                                patients under ‘Geriatric Clinic’ in collaboration with
+                                                Medical Oncology Department.
+                                            </li>
+                                            <li>
+                                                Collaborationwith other healthcare professionals to
+                                                address patient needs and provide efficient and
+                                                effective care.
                                             </li>
                                         </ul>
-                                    </div>
-
-                                    <div className="doctor-details-biography">
-                                        <h5>
-                                            <u>Dietetics Department Consultations, 2021:</u>
-                                        </h5>
-                                        <table class="table table-hover table-bordered">
-                                            <tbody>
-                                                <tr>
-                                                    <td scope="col">
-                                                        <strong>Hospital</strong>
-                                                    </td>
-                                                    <td scope="col" colspan="3">
-                                                        OPD
-                                                    </td>
-                                                    <td scope="col" colspan="3">
-                                                        IPD
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td scope="col">
-                                                        <strong>HBCH</strong>
-                                                    </td>
-                                                    <td scope="col" colspan="3">
-                                                        369
-                                                    </td>
-                                                    <td scope="col" colspan="3">
-                                                        2087
-                                                    </td>
-                                                </tr>
-
-                                                <tr>
-                                                    <td scope="col">
-                                                        <strong>MPMMCC </strong>
-                                                    </td>
-                                                    <td scope="col" colspan="3">
-                                                        3429
-                                                    </td>
-                                                    <td scope="col" colspan="3">
-                                                        9601
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
                                         <br></br>
-                                        <h5 align="left">
+                                        <p align="justify">
+                                            The Department has treated approximately 530 patients in
+                                            pre-operative
+                                            <strong>‘Pulmonary Rehabilitation Session’</strong> and
+                                            approximately 700 patients in
+                                            <strong>‘Post-Operative Breast Session’</strong>. The
+                                            department has distributed free of cost artificial breast
+                                            prosthesis along with innerwear to 23 low socio economic
+                                            strata patients, who had undergone mastectomy.
+                                        </p>
+                                        <p align="justify">
+                                            Apart from this, department has started 1 year (6 months
+                                            training+ 6 months’ internship)
+                                            <strong>‘Onco Physiotherapy Course’ </strong>successfully,
+                                            and is getting good response from peripheral
+                                            colleges.Around 2808 OPD and 4650 IPD patients at MPMMCC
+                                            and around 66 OPD and 619 IPD patients at HBCH, have been
+                                            treated in 2021. Services continued even during COVID
+                                            pandemic als.
+                                        </p>
+                                        {/* <p align="center">
+                                                                                    <img src="assets/img/doctors/Physiotheropy 1.png"></p>
+                                                                                <br></br>
+                                                                                    <p align="center">
+                                                                                        <img src="assets/img/doctors/Physiotheropy 2.png"></p> */}
+                                        <h5>
                                             <u>Staff Members:</u>
                                         </h5>
-                                        <table class="table table-hover table-bordered">
+                                        <table
+                                            class="table table-hover table-bordered"
+                                            width="100%"
+                                            border="0"
+                                            cellspacing="0"
+                                            cellpadding="1"
+                                        >
                                             <tbody>
                                                 <tr>
                                                     <td scope="col">
-                                                        <strong>Asst. Dietician</strong>
+                                                        <strong>Scientific Assistant B</strong>
                                                     </td>
                                                     <td scope="col" colspan="2">
-                                                        Ms. Navneet Kaur, (Adhoc)
-                                                        <br></br>
-                                                        Ms. Anjali Priya, (Contractual)
+                                                        Dr. Dipti Kadu<br></br>
+                                                        Dr. Ankita Chitre
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td scope="col">
+                                                        <strong>Physiotherapist (Adhoc)</strong>
+                                                    </td>
+                                                    <td scope="col" colspan="2">
+                                                        Dr. Sumaiya Azeem
                                                     </td>
                                                 </tr>
                                             </tbody>
@@ -193,7 +194,7 @@ const Physiotherapy = () => {
 
             <Footer />
         </>
-    )
-}
+    );
+};
 
 export default Physiotherapy;
