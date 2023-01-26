@@ -25,7 +25,7 @@ const Departments = () => {
                     <div className="row justify-content-center gy-4">
                         <div className="col-sm-6 col-lg-4">
                             <div className="department-item h-100 d-flex flex-column align-items-center">
-                                <i className="icofont-tooth"></i>
+                                <i className="icofont-injection-syringe"></i>
                                 <h3>Anesthesiology</h3>
                                 <p>
                                     Anesthesiology, anaesthesiology, or anaesthesia is the medical
@@ -47,7 +47,7 @@ const Departments = () => {
 
                         <div className="col-sm-6 col-lg-4">
                             <div className="department-item h-100 d-flex flex-column align-items-center">
-                                <i className="icofont-baby"></i>
+                                <i className="icofont-laboratory"></i>
                                 <h3>Biochemistry</h3>
                                 <p>
                                     Biochemistry is the application of chemistry to the study of
@@ -68,7 +68,7 @@ const Departments = () => {
 
                         <div className="col-sm-6 col-lg-4">
                             <div className="department-item h-100 d-flex flex-column align-items-center">
-                                <i className="icofont-laboratory"></i>
+                                <i className="icofont-tooth"></i>
                                 <h3>Dental & Prosthetic Surgery</h3>
                                 <p>
                                     Replacement of missing teeth with fixed or removable
@@ -90,7 +90,7 @@ const Departments = () => {
 
                         <div className="col-sm-6 col-lg-4">
                             <div className="department-item h-100 d-flex flex-column align-items-center">
-                                <i className="icofont-icu"></i>
+                                <i className="icofont-herbal"></i>
                                 <h3>Dietetics</h3>
                                 <p>
                                     Dietetics is a field of science that determines how nutrition
@@ -111,7 +111,7 @@ const Departments = () => {
 
                         <div className="col-sm-6 col-lg-4">
                             <div className="department-item h-100 d-flex flex-column align-items-center">
-                                <i className="icofont-dna-alt-2"></i>
+                                <i className="icofont-doctor"></i>
                                 <h3>Medical Administration</h3>
                                 <p>
                                     Medical Administration is administration or management
@@ -135,7 +135,7 @@ const Departments = () => {
 
                         <div className="col-sm-6 col-lg-4">
                             <div className="department-item h-100 d-flex flex-column align-items-center">
-                                <i className="icofont-surgeon"></i>
+                                <i className="icofont-pills"></i>
                                 <h3>Medical Oncology</h3>
                                 <p>
                                     Medical oncology is a type of cancer care that involves
@@ -158,7 +158,7 @@ const Departments = () => {
 
                         <div className="col-sm-6 col-lg-4">
                             <div className="department-item h-100 d-flex flex-column align-items-center">
-                                <i className="icofont-xray"></i>
+                                <i className="icofont-crutch"></i>
                                 <h3>Medical Social Works</h3>
                                 <p>
                                     MSW are responsible for offering the support and resources
@@ -182,7 +182,7 @@ const Departments = () => {
 
                         <div className="col-sm-6 col-lg-4">
                             <div className="department-item h-100 d-flex flex-column align-items-center">
-                                <i className="icofont-blood-test"></i>
+                                <i className="icofont-test-bottle"></i>
                                 <h3>Microbiology</h3>
                                 <p>
                                     Microbiology is the scientific study of microorganisms, those
@@ -206,7 +206,7 @@ const Departments = () => {
 
                         <div className="col-sm-6 col-lg-4">
                             <div className="department-item h-100 d-flex flex-column align-items-center">
-                                <i className="icofont-ambulance-crescent"></i>
+                                <i className="icofont-patient-bed"></i>
                                 <h3>Nuclear Medicine</h3>
                                 <p>
                                     Nuclear medicine is a specialized area of radiology that uses
@@ -228,7 +228,7 @@ const Departments = () => {
 
                         <div className="col-sm-6 col-lg-4">
                             <div className="department-item h-100 d-flex flex-column align-items-center">
-                                <i className="icofont-baby"></i>
+                                <i className="icofont-nurse"></i>
                                 <h3>Occupational Therapy</h3>
                                 <p>
                                     Occupational therapist help these patients develop, recover,
@@ -249,7 +249,7 @@ const Departments = () => {
                         </div>
                         <div className="col-sm-6 col-lg-4">
                             <div className="department-item h-100 d-flex flex-column align-items-center">
-                                <i className="icofont-baby"></i>
+                                <i className="icofont-prescription"></i>
                                 <h3>Onco-Pathology</h3>
                                 <p>
                                     The department is dedicated to all the histological
@@ -269,7 +269,7 @@ const Departments = () => {
                         </div>
                         <div className="col-sm-6 col-lg-4">
                             <div className="department-item h-100 d-flex flex-column align-items-center">
-                                <i className="icofont-baby"></i>
+                                <i className="icofont-drug-pack"></i>
                                 <h3>Palliative Medicine</h3>
                                 <p>
                                     Palliative care is specialized medical care that focuses on
@@ -310,7 +310,7 @@ const Departments = () => {
                         </div>
                         <div className="col-sm-6 col-lg-4">
                             <div className="department-item h-100 d-flex flex-column align-items-center">
-                                <i className="icofont-baby"></i>
+                                <i className="icofont-autism"></i>
                                 <h3>Physiotherapy</h3>
                                 <p>
                                     Physiotherapy is a health care profession which assists people
@@ -331,7 +331,7 @@ const Departments = () => {
                         </div>
                         <div className="col-sm-6 col-lg-4">
                             <div className="department-item h-100 d-flex flex-column align-items-center">
-                                <i className="icofont-baby"></i>
+                                <i className="icofont-surgeon-alt"></i>
                                 <h3>Preventive Oncology</h3>
                                 <p>
                                     It is an interdisciplinary branch of medical science that aims
@@ -351,7 +351,7 @@ const Departments = () => {
                         </div>
                         <div className="col-sm-6 col-lg-4">
                             <div className="department-item h-100 d-flex flex-column align-items-center">
-                                <i className="icofont-baby"></i>
+                                <i className="icofont-radio-active"></i>
                                 <h3>Radiation Oncology</h3>
                                 <p>
                                     Radiation oncologists who specialize in treating cancer with
@@ -371,7 +371,7 @@ const Departments = () => {
                         </div>
                         <div className="col-sm-6 col-lg-4">
                             <div className="department-item h-100 d-flex flex-column align-items-center">
-                                <i className="icofont-baby"></i>
+                                <i className="icofont-surgeon"></i>
                                 <h3>Surgical Oncology</h3>
                                 <p>
                                     Surgical Oncology is a discipline of medicine committed to
@@ -391,7 +391,7 @@ const Departments = () => {
                         </div>
                         <div className="col-sm-6 col-lg-4">
                             <div className="department-item h-100 d-flex flex-column align-items-center">
-                                <i className="icofont-baby"></i>
+                                <i className="icofont-blood-drop"></i>
                                 <h3>Transfusion Medicine</h3>
                                 <p>
                                     Transfusion medicine is the branch of medicine that is
