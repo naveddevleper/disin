@@ -103,12 +103,12 @@ const Services = () => {
           <div className="col-sm-6 col-lg-3">
             <div className="service-item h-100">
               <div className="service-front">
-                <i className="icofont-drug"></i>
+                <i className="icofont-laboratory"></i>
                 <h3>Biochemistry</h3>
               </div>
 
               <div className="service-end">
-                <i className="icofont-drug"></i>
+                <i className="icofont-laboratory"></i>
                 <h3>Biochemistry</h3>
                 <p>
                   The study of biological processes at the cellular and
@@ -121,13 +121,13 @@ const Services = () => {
           <div className="col-sm-6 col-lg-3">
             <div className="service-item h-100">
               <div className="service-front">
-                <i className="icofont-dna-alt-1"></i>
-                <h3>Emergency Laboratory</h3>
+                <i className="icofont-ambulance-cross"></i>
+                <h3>Emergency</h3>
               </div>
 
               <div className="service-end">
-                <i className="icofont-dna-alt-1"></i>
-                <h3>Emergency Laboratory</h3>
+                <i className="icofont-ambulance-cross"></i>
+                <h3>Emergency</h3>
                 <p>
                   A part of a hospital that provides 24-hour emergency care to
                   patients who need urgent medical attention.
@@ -136,15 +136,15 @@ const Services = () => {
             </div>
           </div>
 
-          <div className="col-sm-6 col-lg-3">
+          {/* <div className="col-sm-6 col-lg-3">
             <div className="service-item h-100">
               <div className="service-front">
-                <i className="icofont-ambulance-cross"></i>
+                <i className="icofont-doctor-alt"></i>
                 <h3>Histopathology</h3>
               </div>
 
               <div className="service-end">
-                <i className="icofont-ambulance-cross"></i>
+                <i className="icofont-doctor-alt"></i>
                 <h3>Histopathology</h3>
                 <p>
                   Histopathology is the diagnosis and study of diseases of the
@@ -153,17 +153,17 @@ const Services = () => {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div className="col-sm-6 col-lg-3">
             <div className="service-item h-100">
               <div className="service-front">
-                <i className="icofont-doctor"></i>
+                <i className="icofont-molecule"></i>
                 <h3>Molecular Pathology</h3>
               </div>
 
               <div className="service-end">
-                <i className="icofont-doctor"></i>
+                <i className="icofont-molecule"></i>
                 <h3>Molecular Pathology</h3>
                 <p>
                   Molecular pathology which is focused in the study of disease
@@ -173,7 +173,7 @@ const Services = () => {
             </div>
           </div>
 
-          <div className="col-sm-6 col-lg-3">
+          {/* <div className="col-sm-6 col-lg-3">
             <div className="service-item h-100">
               <div className="service-front">
                 <i className="icofont-prescription"></i>
@@ -189,7 +189,7 @@ const Services = () => {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div className="col-sm-6 col-lg-3">
             <div className="service-item h-100">
@@ -202,8 +202,8 @@ const Services = () => {
                 <i className="icofont-patient-file"></i>
                 <h3>Microbiology / Serology</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod
+                  The scientific study of microorganisms.
+                  It encompasses numerous sub-disciplines including virology, bacteriology, protistology
                 </p>
               </div>
             </div>
@@ -212,34 +212,16 @@ const Services = () => {
           <div className="col-sm-6 col-lg-3">
             <div className="service-item h-100">
               <div className="service-front">
-                <i className="icofont-tooth"></i>
-                <h3>Molecular Diagnostics</h3>
-              </div>
-
-              <div className="service-end">
-                <i className="icofont-tooth"></i>
-                <h3>Molecular Diagnostics</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-sm-6 col-lg-3">
-            <div className="service-item h-100">
-              <div className="service-front">
-                <i className="icofont-heart-beat-alt"></i>
+                <i className="icofont-blood-drop"></i>
                 <h3>Transfusion Medicine</h3>
               </div>
 
               <div className="service-end">
-                <i className="icofont-heart-beat-alt"></i>
+                <i className="icofont-blood-drop"></i>
                 <h3>Transfusion Medicine</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod
+                  This branch of medicine is concerned with the process of
+                  collecting, testing, processing, storing, & transfusing blood & its components.
                 </p>
               </div>
             </div>
@@ -248,12 +230,12 @@ const Services = () => {
           <div className="col-sm-6 col-lg-3">
             <div className="service-item h-100">
               <div className="service-front">
-                <i className="icofont-drug"></i>
+                <i className="icofont-xray"></i>
                 <h3>Radiodiagnosis</h3>
               </div>
 
               <div className="service-end">
-                <i className="icofont-drug"></i>
+                <i className="icofont-xray"></i>
                 <h3>Radiodiagnosis</h3>
                 <p>
                   A branch of medicine that uses imaging technology to diagnose

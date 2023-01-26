@@ -13,7 +13,7 @@ const options = {
     autoplay: true,
     autoplayTimeout: 4000,
     autoplayHoverPause: true,
-    autoplaySpeed:true,
+    autoplaySpeed: true,
     navText: [
         "<i class='icofont-simple-left'></i>",
         "<i class='icofont-simple-right'></i>"
@@ -49,25 +49,10 @@ const HeroSlider = () => {
                         </div>
                     </div>
                 </div>
-                
-                
 
-                <div className="slider-item slider-item-img">
-                    <div className="d-table">
-                        <div className="d-table-cell">
-                            <div className="container">
-                                <div className="slider-text">
-                                    <div className="slider-shape">
-                                        <img src="/images/home-one/home-slider1.png" alt="Shape" />
-                                    </div>
 
-                                    <h1>Exceptional Health Care for Woman</h1>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
+
 
                 <div className="slider-item slider-item-img">
                     <div className="d-table">
@@ -78,7 +63,8 @@ const HeroSlider = () => {
                                         <img src="/images/home-one/home-slider2.png" alt="Shape" />
                                     </div>
                                     <h1>Caring Health is Important Than All</h1>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                                    <p>I can and I will. There's no other option. Tell yourself this affirmation every day - through treatments, doctors visits,
+                                        and whatever else comes your way.</p>
                                 </div>
                             </div>
                         </div>
@@ -94,7 +80,26 @@ const HeroSlider = () => {
                                         <img src="/images/home-one/home-slider3.png" alt="Shape" />
                                     </div>
                                     <h1>We Offer Highly Treatments</h1>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                                    <p>"Once you choose hope, anything's possible."<br></br>
+
+                                        "One day at a time, one step at a time. Do what you can, do your best. Let God handle the rest."</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="slider-item slider-item-img">
+                    <div className="d-table">
+                        <div className="d-table-cell">
+                            <div className="container">
+                                <div className="slider-text">
+                                    <div className="slider-shape">
+                                        <img src="/images/home-one/home-slider1.png" alt="Shape" />
+                                    </div>
+
+                                    <h1>Exceptional Health Care for all Cancer Patients</h1>
+                                    <p>Life is not measured by the number of breaths we take, but by the moments that take our breath away.</p>
                                 </div>
                             </div>
                         </div>
