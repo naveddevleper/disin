@@ -71,26 +71,27 @@ const Footer = () => {
             <div className="col-sm-6 col-lg-3">
               <div className="footer-item">
                 <div className="footer-quick">
-                  <h3>Our Services</h3>
+                  <h3>Global Navigation</h3>
                   <ul>
                     <li>
                       <Link href="/service-details">
-                        <a>Dental Care</a>
+                        <a>Gallery</a>
                       </Link>
                     </li>
                     <li>
                       <Link href="/service-details">
-                        <a>Cardiology</a>
+                        <a>
+                          Policies & Terms of Use</a>
                       </Link>
                     </li>
                     <li>
                       <Link href="/service-details">
-                        <a>Hijama Therapy</a>
+                        <a>How To Help Us</a>
                       </Link>
                     </li>
                     <li>
                       <Link href="/service-details">
-                        <a>Massage Therapy</a>
+                        <a>Site Map</a>
                       </Link>
                     </li>
                   </ul>
