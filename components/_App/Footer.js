@@ -18,7 +18,7 @@ const Footer = () => {
                       <a>
                         For Patient care & queries
                       </a>
-                      <a href="mailto:hello@disin.com">ams@mpmmcc.tmc.gov.in</a>
+                      <a href="mailto:ams@mpmmcc.tmc.gov.in">ams@mpmmcc.tmc.gov.in</a>
                     </li>
                     <li>
                       <i className="icofont-stock-mobile"></i>
