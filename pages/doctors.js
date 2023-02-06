@@ -11,14 +11,14 @@ const Doctors = () => {
             <TopHeader />
 
             <Navbar />
-            
-            <PageBanner 
-                pageTitle="Meet Our Qualified Doctors" 
-                homePageUrl="/" 
-                homePageText="Home" 
-                activePageText="Doctors" 
-                bgImage="page-title-five" 
-            /> 
+
+            <PageBanner
+                pageTitle="Meet Our Qualified Doctors"
+                homePageUrl="/"
+                homePageText="Home"
+                activePageText="Doctors"
+                bgImage="page-banner-mpmmcc"
+            />
 
             <div className="doctor-search-area">
                 <div className="container">
@@ -192,7 +192,7 @@ const Doctors = () => {
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div className="col-sm-6 col-lg-4">
                             <div className="doctor-item">
                                 <div className="doctor-top">

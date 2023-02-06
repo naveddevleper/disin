@@ -18,7 +18,7 @@ const ClinicalServices = () => {
                 homePageUrl="/"
                 homePageText="Home"
                 activePageText="HBCH Services"
-                bgImage="page-title-five"
+                bgImage="page-banner-tmc"
             />
 
             <div className="doctor-details-area pt-100 pb-70">

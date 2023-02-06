@@ -9,17 +9,17 @@ const DoctorDetails = () => {
     return (
         <>
             <TopHeader />
-            
+
             <Navbar />
 
-            <PageBanner 
-                pageTitle="Dr. Sarah Taylor (Neurosurgeon)" 
-                homePageUrl="/" 
-                homePageText="Home" 
-                activePageText="Doctor Details" 
-                bgImage="page-title-five" 
-            /> 
- 
+            <PageBanner
+                pageTitle="Dr. Sarah Taylor (Neurosurgeon)"
+                homePageUrl="/"
+                homePageText="Home"
+                activePageText="Doctor Details"
+                bgImage="page-banner-mpmmcc"
+            />
+
             <div className="doctor-details-area pt-100 pb-70">
                 <div className="container">
                     <div className="row">
@@ -103,7 +103,7 @@ const DoctorDetails = () => {
             <div className="pb-100">
                 <AppointmentFormTwo />
             </div>
-    
+
             <Footer />
         </>
     )
