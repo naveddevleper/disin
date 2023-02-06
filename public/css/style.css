@@ -477,7 +477,8 @@ button:focus {
 
 .slider-item .slider-text {
   position: relative;
-  margin-top: -160px;
+  /* margin-top: -160px; */
+  margin-top: -18rem;
   z-index: 5;
 }
 
