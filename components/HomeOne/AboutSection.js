@@ -9,7 +9,7 @@ const AboutSection = () => {
                     <div className="col-lg-6">
                         <div className="about-item">
                             <div className="about-left">
-                                <img src="/images/home-one/MPMMMC.jpg" alt="Home Logo" />
+                                <img src="/images/MPMMCC-1.webp" alt="Home Logo" />
                             </div>
                         </div>
                     </div>
@@ -19,7 +19,7 @@ const AboutSection = () => {
                             <img src="/images/about-shape1.png" alt="Animation" />
                             <h2>Mahamana Pandit Madan Mohan Malaviya Cancer Centre, Varanasi.</h2>
                             <p>The priorities of a cancer patient remains the cancer treatment. There's a lot of shared decision-making that goes into this.We are being open and transparent with patients about our decisions.</p>
-                            
+
                             <ul>
                                 <li>
                                     <i className="icofont-check-circled"></i>
