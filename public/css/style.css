@@ -2817,6 +2817,12 @@ footer {
   font-size: 48px;
   margin-bottom: 20px;
 }
+.page-title-item h4 {
+  color: #f8f8f8;
+  font-weight: 700;
+  /* font-size: 48px;
+  margin-bottom: 20px; */
+}
 
 .page-title-item ul {
   margin: 0;
