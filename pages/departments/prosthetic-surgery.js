@@ -26,7 +26,7 @@ const ProstheticSurgery = () => {
           <div className="row">
             <div className="col-lg-5">
               <div className="doctor-details-item doctor-details-left">
-                <img src="/images/doctors/doctor3.jpg" alt="Doctor" />
+                <img src="/images/departments/image-15.png" alt="Doctor" />
 
                 <div className="doctor-details-contact">
                   <h3>Contact info</h3>
@@ -52,16 +52,13 @@ const ProstheticSurgery = () => {
                     <div className="appointment-item-content">
                       <ul>
                         <li>
-                          Monday <span>9:00 AM - 8:00 PM</span>
+                          Monday - Friday <span>9:00 AM - 5:00 PM</span>
                         </li>
                         <li>
-                          Tuesday <span>9:00 AM - 8:00 PM</span>
+                          Saturday <span>9:00 AM - 2:00 PM</span>
                         </li>
                         <li>
-                          Wednesday <span>9:00 AM - 8:00 PM</span>
-                        </li>
-                        <li>
-                          Sunday <span>9:00 AM - 8:00 PM</span>
+                          Sunday <span>Weekoff</span>
                         </li>
                       </ul>
                     </div>
@@ -118,7 +115,7 @@ const ProstheticSurgery = () => {
 
                       <li>
                         The department is in the process of starting intraoral
-                        implant system for Head &amp; Neck cancer patients.{" "}
+                        implant system for Head &amp; Neck cancer patients.
                       </li>
                     </ul>
                   </div>
@@ -137,12 +134,12 @@ const ProstheticSurgery = () => {
                       <li>Number of teeth extraction done: 693</li>
 
                       <li>
-                        Number of patients undergoing oral prophylaxis: 192{" "}
+                        Number of patients undergoing oral prophylaxis: 192
                       </li>
 
                       <li>
                         Number of patients undergoing Fluoride Gel Application
-                        (FGA): 197{" "}
+                        (FGA): 197
                       </li>
 
                       <li>Number of restorations done: 17 </li>
@@ -164,7 +161,7 @@ const ProstheticSurgery = () => {
                     <p align="justify">
                       <strong>
                         <u>Publication:</u>
-                      </strong>{" "}
+                      </strong>
                       One
                     </p>
                     <p align="justify">
@@ -190,7 +187,7 @@ const ProstheticSurgery = () => {
                         <tr></tr>
                         <tr>
                           <td scope="col">
-                            <strong>Professor</strong>{" "}
+                            <strong>Professor</strong>
                           </td>
                           <td scope="col">Dr. Lokendra Gupta </td>
                         </tr>

@@ -26,7 +26,7 @@ const PediatricOncology = () => {
                     <div className="row">
                         <div className="col-lg-5">
                             <div className="doctor-details-item doctor-details-left">
-                                <img src="/images/doctors/doctor3.jpg" alt="Doctor" />
+                                <img src="/images/departments/image-12.png" alt="Doctor" />
 
                                 <div className="doctor-details-contact">
                                     <h3>Contact info</h3>
@@ -51,10 +51,15 @@ const PediatricOncology = () => {
                                     <div className="appointment-item-two-right">
                                         <div className="appointment-item-content">
                                             <ul>
-                                                <li>Monday <span>9:00 AM - 8:00 PM</span></li>
-                                                <li>Tuesday <span>9:00 AM - 8:00 PM</span></li>
-                                                <li>Wednesday <span>9:00 AM - 8:00 PM</span></li>
-                                                <li>Sunday <span>9:00 AM - 8:00 PM</span></li>
+                                                <li>
+                                                    Monday - Friday <span>9:00 AM - 5:00 PM</span>
+                                                </li>
+                                                <li>
+                                                    Saturday <span>9:00 AM - 2:00 PM</span>
+                                                </li>
+                                                <li>
+                                                    Sunday <span>Weekoff</span>
+                                                </li>
                                             </ul>
                                         </div>
                                     </div>

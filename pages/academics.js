@@ -20,7 +20,7 @@ const Academics = () => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="About"
-        bgImage="page-title-one"
+        bgImage="page-banner-mpmmcc"
       />
 
       <div className="about-area pt-100 pb-70">
@@ -144,13 +144,13 @@ const Academics = () => {
                       </th>
                     </tr>
                   </thead>
-                    <tr>
-                      <th scope="row"></th>
-                      <th scope="row">2018 (No. of patients)</th>
-                      <th scope="row">2019 (No. of patients)</th>
-                      <th scope="row">2020 (No. of patients)</th>
-                      <th scope="row">2021 (No. of patients)</th>
-                    </tr>
+                  <tr>
+                    <th scope="row"></th>
+                    <th scope="row">2018 (No. of patients)</th>
+                    <th scope="row">2019 (No. of patients)</th>
+                    <th scope="row">2020 (No. of patients)</th>
+                    <th scope="row">2021 (No. of patients)</th>
+                  </tr>
                   <tbody>
                     <tr>
                       <th scope="row">No. of New Patients Receiving Radiotherapy </th>
@@ -186,7 +186,7 @@ const Academics = () => {
                   </tbody>
                 </table>
 
-                
+
               </div>
             </div>
           </div>

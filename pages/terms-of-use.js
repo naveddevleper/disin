@@ -21,7 +21,7 @@ const TermsOfUse = () => {
                 homePageUrl="/"
                 homePageText="Home"
                 activePageText="Privacy Policy & Terms Of Use"
-                bgImage="page-title-one"
+                bgImage="page-banner-mpmmcc"
             />
 
             <div className="about-area pt-2 pb-70">

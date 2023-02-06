@@ -14,13 +14,13 @@ const Testimonials = () => {
 
             <Navbar />
 
-            <PageBanner 
-                pageTitle="Testimonials" 
-                homePageUrl="/" 
-                homePageText="Home" 
-                activePageText="Testimonials" 
-                bgImage="page-title-one" 
-            /> 
+            <PageBanner
+                pageTitle="Testimonials"
+                homePageUrl="/"
+                homePageText="Home"
+                activePageText="Testimonials"
+                bgImage="page-banner-mpmmcc"
+            />
 
             <div className="pt-100">
                 <OurExpertise />

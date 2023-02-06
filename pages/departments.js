@@ -17,7 +17,7 @@ const Departments = () => {
                 homePageUrl="/"
                 homePageText="Home"
                 activePageText="Departments"
-                bgImage="page-title-one"
+                bgImage="page-banner-mpmmcc"
             />
 
             <div className="departments-area pt-100 pb-70">

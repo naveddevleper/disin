@@ -21,10 +21,10 @@ const About = () => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="About"
-        bgImage="page-title-one"
+        bgImage="page-banner-mpmmcc"
       />
 
-<Stats />
+      <Stats />
 
       <div className="about-area pt-100 pb-70">
         <div className="container">

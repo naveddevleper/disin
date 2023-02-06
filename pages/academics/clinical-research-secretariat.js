@@ -16,7 +16,7 @@ const ClinicalResearchSecretariat = () => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="About"
-        bgImage="page-title-one"
+        bgImage="page-banner-mpmmcc"
       />
 
       <div className="about-area pt-100 pb-70">
@@ -68,7 +68,7 @@ const ClinicalResearchSecretariat = () => {
                   Phone No.: 0542-2517699 Extn: 1161 / 1162
                 </p>
                 <p>
-                LIST OF ONGOING PROJECTS AT HBCH/MPMMCC, VARANASI   <strong><a className="outline-none bg-transparent text-primary" href="https://tmc.gov.in/tmh/PDF/varanasi/List%20of%20Ongoing%20Projects.pdf" target="_blank">Plese Click here to know more...</a></strong>
+                  LIST OF ONGOING PROJECTS AT HBCH/MPMMCC, VARANASI   <strong><a className="outline-none bg-transparent text-primary" href="https://tmc.gov.in/tmh/PDF/varanasi/List%20of%20Ongoing%20Projects.pdf" target="_blank">Plese Click here to know more...</a></strong>
                 </p>
               </div>
             </div>

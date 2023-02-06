@@ -13,21 +13,21 @@ const Contact = () => {
             <TopHeader />
 
             <Navbar />
-            
-            <PageBanner 
-                pageTitle="Contact Us" 
-                homePageUrl="/" 
-                homePageText="Home" 
-                activePageText="Contact Us" 
-                bgImage="page-title-one" 
-            /> 
+
+            <PageBanner
+                pageTitle="Contact Us"
+                homePageUrl="/"
+                homePageText="Home"
+                activePageText="Contact Us"
+                bgImage="page-banner-mpmmcc"
+            />
 
             <ContactInfo />
 
             <ContactForm />
 
             <GoogleMap />
-        
+
             <Footer />
         </>
     )

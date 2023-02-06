@@ -17,20 +17,20 @@ const Faq = () => {
             <TopHeader />
 
             <Navbar />
-            
-            <PageBanner 
-                pageTitle="FAQ's" 
-                homePageUrl="/" 
-                homePageText="Home" 
-                activePageText="Faq" 
-                bgImage="page-title-one" 
-            /> 
+
+            <PageBanner
+                pageTitle="FAQ's"
+                homePageUrl="/"
+                homePageText="Home"
+                activePageText="Faq"
+                bgImage="page-banner-mpmmcc"
+            />
 
             <div className="ptb-100">
                 <div className="container">
                     <div className="faq-content">
                         <h2>Dental Care</h2>
-                    
+
                         <Accordion allowZeroExpanded preExpanded={['a']}>
                             <AccordionItem uuid="a">
                                 <AccordionItemHeading>
@@ -111,7 +111,7 @@ const Faq = () => {
 
                     <div className="faq-content">
                         <h2>Cardiology</h2>
-                    
+
                         <Accordion allowZeroExpanded preExpanded={['a']}>
                             <AccordionItem uuid="a">
                                 <AccordionItemHeading>
@@ -192,7 +192,7 @@ const Faq = () => {
 
                     <div className="faq-content">
                         <h2>Diagnosis</h2>
-                    
+
                         <Accordion allowZeroExpanded preExpanded={['a']}>
                             <AccordionItem uuid="a">
                                 <AccordionItemHeading>
@@ -272,7 +272,7 @@ const Faq = () => {
                     </div>
                 </div>
             </div>
- 
+
             <Footer />
         </>
     )

@@ -22,7 +22,7 @@ const HBCHVaranasi = () => {
         homePageUrl="/"
         homePageText="Home"
         activePageText=" HBCH"
-        bgImage="page-title-one"
+        bgImage="page-banner-tmc"
       />
 
       <div className="about-area pt-100 pb-70">
@@ -61,9 +61,6 @@ const HBCHVaranasi = () => {
                         <li>
                           Saturday <span>9:00 AM - 2:00 PM</span>
                         </li>
-                        {/* <li>
-                          Wednesday <span>9:00 AM - 8:00 PM</span>
-                        </li> */}
                         <li>
                           Sunday <span>Weekoff</span>
                         </li>

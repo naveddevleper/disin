@@ -65,7 +65,7 @@ const AncillaryServices = () => {
                                                     <td>
                                                         <p>
                                                             1. Pre-op Pulmonary Rehabilitation<br></br>2.
-                                                            Post-operative counselling for Breast Cancer{" "}
+                                                            Post-operative counselling for Breast Cancer
                                                             <br></br>3. Geriatric Physiotherapy Services for
                                                             Oncology Patients<br></br>4. Physiotherapy in
                                                             restricted mobility<br></br>5. Pelvic floor

@@ -35,7 +35,7 @@ const Navbar = () => {
             <div className={`${styles.heroLogo}`}>
               <Link href="/">
                 <a onClick={toggleNavbar} className="navbar-brand">
-                  <img className="w-25" src="/images/logo.png" alt="logo" />
+                  <img className="w-25" src="/images/logo-1.png" alt="logo" />
                 </a>
               </Link>
             </div>

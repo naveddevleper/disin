@@ -11,13 +11,13 @@ const SignIn = () => {
             <TopHeader />
 
             <Navbar />
-            
-            <PageBanner 
-                pageTitle="Sign In" 
-                homePageUrl="/" 
-                homePageText="Home" 
-                activePageText="Sign In" 
-                bgImage="page-title-one" 
+
+            <PageBanner
+                pageTitle="Sign In"
+                homePageUrl="/"
+                homePageText="Home"
+                activePageText="Sign In"
+                bgImage="page-banner-mpmmcc"
             />
 
             <div className="signup-area ptb-100">
@@ -80,7 +80,7 @@ const SignIn = () => {
                     </div>
                 </div>
             </div>
- 
+
             <Footer />
         </>
     )

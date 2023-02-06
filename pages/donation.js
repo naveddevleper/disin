@@ -21,7 +21,7 @@ const Donation = () => {
                 homePageUrl="/"
                 homePageText="Home"
                 activePageText="Donation To MPMMCC"
-                bgImage="page-title-one"
+                bgImage="page-banner-mpmmcc"
             />
 
             <div className="about-area pt-4 pb-70">

@@ -10,15 +10,15 @@ const Appointment = () => {
             <TopHeader />
 
             <Navbar />
-            
-            <PageBanner 
-                pageTitle="Appointment" 
-                homePageUrl="/" 
-                homePageText="Home" 
-                activePageText="Appointment" 
-                bgImage="page-title-one" 
-            /> 
-            
+
+            <PageBanner
+                pageTitle="Appointment"
+                homePageUrl="/"
+                homePageText="Home"
+                activePageText="Appointment"
+                bgImage="page-banner-mpmmcc"
+            />
+
             <div className="appointment-area-two ptb-100">
                 <div className="container">
                     <div className="row align-items-center appointment-wrap-two">

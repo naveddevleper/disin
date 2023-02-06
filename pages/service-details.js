@@ -10,14 +10,14 @@ const ServiceDetails = () => {
             <TopHeader />
 
             <Navbar />
-            
-            <PageBanner 
-                pageTitle="Service Details" 
-                homePageUrl="/" 
-                homePageText="Home" 
-                activePageText="Service Details" 
-                bgImage="page-title-one" 
-            /> 
+
+            <PageBanner
+                pageTitle="Service Details"
+                homePageUrl="/"
+                homePageText="Home"
+                activePageText="Service Details"
+                bgImage="page-banner-mpmmcc"
+            />
 
             <div className="service-details-area ptb-100">
                 <div className="container">
@@ -50,7 +50,7 @@ const ServiceDetails = () => {
                     </div>
                 </div>
             </div>
-     
+
             <Footer />
         </>
     )

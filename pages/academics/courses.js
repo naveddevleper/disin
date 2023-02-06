@@ -16,7 +16,7 @@ const Courses = () => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="About"
-        bgImage="page-title-one"
+        bgImage="page-banner-mpmmcc"
       />
 
       <div className="about-area pt-100 pb-70">

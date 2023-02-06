@@ -11,15 +11,15 @@ const SignUp = () => {
             <TopHeader />
 
             <Navbar />
-            
-            <PageBanner 
-                pageTitle="Sign Up" 
-                homePageUrl="/" 
-                homePageText="Home" 
-                activePageText="Sign Up" 
-                bgImage="page-title-one" 
-            /> 
- 
+
+            <PageBanner
+                pageTitle="Sign Up"
+                homePageUrl="/"
+                homePageText="Home"
+                activePageText="Sign Up"
+                bgImage="page-banner-mpmmcc"
+            />
+
             <div className="signup-area ptb-100">
                 <div className="container-fluid">
                     <div className="row">

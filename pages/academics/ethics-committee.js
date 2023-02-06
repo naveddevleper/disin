@@ -16,7 +16,7 @@ const EthicsCommittee = () => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="About"
-        bgImage="page-title-one"
+        bgImage="page-banner-mpmmcc"
       />
 
       <div className="about-area pt-100 pb-70">
@@ -125,31 +125,31 @@ const EthicsCommittee = () => {
                       <td>To initiate and commission research studies on ethical aspects of practice in MPMMCC & HBCH, Varanasi.</td>
                     </tr>
                     <tr>
-                        <th colspan="2">
+                      <th colspan="2">
                         The committee does not address or interfere in matters of administration, nor does the committee function as a grievance cell for staff members.
-                        </th>
+                      </th>
                     </tr>
                   </tbody>
                 </table>
                 <h3>
-                Meeting Schedule:
+                  Meeting Schedule:
                 </h3>
                 <p>
-                IEC, MPMMCC & HBCH will meet on the last Friday of every month at 11.00 a.m. (unless otherwise notified) in the Meeting Room, 1st Floor, DNT Block, Mahamana Pandit Madan Mohan Malaviya Cancer Centre (MPMMCC). 
+                  IEC, MPMMCC & HBCH will meet on the last Friday of every month at 11.00 a.m. (unless otherwise notified) in the Meeting Room, 1st Floor, DNT Block, Mahamana Pandit Madan Mohan Malaviya Cancer Centre (MPMMCC).
                 </p>
                 <h3>
-                IEC processing fees (applicable for all pharmaceutical-sponsored studies)
+                  IEC processing fees (applicable for all pharmaceutical-sponsored studies)
                 </h3>
                 <ol>
-                    <li>
-                    Initial project submission - Rs. 40,000/- + applicable GST 
-                    </li>
-                    <li>
-                    Protocol amendment /revision for ongoing studies - Rs. 10,000/- + applicable GST  
-                    </li>
+                  <li>
+                    Initial project submission - Rs. 40,000/- + applicable GST
+                  </li>
+                  <li>
+                    Protocol amendment /revision for ongoing studies - Rs. 10,000/- + applicable GST
+                  </li>
                 </ol>
                 <p>
-                The fees may be paid online via NEFT transfers, as a cheque or demand draft drawn in favor of <stong>“Homi Bhabha Cancer Hospital, Varanasi.”</stong>
+                  The fees may be paid online via NEFT transfers, as a cheque or demand draft drawn in favor of <stong>“Homi Bhabha Cancer Hospital, Varanasi.”</stong>
                 </p>
               </div>
             </div>

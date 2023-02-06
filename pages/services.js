@@ -2,7 +2,7 @@ import React from 'react';
 import TopHeader from '../components/_App/TopHeader';
 import Navbar from '../components/_App/Navbar';
 import PageBanner from '../components/Common/PageBanner';
- 
+
 import Footer from '../components/_App/Footer';
 import Link from 'next/link';
 
@@ -12,14 +12,14 @@ const Services = () => {
             <TopHeader />
 
             <Navbar />
-            
-            <PageBanner 
-                pageTitle="Services" 
-                homePageUrl="/" 
-                homePageText="Home" 
-                activePageText="Services" 
-                bgImage="page-title-one" 
-            /> 
+
+            <PageBanner
+                pageTitle="Services"
+                homePageUrl="/"
+                homePageText="Home"
+                activePageText="Services"
+                bgImage="page-banner-mpmmcc"
+            />
 
             <div className="services-area pt-100 pb-70">
                 <div className="container">
@@ -73,7 +73,7 @@ const Services = () => {
                                     <i className="icofont-patient-file"></i>
                                     <h3>Pathology</h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
-                                    
+
                                     <Link href="/service-details">
                                         <a>Read More</a>
                                     </Link>
@@ -92,14 +92,14 @@ const Services = () => {
                                     <i className="icofont-tooth"></i>
                                     <h3>Dental Care</h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
-                                    
+
                                     <Link href="/service-details">
                                         <a>Read More</a>
                                     </Link>
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div className="col-sm-6 col-lg-3">
                             <div className="service-item">
                                 <div className="service-front">
@@ -111,7 +111,7 @@ const Services = () => {
                                     <i className="icofont-heart-beat-alt"></i>
                                     <h3>Cardiology</h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
-                                    
+
                                     <Link href="/service-details">
                                         <a>Read More</a>
                                     </Link>
@@ -130,7 +130,7 @@ const Services = () => {
                                     <i className="icofont-drug"></i>
                                     <h3>Medicine</h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
-                                    
+
                                     <Link href="/service-details">
                                         <a>Read More</a>
                                     </Link>
@@ -149,7 +149,7 @@ const Services = () => {
                                     <i className="icofont-dna-alt-1"></i>
                                     <h3>Neurology</h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
-                                    
+
                                     <Link href="/service-details">
                                         <a>Read More</a>
                                     </Link>
@@ -168,7 +168,7 @@ const Services = () => {
                                     <i className="icofont-ambulance-cross"></i>
                                     <h3>Ambulance</h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
-                                    
+
                                     <Link href="/service-details">
                                         <a>Read More</a>
                                     </Link>
@@ -178,7 +178,7 @@ const Services = () => {
                     </div>
                 </div>
             </div>
- 
+
             <div className="expertise-area pb-70">
                 <div className="container">
                     <div className="section-title">
@@ -228,7 +228,7 @@ const Services = () => {
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div className="col-lg-6">
                             <div className="expertise-item">
                                 <div className="expertise-right">
@@ -239,7 +239,7 @@ const Services = () => {
                     </div>
                 </div>
             </div>
-  
+
             <Footer />
         </>
     )
