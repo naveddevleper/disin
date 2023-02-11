@@ -30,7 +30,7 @@ const HBCHVaranasi = () => {
           <div className="row align-items-start">
             <div className="col-lg-6">
               <div className="doctor-details-item doctor-details-left">
-                <img src="/images/HBCH.jpg" alt="Doctor" />
+                <img src="/images/HBCH.webp" alt="Doctor" />
 
                 <div className="doctor-details-contact">
                   <h3>Contact info</h3>
