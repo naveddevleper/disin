@@ -35,7 +35,7 @@ const Navbar = () => {
             <div className={`${styles.heroLogo}`}>
               <Link href="/">
                 <a onClick={toggleNavbar} className="navbar-brand">
-                  <img className="w-25" src="/images/logo-1.png" alt="logo" />
+                  <img className="w-100" src="/images/logo-2.png" alt="logo" />
                 </a>
               </Link>
             </div>
@@ -56,7 +56,7 @@ const Navbar = () => {
             </button>
 
             <div className={classOne} id="navbarSupportedContent">
-              <ul className="navbar-nav">
+              <ul className="navbar-nav" style={{ paddingTop: '10px' }}>
                 <li className="nav-item">
                   <Link href="/hbch-varanasi" activeClassName="active">
                     <a onClick={toggleNavbar} className="nav-link">
