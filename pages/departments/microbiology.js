@@ -26,7 +26,7 @@ const Microbiology = () => {
                     <div className="row">
                         <div className="col-lg-5">
                             <div className="doctor-details-item doctor-details-left">
-                                <img src="/images/departments/micro.png" alt="Doctor" />
+                                <img src="/images/departments/micro.webp" alt="Doctor" />
 
                                 <div className="doctor-details-contact">
                                     <h3>Contact info</h3>

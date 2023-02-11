@@ -26,7 +26,7 @@ const NuclearMedicine = () => {
                     <div className="row">
                         <div className="col-lg-5">
                             <div className="doctor-details-item doctor-details-left">
-                                <img src="/images/departments/nuclear.png" alt="Doctor" />
+                                <img src="/images/departments/nuclear.webp" alt="Doctor" />
 
                                 <div className="doctor-details-contact">
                                     <h3>Contact info</h3>
