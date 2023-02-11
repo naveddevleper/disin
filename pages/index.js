@@ -23,7 +23,6 @@ const Index = () => {
 
             <HeroSlider />
 
-
             <HomeStats />
 
             <TestimonialSlider />
