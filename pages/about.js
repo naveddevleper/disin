@@ -32,7 +32,7 @@ const About = () => {
             <div className="col-lg-6">
               <div className="row about-item">
                 <div className="about-left">
-                  <img src="/images/about1.jpg" alt="About" />
+                  <img src="/images/MPMMCC_about_us.webp" alt="About" />
                 </div>
               </div>
               <div className="row mt-5 pt-2">

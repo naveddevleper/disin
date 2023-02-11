@@ -26,14 +26,14 @@ const Dietetics = () => {
                     <div className="row">
                         <div className="col-lg-5">
                             <div className="doctor-details-item doctor-details-left">
-                                <img src="/images/departments/dietary.png" alt="Doctor" />
+                                <img src="/images/departments/deitary.png" alt="Doctor" />
 
                                 <div className="doctor-details-contact">
                                     <h3>Contact info</h3>
                                     <ul>
                                         <li>
                                             <i className="icofont-ui-call"></i>
-                                            Call: +07 554 332 322
+                                            Call: +91-0542-2575032,35
                                         </li>
                                         <li>
                                             <i className="icofont-ui-message"></i>

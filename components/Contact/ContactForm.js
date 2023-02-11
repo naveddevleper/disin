@@ -65,16 +65,16 @@ const ContactForm = () => {
                                     <div className="row">
                                         <div className="col-lg-6 col-md-6">
                                             <div className="form-group">
-                                                <input 
-                                                    type="text" 
-                                                    name="name" 
-                                                    placeholder="Your Name" 
-                                                    className="form-control" 
+                                                <input
+                                                    type="text"
+                                                    name="name"
+                                                    placeholder="Your Name"
+                                                    className="form-control"
                                                     value={contact.name}
                                                     onChange={handleChange}
                                                     ref={register({ required: true })}
                                                 />
-                                                <div className='invalid-feedback' style={{display: 'block'}}>
+                                                <div className='invalid-feedback' style={{ display: 'block' }}>
                                                     {errors.name && 'Name is required.'}
                                                 </div>
                                             </div>
@@ -82,16 +82,16 @@ const ContactForm = () => {
 
                                         <div className="col-lg-6 col-md-6">
                                             <div className="form-group">
-                                                <input 
-                                                    type="text" 
-                                                    name="email" 
-                                                    placeholder="Your email" 
-                                                    className="form-control" 
+                                                <input
+                                                    type="text"
+                                                    name="email"
+                                                    placeholder="Your email"
+                                                    className="form-control"
                                                     value={contact.email}
                                                     onChange={handleChange}
                                                     ref={register({ required: true, pattern: /^\S+@\S+$/i })}
                                                 />
-                                                <div className='invalid-feedback' style={{display: 'block'}}>
+                                                <div className='invalid-feedback' style={{ display: 'block' }}>
                                                     {errors.email && 'Email is required.'}
                                                 </div>
                                             </div>
@@ -99,16 +99,16 @@ const ContactForm = () => {
 
                                         <div className="col-lg-6 col-md-6">
                                             <div className="form-group">
-                                                <input 
-                                                    type="text" 
-                                                    name="number" 
-                                                    placeholder="Your phone number" 
-                                                    className="form-control" 
+                                                <input
+                                                    type="text"
+                                                    name="number"
+                                                    placeholder="Your phone number"
+                                                    className="form-control"
                                                     value={contact.number}
                                                     onChange={handleChange}
                                                     ref={register({ required: true })}
                                                 />
-                                                <div className='invalid-feedback' style={{display: 'block'}}>
+                                                <div className='invalid-feedback' style={{ display: 'block' }}>
                                                     {errors.number && 'Number is required.'}
                                                 </div>
                                             </div>
@@ -116,16 +116,16 @@ const ContactForm = () => {
 
                                         <div className="col-lg-6 col-md-6">
                                             <div className="form-group">
-                                                <input 
-                                                    type="text" 
-                                                    name="subject" 
-                                                    placeholder="Your Subject" 
-                                                    className="form-control" 
+                                                <input
+                                                    type="text"
+                                                    name="subject"
+                                                    placeholder="Your Subject"
+                                                    className="form-control"
                                                     value={contact.subject}
                                                     onChange={handleChange}
                                                     ref={register({ required: true })}
                                                 />
-                                                <div className='invalid-feedback' style={{display: 'block'}}>
+                                                <div className='invalid-feedback' style={{ display: 'block' }}>
                                                     {errors.subject && 'Subject is required.'}
                                                 </div>
                                             </div>
@@ -133,22 +133,22 @@ const ContactForm = () => {
 
                                         <div className="col-lg-12 col-md-12">
                                             <div className="form-group">
-                                                <textarea 
-                                                    name="text" 
-                                                    cols="30" 
-                                                    rows="5" 
-                                                    placeholder="Write your message..." 
-                                                    className="form-control" 
+                                                <textarea
+                                                    name="text"
+                                                    cols="30"
+                                                    rows="5"
+                                                    placeholder="Write your message..."
+                                                    className="form-control"
                                                     value={contact.text}
                                                     onChange={handleChange}
                                                     ref={register({ required: true })}
                                                 />
-                                                <div className='invalid-feedback' style={{display: 'block'}}>
+                                                <div className='invalid-feedback' style={{ display: 'block' }}>
                                                     {errors.text && 'Text body is required.'}
                                                 </div>
                                             </div>
                                         </div>
-                    
+
                                         <div className="col-lg-12 col-sm-12">
                                             <button type="submit" className="drop-btn">Send Message</button>
                                         </div>
@@ -168,7 +168,7 @@ const ContactForm = () => {
                                 </div>
 
                                 <h3>Emergency Call</h3>
-                                <p>+07 554 332 322</p>
+                                <p>+91-0542-2575032,35</p>
                             </div>
                         </div>
                     </div>

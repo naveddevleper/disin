@@ -34,7 +34,7 @@ const TestimonialSlider = () => {
             <div className="feedback-item shadow p-3 mb-4 bg-white rounded">
               <div className="client-img">
                 <img
-                  className="rounded-circle"
+                  className="rounded-circle object-fit-contain"
                   src="/images/MPMMCC_Director.jpg"
                   alt="MPMMCC Director"
                 />
@@ -50,8 +50,8 @@ const TestimonialSlider = () => {
             <div className="feedback-item shadow p-3 mb-4 bg-white rounded">
               <div className="client-img">
                 <img
-                  className="rounded-circle"
-                  src="/images/TMC_Director.jpg"
+                  className="rounded-circle object-fit-contain"
+                  src="/images/TMC_Director.webp"
                   alt="TMC Director"
                 />
                 <h3>Dr. Rajendra Badwe</h3>

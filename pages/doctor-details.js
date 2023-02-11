@@ -32,11 +32,11 @@ const DoctorDetails = () => {
                                     <ul>
                                         <li>
                                             <i className="icofont-ui-call"></i>
-                                            Call: +07 554 332 322
+                                            Call: +91-0542-2575032,35
                                         </li>
                                         <li>
                                             <i className="icofont-ui-message"></i>
-                                            hello@disin.com
+                                            -
                                         </li>
                                         <li>
                                             <i className="icofont-location-pin"></i>

@@ -33,25 +33,6 @@ const HeroSlider = () => {
                 {...options}
             >
 
-                {/* <div className="slider-item slider-item-two slider-item-img-five">
-                    <div className="d-table">
-                        <div className="d-table-cell">
-                            <div className="container">
-                                <div className="slider-text">
-                                    <div className="slider-shape">
-                                        <img className='w-50' src="/images/covid-circle-image.png" alt="Shape" />
-                                    </div>
-
-                                    <h1>CANCER IS CURABLE IF DETECTED EARLY</h1>
-                                    <p>Surviving a day with Cancer is an achievement, so hold on and make your way out of it like a fighter.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
-
-
-
                 <div className="slider-item slider-item-img">
                     <div className="d-table">
                         <div className="d-table-cell">
@@ -60,7 +41,7 @@ const HeroSlider = () => {
                                     <div className="slider-shape-two">
                                         <img src="/images/slider-1.png" alt="Shape" />
                                     </div>
-                                    <h1>CANCER IS CURABLE IF DETECTED EARLY</h1>
+                                    <h1>CANCER IS CURABLE, IF DETECTED EARLY</h1>
                                     <p>Surviving a day with Cancer is an achievement, so hold on and make your way out of it like a fighter.</p>
                                 </div>
                             </div>
@@ -74,7 +55,7 @@ const HeroSlider = () => {
                             <div className="container">
                                 <div className="slider-text">
                                     <div className="slider-shape-two">
-                                        <img src="/images/slider-2.png" alt="Shape" />
+                                        <img src="/images/slider-2.webp" alt="Shape" />
                                     </div>
                                     <h1>Caring Health is Important Than All</h1>
                                     <p>I can and I will. There's no other option. Tell yourself this affirmation every day - through treatments, doctors visits,
@@ -109,7 +90,7 @@ const HeroSlider = () => {
                             <div className="container">
                                 <div className="slider-text">
                                     <div className="slider-shape">
-                                        <img src="/images/home-one/home-slider1.png" alt="Shape" />
+                                        <img src="/images/slider-4.png" alt="Shape" />
                                     </div>
 
                                     <h1>Exceptional Health Care for all Cancer Patients</h1>

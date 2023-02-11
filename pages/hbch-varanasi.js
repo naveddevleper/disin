@@ -37,11 +37,11 @@ const HBCHVaranasi = () => {
                   <ul>
                     <li>
                       <i className="icofont-ui-call"></i>
-                      Call: +07 554 332 322
+                      Call: 0542 251 7699
                     </li>
                     <li>
                       <i className="icofont-ui-message"></i>
-                      hello@disin.com
+                      ams@mpmmcc.tmc.gov.in
                     </li>
                     <li>
                       <i className="icofont-location-pin"></i>
