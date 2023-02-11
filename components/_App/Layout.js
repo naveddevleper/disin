@@ -11,7 +11,7 @@ const Layout = ({ children }) => {
                 <meta name="description" content="MPMMCC - Mahamana Pandit Madan Mohan Malaviya Cancer Centre" />
                 <meta name="og:title" property="og:title" content="MPMMCC - Mahamana Pandit Madan Mohan Malaviya Cancer Centre"></meta>
                 <meta name="twitter:card" content="MPMMCC - Mahamana Pandit Madan Mohan Malaviya Cancer Centre"></meta>
-                <link rel="canonical" href="https://disin-react.envytheme.com/"></link>
+                <link rel="canonical" href="#"></link>
             </Head>
 
             {children}
