@@ -38,7 +38,7 @@ const HeroSlider = () => {
                         <div className="d-table-cell">
                             <div className="container">
                                 <div className="slider-text">
-                                    <div className="slider-shape-two">
+                                    <div className="slider-shape-one">
                                         <img src="/images/slider-1.png" alt="Shape" />
                                     </div>
                                     <h1>CANCER IS CURABLE, IF DETECTED EARLY</h1>
@@ -89,7 +89,7 @@ const HeroSlider = () => {
                         <div className="d-table-cell">
                             <div className="container">
                                 <div className="slider-text">
-                                    <div className="slider-shape">
+                                    <div className="slider-shape-four">
                                         <img src="/images/slider-4.png" alt="Shape" />
                                     </div>
 
