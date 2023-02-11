@@ -26,7 +26,7 @@ const OncoPathology = () => {
                     <div className="row">
                         <div className="col-lg-5">
                             <div className="doctor-details-item doctor-details-left">
-                                <img src="/images/departments/image-10.png" alt="Doctor" />
+                                <img src="/images/departments/onco.png" alt="Doctor" />
 
                                 <div className="doctor-details-contact">
                                     <h3>Contact info</h3>
