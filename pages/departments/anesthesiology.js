@@ -1,9 +1,7 @@
 import React from "react";
-// import TopHeader from '../components/_App/TopHeader';
 import TopHeader from "../../components/_App/TopHeader";
 import Navbar from "../../components/_App/Navbar";
 import PageBanner from "../../components/Common/PageBanner";
-import AppointmentFormTwo from "../../components/Common/AppointmentFormTwo";
 import Footer from "../../components/_App/Footer";
 
 const Anesthesiology = () => {

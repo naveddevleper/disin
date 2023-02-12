@@ -3,11 +3,6 @@ import TopHeader from "../components/_App/TopHeader";
 import Navbar from "../components/_App/Navbar";
 import PageBanner from "../components/Common/PageBanner";
 import Footer from "../components/_App/Footer";
-import OurExpertise from "../components/HomeTwo/OurExpertise";
-import Services from "../components/HomeOne/Services";
-import TestimonialSlider from "../components/Common/TestimonialSlider";
-import LatestBlogPost from "../components/Common/LatestBlogPost";
-import Stats from '../components/HomeOne/Stats';
 
 const Donation = () => {
     return (
@@ -27,9 +22,6 @@ const Donation = () => {
             <div className="about-area pt-4 pb-70">
                 <div className="container">
                     <div class="row">
-                        {/* <h1 className="text-center">
-                            DONATION TO MPMMCC
-                        </h1> */}
                         <div class="col-md-12">
                             <h3>For donations transferred within India</h3>
                             <table class="table table-hover table-bordered">

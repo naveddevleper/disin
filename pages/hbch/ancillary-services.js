@@ -1,9 +1,7 @@
 import React from "react";
-// import TopHeader from '../components/_App/TopHeader';
 import TopHeader from "../../components/_App/TopHeader";
 import Navbar from "../../components/_App/Navbar";
 import PageBanner from "../../components/Common/PageBanner";
-import AppointmentFormTwo from "../../components/Common/AppointmentFormTwo";
 import Footer from "../../components/_App/Footer";
 
 const AncillaryServices = () => {
@@ -28,9 +26,6 @@ const AncillaryServices = () => {
                             <div className="doctor-details-item">
                                 <div className="doctor-details-right">
                                     <div className="doctor-details-biography">
-                                        {/* <h3 className="text-center">
-                                            CLINICAL SERVICES
-                                        </h3> */}
                                         <table class="table table-hover table-bordered">
                                             <thead>
                                                 <tr>
