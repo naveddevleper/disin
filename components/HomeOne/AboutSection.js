@@ -1,5 +1,5 @@
-import React from 'react';
-import Link from 'next/link';
+import React from "react";
+import Link from "next/link";
 
 const AboutSection = () => {
     return (
@@ -17,8 +17,17 @@ const AboutSection = () => {
                     <div className="col-lg-6">
                         <div className="about-item about-right">
                             <img src="/images/about-shape1.png" alt="Animation" />
-                            <h2>Mahamana Pandit Madan Mohan Malaviya Cancer Centre, Varanasi.</h2>
-                            <p>The priorities of a cancer patient remains the cancer treatment. There's a lot of shared decision-making that goes into this.We are being open and transparent with patients about our decisions.</p>
+                            <h2>
+                                Mahamana Pandit Madan Mohan Malaviya Cancer Centre, Varanasi.
+                            </h2>
+                            <p>
+                                The priorities of a cancer patient remains the cancer treatment.
+                                Dedicated to providing the most advanced and effective
+                                treatments for the cancer,as well as support services to help
+                                patients and their families. There's a lot of shared
+                                decision-making that goes into this.We are being open and
+                                transparent with patients about our decisions.
+                            </p>
 
                             <ul>
                                 <li>
@@ -29,10 +38,10 @@ const AboutSection = () => {
                                     <i className="icofont-check-circled"></i>
                                     Choose Service
                                 </li>
-                                <li>
+                                {/* <li>
                                     <i className="icofont-check-circled"></i>
                                     Send Messege
-                                </li>
+                                </li> */}
                             </ul>
 
                             <Link href="/about">
@@ -43,7 +52,7 @@ const AboutSection = () => {
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default AboutSection;
