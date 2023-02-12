@@ -5001,3 +5001,14 @@ footer {
   color: #344c5d;
 }
 /*# sourceMappingURL=style.css.map */
+.slider-text .img {
+  height: 15rem;
+  width: auto;
+}
+.payment-content {
+  min-height: 50vh;
+}
+.payment-portal-logo {
+  min-width: 50px;
+  min-height: auto;
+}

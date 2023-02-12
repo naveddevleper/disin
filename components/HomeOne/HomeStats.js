@@ -13,29 +13,15 @@ const HomeStats = () => {
                         </div>
                     </div>
 
-                    {/* <div className="col-sm-6 col-md-3 col-lg-3">
+                    <div className="col-sm-6 col-md-3 col-lg-3">
                         <div className="counter-item">
-                            <i className="icofont-people"></i>
-                            <h3><span className="counter">25000</span>+</h3>
-                            <p>Happy Patients</p>
-                        </div>
-                    </div> */}
-
-                    {/* <div className="col-sm-6 col-md-3 col-lg-3">
-                        <div className="counter-item">
-                            <i className="icofont-doctor-alt"></i>
-                            <h3 className="counter">750</h3>
-                            <p>Doctors  & Nurse</p>
+                            {/* <i className="icofont-patient-bed"></i> */}
+                            <h3 className="counter">What's New</h3>
+                            {/* <p>Patients Beds</p> */}
                         </div>
                     </div>
-                     */}
-                    {/* <div className="col-sm-6 col-md-3 col-lg-3">
-                        <div className="counter-item">
-                            <i className="icofont-badge"></i>
-                            <h3 className="counter">18</h3>
-                            <p>Year Experience</p>
-                        </div>
-                    </div> */}
+
+
                 </div>
             </div>
         </div>

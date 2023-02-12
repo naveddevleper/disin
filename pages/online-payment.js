@@ -11,7 +11,21 @@ const OnlinePayment = () => {
 
             <Navbar />
 
-            <div className="container">
+            <div className="container py-3">
+                <div className='row d-flex justify-content-center align-items-center'>
+                    <div className='col-2'>
+                        <img className='payment-portal-logo' src="/images/HBCH_LOGO.webp" alt="HBCH Logo" />
+                    </div>
+                    <div className='col-8 text-center'>
+                        <h1><u>Online Payment Portal</u></h1>
+                    </div>
+                    <div className='col-2'>
+                        <img className='payment-portal-logo' src="/images/logo.webp" alt="MPMMCC Logo" />
+                    </div>
+                </div>
+                <div className='payment-content'>
+
+                </div>
             </div>
 
             <Footer />
