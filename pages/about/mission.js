@@ -29,7 +29,7 @@ const Mission = () => {
                 <p>
                   To provide comprehensive cancer care to one and all, through
                   its motto of excellence in
-                  <strong>service, education and research.</strong>
+                  <strong> service, education and research.</strong>
                 </p>
                 <h2>VISION</h2>
                 <p>
