@@ -3675,6 +3675,7 @@ footer {
   text-align: center;
   border: 1px solid #eee;
   padding: 30px 15px;
+  height: 90%;
 }
 
 .location-wrap .location-item i {
