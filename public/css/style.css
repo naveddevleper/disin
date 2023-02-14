@@ -5013,3 +5013,9 @@ footer {
   min-width: 50px;
   min-height: auto;
 }
+.counter-small {
+  @media (min-width:769px) {
+    min-height: 100px;
+  }
+  
+}

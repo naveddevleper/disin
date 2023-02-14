@@ -21,10 +21,6 @@ const TopHeader = () => {
                                             ams@mpmmcc.tmc.gov.in
                                         </a>
                                     </li>
-                                    {/* <li>
-                                        <i className="icofont-location-pin"></i>
-                                        210-27 Quadra, Canada 
-                                    </li> */}
                                 </ul>
                             </div>
                         </div>
@@ -40,12 +36,12 @@ const TopHeader = () => {
 
                                 <ul>
                                     <li>
-                                        <a href="https://www.facebook.com/" target="_blank">
+                                        <a href="https://www.facebook.com/profile.php?id=100057011783740" target="_blank">
                                             <i className="icofont-facebook"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://twitter.com/" target="_blank">
+                                        <a href="https://twitter.com/TMC_Varanasi" target="_blank">
                                             <i className="icofont-twitter"></i>
                                         </a>
                                     </li>

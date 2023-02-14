@@ -7,7 +7,7 @@ const Contact = () => {
     const [seconds, setSeconds] = React.useState('');
 
     React.useEffect(() => {
-        const interval = setInterval(() => { 
+        const interval = setInterval(() => {
             commingSoonTime();
         }, 1000);
         return () => clearInterval(interval);
@@ -19,9 +19,9 @@ const Contact = () => {
         let now = new Date();
         let nowParse = (Date.parse(now) / 1000);
         let timeLeft = endTimeParse - nowParse;
-        let days = Math.floor(timeLeft / 86400); 
+        let days = Math.floor(timeLeft / 86400);
         let hours = Math.floor((timeLeft - (days * 86400)) / 3600);
-        let minutes = Math.floor((timeLeft - (days * 86400) - (hours * 3600 )) / 60);
+        let minutes = Math.floor((timeLeft - (days * 86400) - (hours * 3600)) / 60);
         let seconds = Math.floor((timeLeft - (days * 86400) - (hours * 3600) - (minutes * 60)));
         if (hours < "10") { hours = "0" + hours; }
         if (minutes < "10") { minutes = "0" + minutes; }
@@ -40,7 +40,7 @@ const Contact = () => {
                             <div className="container">
                                 <div className="coming-text">
                                     <h1>Under Construction...</h1>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea deserunt beatae voluptas, animi harum dolorum totam, praesentium, dolor sint aspernatur perspiciatis iusto labore nulla rerum earum! Sit commodi quia provident!</p>
+                                    <p>Our Website is currently undergoing scheduled maintainance. We should be back shortly.<br></br>Thank you for your patience.</p>
 
                                     <div className="row coming-wrap" id="timer">
                                         <div className="col-6 col-sm-6 col-lg-3">
@@ -75,23 +75,18 @@ const Contact = () => {
 
                                     <ul>
                                         <li>
-                                            <a href="https://www.facebook.com/" target="_blank">
+                                            <a href="https://www.facebook.com/profile.php?id=100057011783740" target="_blank">
                                                 <i className="icofont-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://twitter.com/" target="_blank">
+                                            <a href="https://twitter.com/TMC_Varanasi" target="_blank">
                                                 <i className="icofont-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="https://www.linkedin.com/" target="_blank">
                                                 <i className="icofont-linkedin"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.pinterest.com/" target="_blank">
-                                                <i className="icofont-pinterest"></i>
                                             </a>
                                         </li>
                                     </ul>
