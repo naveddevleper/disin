@@ -474,6 +474,14 @@ button:focus {
   background-color: #0046c0;
   opacity: 0.8;
 }
+@media (max-width: 1023px) {
+  /* .slider-item::before {
+    min-height: 100vh;
+  } */
+  .slider-item-img {
+    min-height: 82vh;
+  }
+}
 
 .slider-item .slider-text {
   position: relative;
@@ -5013,9 +5021,10 @@ footer {
   min-width: 50px;
   min-height: auto;
 }
-.counter-small {
-  @media (min-width:769px) {
-    min-height: 100px;
-  }
-  
+.director-image {
+  object-fit: contain;
+}
+.online-payment-heading * {
+  color: #2f60bd;
+  font-weight: 600;
 }

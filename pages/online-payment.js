@@ -16,7 +16,7 @@ const OnlinePayment = () => {
                     <div className='col-2'>
                         <img className='payment-portal-logo' src="/images/HBCH_LOGO.webp" alt="HBCH Logo" />
                     </div>
-                    <div className='col-8 text-center'>
+                    <div className='col-8 text-center online-payment-heading'>
                         <h4><u>Mahamana Pandit Madan Mohan Malaviya Cancer Centre</u></h4>
                         <h3><u>&</u></h3>
                         <h4><u>Homi Bhabha Cancer Hospital</u></h4>
