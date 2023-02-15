@@ -1,10 +1,11 @@
 import React from "react";
 import Link from "../../utils/ActiveLink";
 import * as styles from "../_App/navbar.module.scss";
+import { useRouter } from "next/router";
 
 const Navbar = () => {
   const [menu, setMenu] = React.useState(true);
-
+  const router = useRouter();
   const toggleNavbar = () => {
     setMenu(!menu);
   };
@@ -35,7 +36,11 @@ const Navbar = () => {
             <div className={`${styles.heroLogo}`}>
               <Link href="/">
                 <a onClick={toggleNavbar} className="navbar-brand">
-                  <img className="w-100" src="/images/logo-2.webp" alt="logo" />
+                  {router.pathname.includes('/hbch') ?
+                    <img className="w-100" src="/images/HBCH-logo.webp" alt="logo" />
+                    : <img className="w-100" src="/images/logo-2.webp" alt="logo" />
+                  }
+                  {/* <img className="w-100" src="/images/logo-2.webp" alt="logo" /> */}
                 </a>
               </Link>
             </div>
