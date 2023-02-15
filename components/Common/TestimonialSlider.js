@@ -1,5 +1,6 @@
 import React from "react";
 import dynamic from "next/dynamic";
+import Link from "next/link";
 const OwlCarousel = dynamic(import("react-owl-carousel3"));
 
 const options = {
@@ -39,19 +40,26 @@ const TestimonialSlider = () => {
                   alt="MPMMCC Director"
                 />
                 <h3>Dr. Satyajit Pradhan</h3>
-                <h6>Director MPMMCC</h6>
+                <h6>Director MPMMCC & HBCH</h6>
               </div>
             </div>
 
             <div className="feedback-item shadow p-3 mb-4 bg-white rounded">
               <div className="client-img">
-                <img
-                  className="rounded-circle director-image"
-                  src="/images/TMC_Director.webp"
-                  alt="TMC Director"
-                />
-                <h3>Dr. Rajendra Badwe</h3>
-                <h6>Director TMC</h6>
+                <Link
+                  href="https://tmc.gov.in/index.php/en/about-us"
+                >
+                  <a>
+                    <img
+                      className="rounded-circle director-image"
+                      src="/images/TMC_Director.webp"
+                      alt="TMC Director"
+                    />
+                    <h3>Dr. Rajendra Badwe</h3>
+                    <h6>Director TMC</h6>
+                  </a>
+
+                </Link>
               </div>
             </div>
           </OwlCarousel>
