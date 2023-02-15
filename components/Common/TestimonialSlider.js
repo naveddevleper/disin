@@ -41,10 +41,6 @@ const TestimonialSlider = () => {
                 <h3>Dr. Satyajit Pradhan</h3>
                 <h6>Director MPMMCC</h6>
               </div>
-              <p>
-                Uttar Pradesh, with nearly 20 crore population, is the most
-                populous state in the country.
-              </p>
             </div>
 
             <div className="feedback-item shadow p-3 mb-4 bg-white rounded">
@@ -57,10 +53,6 @@ const TestimonialSlider = () => {
                 <h3>Dr. Rajendra Badwe</h3>
                 <h6>Director TMC</h6>
               </div>
-              <p>
-                I take over as Dr K.A. Dinshaw superannuates after an
-                illustrious career of 13 years.
-              </p>
             </div>
           </OwlCarousel>
         ) : (
