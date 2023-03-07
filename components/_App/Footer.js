@@ -145,7 +145,7 @@ const Footer = () => {
             <p>
               Copyright &copy; {currentYear} Design & Developed by{" "}
               <a href="#" target="_blank">
-                Naved Ahamad
+                Naved 
 
               </a>
             </p>
