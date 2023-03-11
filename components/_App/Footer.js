@@ -145,7 +145,7 @@ const Footer = () => {
             <p>
               Copyright &copy; {currentYear} Design & Developed by{" "}
               <a href="https://mybrandmanagers.com" target="_blank">
-                mybrandmanagers 
+                mybrandmanagerss
 
               </a>
             </p>
