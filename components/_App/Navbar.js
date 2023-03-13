@@ -63,11 +63,19 @@ const Navbar = () => {
             <div className={classOne} id="navbarSupportedContent">
               <ul className="navbar-nav" style={{ paddingTop: '10px' }}>
                 <li className="nav-item">
-                  <Link href="/hbch-varanasi" activeClassName="active">
-                    <a onClick={toggleNavbar} className="nav-link">
-                      HBCH
-                    </a>
-                  </Link>
+                  {router.pathname.includes('/hbch') ?
+                    <Link href="/" activeClassName="active">
+                      <a onClick={toggleNavbar} className="nav-link">
+                        MMCC
+                      </a>
+                    </Link>
+                    :
+                    <Link href="/hbch-varanasi" activeClassName="active">
+                      <a onClick={toggleNavbar} className="nav-link">
+                        HBCH
+                      </a>
+                    </Link>
+                  }
                 </li>
 
                 <li className="nav-item">

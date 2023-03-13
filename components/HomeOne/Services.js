@@ -10,7 +10,7 @@ const Services = () => {
         </div>
 
         <div className="row gy-4">
-          <div className="col-sm-6 col-lg-3">
+          {/* <div className="col-sm-6 col-lg-3">
             <div className="service-item h-100">
               <div className="service-front">
                 <i className="icofont-doctor"></i>
@@ -134,7 +134,7 @@ const Services = () => {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* <div className="col-sm-6 col-lg-3">
             <div className="service-item h-100">
@@ -154,7 +154,7 @@ const Services = () => {
               </div>
             </div>
           </div> */}
-
+          {/* 
           <div className="col-sm-6 col-lg-3">
             <div className="service-item h-100">
               <div className="service-front">
@@ -171,7 +171,7 @@ const Services = () => {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* <div className="col-sm-6 col-lg-3">
             <div className="service-item h-100">
@@ -194,17 +194,33 @@ const Services = () => {
           <div className="col-sm-6 col-lg-3">
             <div className="service-item h-100">
               <div className="service-front">
+                {/* <i className="icofont-patient-file"></i> */}
+                <i class="icofont-medical-sign"></i>
+                <h3>Clinical Services</h3>
+              </div>
+
+              <div className="service-end">
+                {/* <i className="icofont-patient-file"></i> */}
+                <i class="icofont-medical-sign"></i>
+                <h3>Clinical Services</h3>
+                <a href="/hbch/clinical-services">Know More</a>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-sm-6 col-lg-3">
+            <div className="service-item h-100">
+              <div className="service-front">
+                {/* <i className="icofont-blood-drop"></i> */}
                 <i className="icofont-patient-file"></i>
-                <h3>Microbiology / Serology</h3>
+                <h3>Diagnostic Services</h3>
               </div>
 
               <div className="service-end">
+                {/* <i className="icofont-blood-drop"></i> */}
                 <i className="icofont-patient-file"></i>
-                <h3>Microbiology / Serology</h3>
-                <p>
-                  The scientific study of microorganisms.
-                  It encompasses numerous sub-disciplines including virology, bacteriology, protistology
-                </p>
+                <h3>Diagnostic Services</h3>
+                <a href="/hbch/diagnostic-services">Know More</a>
               </div>
             </div>
           </div>
@@ -212,17 +228,16 @@ const Services = () => {
           <div className="col-sm-6 col-lg-3">
             <div className="service-item h-100">
               <div className="service-front">
-                <i className="icofont-blood-drop"></i>
-                <h3>Transfusion Medicine</h3>
+                {/* <i className="icofont-xray"></i> */}
+                <i class="icofont-surgeon"></i>
+                <h3>Ancillary Services</h3>
               </div>
 
               <div className="service-end">
-                <i className="icofont-blood-drop"></i>
-                <h3>Transfusion Medicine</h3>
-                <p>
-                  This branch of medicine is concerned with the process of
-                  collecting, testing, processing, storing, & transfusing blood & its components.
-                </p>
+                {/* <i className="icofont-xray"></i> */}
+                <i class="icofont-surgeon"></i>
+                <h3>Ancillary Services</h3>
+                <a href="/hbch/ancillary-services">Know More</a>
               </div>
             </div>
           </div>
@@ -230,34 +245,16 @@ const Services = () => {
           <div className="col-sm-6 col-lg-3">
             <div className="service-item h-100">
               <div className="service-front">
-                <i className="icofont-xray"></i>
-                <h3>Radiodiagnosis</h3>
+                {/* <i className="icofont-dna-alt-1"></i> */}
+                <i class="icofont-live-support"></i>
+                <h3>Administrative Service</h3>
               </div>
 
               <div className="service-end">
-                <i className="icofont-xray"></i>
-                <h3>Radiodiagnosis</h3>
-                <p>
-                  A branch of medicine that uses imaging technology to diagnose
-                  and treat disease.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-sm-6 col-lg-3">
-            <div className="service-item h-100">
-              <div className="service-front">
-                <i className="icofont-dna-alt-1"></i>
-                <h3>Bone Marrow Transplant</h3>
-              </div>
-
-              <div className="service-end">
-                <i className="icofont-dna-alt-1"></i>
-                <h3>Bone Marrow Transplant</h3>
-                <p>
-                  A treatment that replaces unhealthy marrow with a healthy one
-                </p>
+                {/* <i className="icofont-dna-alt-1"></i> */}
+                <i class="icofont-live-support"></i>
+                <h3>Administrative Service</h3>
+                <a href="/">Know More</a>
               </div>
             </div>
           </div>
