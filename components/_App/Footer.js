@@ -144,8 +144,8 @@ const Footer = () => {
           <div className="copyright-item">
             <p>
               Copyright &copy; {currentYear} Design & Developed by{" "}
-              <a href="#" target="_blank">
-                Naved Ahamad
+              <a href="https://mybrandmanagers.com" target="_blank">
+                mybrandmanagers
 
               </a>
             </p>
