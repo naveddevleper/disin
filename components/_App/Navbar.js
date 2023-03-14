@@ -66,7 +66,7 @@ const Navbar = () => {
                   {router.pathname.includes('/hbch') ?
                     <Link href="/" activeClassName="active">
                       <a onClick={toggleNavbar} className="nav-link">
-                        MMCC
+                        MPMMCC
                       </a>
                     </Link>
                     :

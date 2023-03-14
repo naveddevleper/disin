@@ -471,7 +471,7 @@ button:focus {
   height: 100%;
   left: 0;
   top: 0;
-  background-color: #0046c0;
+  /* background-color: #0046c0; */
   opacity: 0.8;
 }
 @media (max-width: 1023px) {

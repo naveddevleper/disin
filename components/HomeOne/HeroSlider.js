@@ -39,7 +39,7 @@ const HeroSlider = () => {
                             <div className="container">
                                 <div className="slider-text">
                                     <div className="slider-shape-two">
-                                        <img src="/images/slider-1.webp" alt="Shape" />
+                                        {/* <img src="/images/slider-1.webp" alt="Shape" /> */}
                                     </div>
                                     <h1>CANCER IS CURABLE, IF DETECTED EARLY</h1>
                                     <p>Surviving a day with Cancer is an achievement, so hold on and make your way out of it like a fighter.</p>
@@ -55,7 +55,7 @@ const HeroSlider = () => {
                             <div className="container">
                                 <div className="slider-text">
                                     <div className="slider-shape-two">
-                                        <img src="/images/slider-2.webp" alt="Shape" />
+                                        {/* <img src="/images/slider-2.webp" alt="Shape" /> */}
                                     </div>
                                     <h1>Caring Health is Important Than All</h1>
                                     <p>I can and I will. There's no other option. Tell yourself this affirmation every day - through treatments, doctors visits,
@@ -72,7 +72,7 @@ const HeroSlider = () => {
                             <div className="container">
                                 <div className="slider-text">
                                     <div className="slider-shape-three">
-                                        <img src="/images/slider-3.webp" alt="Shape" />
+                                        {/* <img src="/images/slider-3.webp" alt="Shape" /> */}
                                     </div>
                                     <h1>We Offer Highly Treatments</h1>
                                     <p>"Once you choose hope, anything's possible."<br></br>
@@ -90,7 +90,7 @@ const HeroSlider = () => {
                             <div className="container">
                                 <div className="slider-text">
                                     <div className="slider-shape-three">
-                                        <img src="/images/slider-4.png" alt="Shape" />
+                                        {/* <img src="/images/slider-4.png" alt="Shape" /> */}
                                     </div>
 
                                     <h1>Exceptional Health Care for all Cancer Patients</h1>
