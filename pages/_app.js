@@ -11,7 +11,7 @@ import '../public/css/rtl.css'
 
 import Layout from '../components/_App/Layout';
 
-const MyApp =  ({ Component, pageProps }) => {
+const MyApp = ({ Component, pageProps }) => {
     return (
         <Layout>
             <Component {...pageProps} />
