@@ -11,14 +11,14 @@ const HomeStats = () => {
                     <div className="row">
                         <div className="col-sm-6">
                             <h2 className="card-title text-center">Notices</h2>
-                            <div className="card ">
-                                <div className="card-body exmple-body">
+                            <div className="card bg-transparent">
+                                <div className="card-body exmple-body bg-transparent">
 
                                     <div className="card-text example">
-                                        <p>1. With supporting text below as a natural lead-in to additional content.</p>
-                                        <p>2. With supporting text below as a natural lead-in to additional content.</p>
-                                        <p>3. With supporting text below as a natural lead-in to additional content.</p>
-                                        <p>4. With supporting text below as a natural lead-in to additional content.</p>
+                                        <p> With supporting text below as a natural lead-in to additional content.</p>
+                                        <p> With supporting text below as a natural lead-in to additional content.</p>
+                                        <p> With supporting text below as a natural lead-in to additional content.</p>
+                                        <p> With supporting text below as a natural lead-in to additional content.</p>
 
                                     </div>
                                     {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
@@ -31,10 +31,10 @@ const HomeStats = () => {
                                 <div className="card-body exmple-body ">
 
                                     <div className="card-text example ">
-                                        <p>1. With supporting text below as a natural lead-in to additional content.</p>
-                                        <p>2. With supporting text below as a natural lead-in to additional content.</p>
-                                        <p>3. With supporting text below as a natural lead-in to additional content.</p>
-                                        <p>4. With supporting text below as a natural lead-in to additional content.</p>
+                                        <p> With supporting text below as a natural lead-in to additional content.</p>
+                                        <p> With supporting text below as a natural lead-in to additional content.</p>
+                                        <p> With supporting text below as a natural lead-in to additional content.</p>
+                                        <p> With supporting text below as a natural lead-in to additional content.</p>
                                     </div>
                                     {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                                 </div>
