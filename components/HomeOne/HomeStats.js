@@ -12,7 +12,7 @@ const HomeStats = () => {
                         <div className="col-sm-6">
                             <div className="card bg-transparent">
                                 <div className="card-body exmple-body">
-                                    <h2 className="card-title text-center">News</h2>
+                                    <h2 className="card-title text-center">Notices</h2>
                                     <div className="card-text example"><p>With supporting text below as a natural lead-in to additional content.</p></div>
                                     {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                                 </div>
