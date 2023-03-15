@@ -10,19 +10,32 @@ const HomeStats = () => {
 
                     <div className="row">
                         <div className="col-sm-6">
-                            <div className="card bg-transparent">
+                            <h2 className="card-title text-center">Notices</h2>
+                            <div className="card ">
                                 <div className="card-body exmple-body">
-                                    <h2 className="card-title text-center">Notices</h2>
-                                    <div className="card-text example"><p>With supporting text below as a natural lead-in to additional content.</p></div>
+
+                                    <div className="card-text example">
+                                        <p>1. With supporting text below as a natural lead-in to additional content.</p>
+                                        <p>2. With supporting text below as a natural lead-in to additional content.</p>
+                                        <p>3. With supporting text below as a natural lead-in to additional content.</p>
+                                        <p>4. With supporting text below as a natural lead-in to additional content.</p>
+
+                                    </div>
                                     {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                                 </div>
                             </div>
                         </div>
                         <div className="col-sm-6">
-                            <div className="card bg-transparent">
-                                <div className="card-body exmple-body">
-                                    <h2 className="card-title text-center">Events</h2>
-                                    <div className="card-text example"><p>With supporting text below as a natural lead-in to additional content.</p></div>
+                            <h2 className="card-title text-center">Events</h2>
+                            <div className="card">
+                                <div className="card-body exmple-body ">
+
+                                    <div className="card-text example ">
+                                        <p>1. With supporting text below as a natural lead-in to additional content.</p>
+                                        <p>2. With supporting text below as a natural lead-in to additional content.</p>
+                                        <p>3. With supporting text below as a natural lead-in to additional content.</p>
+                                        <p>4. With supporting text below as a natural lead-in to additional content.</p>
+                                    </div>
                                     {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                                 </div>
                             </div>

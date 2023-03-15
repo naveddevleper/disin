@@ -5033,7 +5033,7 @@ footer {
   width: 100%;
   height: 100%;
   margin-top: 50px;
-  text-align: center;
+  /* text-align: center; */
   /* Starting position */
   -moz-transform: translateY(-100%);
   -webkit-transform: translateY(-100%);
@@ -5041,7 +5041,7 @@ footer {
   /* Apply animation to this element */
   -moz-animation: example 15s linear infinite;
   -webkit-animation: example 15s linear infinite;
-  animation: example 5s linear infinite;
+  animation: example 15s linear infinite;
 }
 .exmple-body {
   overflow: hidden;
