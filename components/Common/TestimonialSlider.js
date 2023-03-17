@@ -25,7 +25,7 @@ const TestimonialSlider = () => {
     setDisplay(true);
   }, []);
   return (
-    <div className="pt-5">
+    <div className="pt-5 counter-bg">
       <div className="container">
         {display ? (
           <OwlCarousel

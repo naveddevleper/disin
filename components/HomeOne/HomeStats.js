@@ -6,8 +6,9 @@ const HomeStats = () => {
     return (
         <div className="counter-area pt-5">
             <div className="container">
-                <div className="row counter-bg d-flex justify-content-around">
-                    <div className="row">
+
+                <div className="row">
+                    <div className="row counter-bgg d-flex justify-content-around">
                         <div className="col-lg-6">
                             <div class="card-header text-center">
                                 Notices
