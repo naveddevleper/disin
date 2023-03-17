@@ -101,37 +101,46 @@ const Footer = () => {
 
             <div className="col-sm-6 col-lg-3">
               <div className="footer-item">
-                <div className="footer-feedback">
-                  <h3>Feedback</h3>
-                  <form>
-                    <div className="form-group">
-                      <input
-                        type="text"
-                        className="form-control"
-                        placeholder="Name"
-                      />
-                    </div>
-                    <div className="form-group">
-                      <input
-                        type="text"
-                        className="form-control"
-                        placeholder="Phone"
-                      />
-                    </div>
-                    <div className="form-group">
-                      <textarea
-                        className="form-control"
-                        id="your_message"
-                        rows="3"
-                        placeholder="Message"
-                      ></textarea>
-                    </div>
-                    <div className="text-left">
-                      <button type="submit" className="btn feedback-btn">
-                        SUBMIT
-                      </button>
-                    </div>
-                  </form>
+                <div className="footer-quick">
+                  <h3>Institute Links</h3>
+                  <ul>
+                    <li>
+                      <Link href="https://tmc.gov.in/index.php/en/">
+                        <a target="_blank">TMC, Mumbai</a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="https://tmc.gov.in/tmh/index.php/en/">
+                        <a target="_blank">
+                          TMH, Mumbai</a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="http://tmcepi.gov.in/">
+                        <a target="_blank">CCE, Mumbai</a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="https://tmc.gov.in/tmh/index.php/en/hbch-varanasi">
+                        <a target="_blank">HBCH, Varanasi</a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="https://tmc.gov.in/tmh/index.php/en/hbch-sangrur">
+                        <a target="_blank">HBCH, Sangrur, Punjab</a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="https://tmc.gov.in/tmh/index.php/en/hbchrc-vizag">
+                        <a target="_blank">HBCHRC, Vishakhapatnam</a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="https://www.bbcionline.org/">
+                        <a target="_blank">BBCI, Guhawati</a>
+                      </Link>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
