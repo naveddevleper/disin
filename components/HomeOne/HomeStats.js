@@ -7,45 +7,49 @@ const HomeStats = () => {
         <div className="counter-area pt-5">
             <div className="container">
                 <div className="row counter-bg d-flex justify-content-around">
-
                     <div className="row">
-                        <div className="col-sm-6">
-                            <h2 className="card-title text-center">Notices</h2>
-                            <div className="card bg-transparent">
-                                <div className="card-body exmple-body bg-transparent">
+                        <div className="col-lg-6">
+                            <div class="card-header text-center">
+                                Notices
+                            </div>
+                            {/* <h2 class="card-title text-center">Notices</h2> */}
+                            <div class="card-body exmple-body">
 
-                                    <div className="card-text example">
-                                        <p> With supporting text below as a natural lead-in to additional content.</p>
-                                        <p> With supporting text below as a natural lead-in to additional content.</p>
-                                        <p> With supporting text below as a natural lead-in to additional content.</p>
-                                        <p> With supporting text below as a natural lead-in to additional content.</p>
+                                <p class="card-text example">Some quick example text to build on the card title and make up the bulk of the card's content.
+                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                    Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 
-                                    </div>
-                                    {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
-                                </div>
+                            </div>
+                            <div class="card-footer text-muted">
+                                2 days ago
                             </div>
                         </div>
-                        <div className="col-sm-6">
-                            <h2 className="card-title text-center">Events</h2>
-                            <div className="card">
-                                <div className="card-body exmple-body ">
 
-                                    <div className="card-text example ">
-                                        <p> With supporting text below as a natural lead-in to additional content.</p>
-                                        <p> With supporting text below as a natural lead-in to additional content.</p>
-                                        <p> With supporting text below as a natural lead-in to additional content.</p>
-                                        <p> With supporting text below as a natural lead-in to additional content.</p>
-                                    </div>
-                                    {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
-                                </div>
+
+                        <div className="col-lg-6">
+                            <div class="card-header text-center">
+                                Events
+                            </div>
+                            {/* <h2 class="card-title text-center">Events</h2> */}
+                            <div class="card-body exmple-body">
+
+                                <p class="card-text example">Some quick example text to build on the card title and make up the bulk of the card's content.
+                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                    Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+                            </div>
+                            <div class="card-footer text-muted">
+                                2 days ago
                             </div>
                         </div>
                     </div>
-
-
                 </div>
             </div>
+
+
         </div>
+
+
     )
 }
 

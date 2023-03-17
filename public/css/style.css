@@ -601,12 +601,12 @@ button:focus {
 /*-- End Home Slider --*/
 /*-- Counter --*/
 .counter-bg {
-  background-image: url("/images/map-b.png");
-  background-size: cover;
+  /* background-image: url("/images/map-b.png");
+  background-size: cover; */
   background-position: center center;
   background-repeat: no-repeat;
   background-color: #ffffff;
-  padding-top: 45px;
+  padding-top: 15px;
   padding-bottom: 15px;
   border-radius: 8px;
   -webkit-box-shadow: 0px 0px 30px 0px #dddddda6;
