@@ -11,7 +11,7 @@ const HomeStats = () => {
                     <div className="row counter-bgg d-flex justify-content-around">
                         <div className="col-lg-6">
                             <div class="card-header text-center">
-                                Notices
+                                <h5>Notices</h5>
                             </div>
                             {/* <h2 class="card-title text-center">Notices</h2> */}
                             <div class="card-body exmple-body">
@@ -29,7 +29,7 @@ const HomeStats = () => {
 
                         <div className="col-lg-6">
                             <div class="card-header text-center">
-                                Events
+                                <h5>Events</h5>
                             </div>
                             {/* <h2 class="card-title text-center">Events</h2> */}
                             <div class="card-body exmple-body">
