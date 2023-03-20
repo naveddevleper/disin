@@ -434,6 +434,9 @@ button:focus {
 .slider-item-img {
   background-image: url("/images/home-one/MPMMCC.webp");
 }
+.slider-item-img-8 {
+  background-image: url("/images/new-slide-8.webp");
+}
 .slider-item-img-7 {
   background-image: url("/images/new-slide-7.webp");
 }
@@ -441,7 +444,7 @@ button:focus {
   background-image: url("/images/new-slide-6.webp");
 }
 .slider-item-img-5 {
-  background-image: url("/images/new-slide-8.webp");
+  background-image: url("/images/new-slide-5.webp");
 }
 .slider-item-img-4 {
   background-image: url("/images/new-slide-4.webp");
@@ -469,7 +472,8 @@ button:focus {
 .new-slider-item-4,
 .new-slider-item-5,
 .new-slider-item-6,
-.new-slider-item-7 {
+.new-slider-item-7,
+.new-slider-item-8 {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -522,6 +526,23 @@ button:focus {
   } */
   .slider-item-img {
     min-height: 82vh;
+  }
+  .new-slider-item,
+  .new-slider-item-2,
+  .new-slider-item-3,
+  .new-slider-item-4,
+  .new-slider-item-5,
+  .new-slider-item-6,
+  .new-slider-item-7,
+  .new-slider-item-8 {
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 215px;
+    position: relative;
+  }
+  .counter-bgg {
+    margin-top: -50px !important;
   }
 }
 
