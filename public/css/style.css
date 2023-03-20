@@ -434,6 +434,48 @@ button:focus {
 .slider-item-img {
   background-image: url("/images/home-one/MPMMCC.webp");
 }
+.slider-item-img-7 {
+  background-image: url("/images/new-slide-7.webp");
+}
+.slider-item-img-6 {
+  background-image: url("/images/new-slide-6.webp");
+}
+.slider-item-img-5 {
+  background-image: url("/images/new-slide-8.webp");
+}
+.slider-item-img-4 {
+  background-image: url("/images/new-slide-4.webp");
+}
+.slider-item-img-3 {
+  background-image: url("/images/new-slide-3.webp");
+}
+.slider-item-img-2 {
+  background-image: url("/images/new-slide-2.webp");
+}
+.new-slider-item-img {
+  background-image: url("/images/new-slide-1.webp");
+}
+
+.new-slider-item {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 730px;
+  position: relative;
+}
+
+.new-slider-item-2,
+.new-slider-item-3,
+.new-slider-item-4,
+.new-slider-item-5,
+.new-slider-item-6,
+.new-slider-item-7 {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 730px;
+  position: relative;
+}
 
 .slider-item {
   background-size: cover;

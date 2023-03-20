@@ -37,8 +37,8 @@ const Navbar = () => {
               <Link href="/">
                 <a onClick={toggleNavbar} className="navbar-brand">
                   {router.pathname.includes('/hbch') ?
-                    <img className="w-100" src="/images/HBCH-logo.webp" alt="logo" />
-                    : <img className="w-100" src="/images/logo-2.webp" alt="logo" />
+                    <img className="w-100" src="/images/hbch-logo.svg" alt="logo" />
+                    : <img className="w-100" src="/images/mpmmcc-logo.svg" alt="logo" />
                   }
                   {/* <img className="w-100" src="/images/logo-2.webp" alt="logo" /> */}
                 </a>

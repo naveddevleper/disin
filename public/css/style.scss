@@ -408,6 +408,16 @@ button {
 .slider-item-img {
   background-image: url("/images/home-one/MPMMCC.webp");
 }
+.new-slider-item-img {
+  background-image: url("/images/new-slide-1.webp");
+}
+.new-slider-item {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 730px;
+  position: relative;
+}
 .slider-item {
   background-size: cover;
   background-position: center center;
