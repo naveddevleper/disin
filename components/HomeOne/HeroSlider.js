@@ -36,7 +36,7 @@ const HeroSlider = () => {
                 <div className="new-slider-item new-slider-item-img">
                     <div className="d-table">
                         <div className="d-table-cell">
-                            <div className="container">
+                            <div className="container continer-custom">
                                 <div className="slider-text">
                                     {/* <div className="slider-shape-two">
                                         <img src="/images/slider-1.webp" alt="Shape" />

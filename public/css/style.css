@@ -466,7 +466,7 @@ button:focus {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  height: 730px;
+  height: 50vw;
   position: relative;
 }
 
@@ -478,9 +478,9 @@ button:focus {
 .new-slider-item-7,
 .new-slider-item-8 {
   background-size: contain;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
-  height: 730px;
+  height: 50vw;
   position: relative;
 }
 
