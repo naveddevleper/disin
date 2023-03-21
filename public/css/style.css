@@ -431,6 +431,9 @@ button:focus {
 
 /*-- End Navbar --*/
 /*-- Home Slider --*/
+.continer-custom {
+  max-width: 1200px !important;
+}
 .slider-item-img {
   background-image: url("/images/home-one/MPMMCC.webp");
 }
@@ -453,15 +456,15 @@ button:focus {
   background-image: url("/images/new-slide-3.webp");
 }
 .slider-item-img-2 {
-  background-image: url("/images/new-slide-2.webp");
+  background-image: url("/images/new-slide-9.webp");
 }
 .new-slider-item-img {
   background-image: url("/images/new-slide-1.webp");
 }
 
 .new-slider-item {
-  background-size: cover;
-  background-position: center center;
+  background-size: contain;
+  background-position: center;
   background-repeat: no-repeat;
   height: 730px;
   position: relative;

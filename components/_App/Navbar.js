@@ -31,7 +31,7 @@ const Navbar = () => {
   return (
     <div id="navbar" className="navbar-area sticky-top">
       <div className="main-nav">
-        <div className="container">
+        <div className="container continer-custom">
           <nav className="navbar navbar-expand-md navbar-light">
             <div className={`${styles.heroLogo}`}>
               <Link href="/">
