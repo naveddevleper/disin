@@ -463,7 +463,7 @@ button:focus {
 }
 
 .new-slider-item {
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 50vw;
@@ -477,7 +477,7 @@ button:focus {
 .new-slider-item-6,
 .new-slider-item-7,
 .new-slider-item-8 {
-  background-size: contain;
+  background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   height: 50vw;
