@@ -477,8 +477,8 @@ button:focus {
 .new-slider-item-6,
 .new-slider-item-7,
 .new-slider-item-8 {
-  background-size: cover;
-  background-position: center center;
+  background-size: contain;
+  background-position: center;
   background-repeat: no-repeat;
   height: 730px;
   position: relative;
