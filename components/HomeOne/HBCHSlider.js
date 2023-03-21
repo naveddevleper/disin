@@ -116,22 +116,7 @@ const HeroSlider = () => {
                         </div>
                     </div>
                 </div>
-                <div className="new-slider-item-hbch-6 slider-item-img-hbch-6">
-                    <div className="d-table">
-                        <div className="d-table-cell">
-                            <div className="container">
-                                <div className="slider-text">
-                                    {/* <div className="slider-shape-three">
-                                        <img src="/images/slider-4.png" alt="Shape" />
-                                    </div>
 
-                                    <h1>Exceptional Health Care for all Cancer Patients</h1>
-                                    <p>Life is not measured by the number of breaths we take, but by the moments that take our breath away.</p> */}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
             </OwlCarousel> : ''}
         </>
