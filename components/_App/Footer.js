@@ -121,11 +121,6 @@ const Footer = () => {
                       </Link>
                     </li>
                     <li>
-                      <Link href="https://tmc.gov.in/tmh/index.php/en/hbch-varanasi">
-                        <a target="_blank">HBCH, Varanasi</a>
-                      </Link>
-                    </li>
-                    <li>
                       <Link href="https://tmc.gov.in/tmh/index.php/en/hbch-sangrur">
                         <a target="_blank">HBCH, Sangrur, Punjab</a>
                       </Link>

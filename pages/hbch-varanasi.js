@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import HBCHSlider from '../components/HomeOne/HBCHSlider';
 import TopHeader from "../components/_App/TopHeader";
 import Navbar from "../components/_App/Navbar";
 import PageBanner from "../components/Common/PageBanner";
@@ -11,15 +12,15 @@ const HBCHVaranasi = () => {
       <TopHeader />
 
       <Navbar />
-
-      <PageBanner
+      <HBCHSlider />
+      {/* <PageBanner
         pageTitle="Homi Bhabha Cancer Hospital"
         pageSubtitle="Tata Memorial Centre"
         homePageUrl="/"
         homePageText="Home"
         activePageText=" HBCH"
         bgImage="page-banner-tmc"
-      />
+      /> */}
 
       <div className="about-area pt-100 pb-70">
         <div className="container">

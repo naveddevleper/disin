@@ -430,6 +430,58 @@ button:focus {
 }
 
 /*-- End Navbar --*/
+/* HBCH SLider */
+
+/*-- Home Slider --*/
+.continer-custom {
+  max-width: 1200px !important;
+}
+.slider-item-img-hbch {
+  background-image: url("/images/home-one/MPMMCC.webp");
+}
+
+.slider-item-img-hbch-6 {
+  background-image: url("/images/new-slide-hbch-6.webp");
+}
+.slider-item-img-hbch-5 {
+  background-image: url("/images/new-slide-hbch-5.webp");
+}
+.slider-item-img-hbch-4 {
+  background-image: url("/images/new-slide-hbch-4.webp");
+}
+.slider-item-img-hbch-3 {
+  background-image: url("/images/new-slide-hbch-3.webp");
+}
+.slider-item-img-hbch-2 {
+  background-image: url("/images/new-slide-hbch-2.webp");
+}
+.new-slider-item-img-hbch {
+  background-image: url("/images/new-slide-hbch-1.webp");
+}
+
+.new-slider-item-hbch {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vw;
+  position: relative;
+}
+
+.new-slider-item-hbch-2,
+.new-slider-item-hbch-3,
+.new-slider-item-hbch-4,
+.new-slider-item-hbch-5,
+.new-slider-item-hbch-6,
+.new-slider-item-hbch-7,
+.new-slider-item-hbch-8 {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 50vw;
+  position: relative;
+}
+
+/* End HBCH Slider */
 /*-- Home Slider --*/
 .continer-custom {
   max-width: 1200px !important;
