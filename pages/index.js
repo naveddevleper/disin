@@ -13,7 +13,7 @@ import TestimonialSlider from '../components/Common/TestimonialSlider';
 const Index = () => {
     return (
         <>
-            <TopHeader />
+            {/* <TopHeader /> */}
 
             <Navbar />
 
