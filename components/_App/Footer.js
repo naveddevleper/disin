@@ -38,20 +38,21 @@ const Footer = () => {
 
                   <ul className="social_list">
                     <li className="social_icon">
-                      <i className="icofont-facebook"></i>
+
                       <a href="https://www.facebook.com/profile.php?id=100057011783740" target="_blank">
-
+                        <i className="icofont-facebook"></i>
                       </a>
                     </li>
                     <li className="social_icon">
-                      <i className="icofont-twitter"></i>
+
                       <a href="https://twitter.com/TMC_Varanasi" target="_blank">
-
+                        <i className="icofont-twitter"></i>
                       </a>
                     </li>
                     <li className="social_icon">
-                      <i className="icofont-linkedin"></i>
+
                       <a href="https://www.linkedin.com/" target="_blank">
+                        <i className="icofont-linkedin"></i>
                       </a>
                     </li>
                   </ul>
