@@ -9,7 +9,7 @@ import Footer from "../components/_App/Footer";
 const HBCHVaranasi = () => {
   return (
     <>
-      <TopHeader />
+      {/* <TopHeader /> */}
 
       <Navbar />
       <HBCHSlider />
@@ -1395,6 +1395,7 @@ const HBCHVaranasi = () => {
       </div>
 
       <Footer />
+
     </>
   );
 };

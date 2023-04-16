@@ -33,7 +33,31 @@ const Footer = () => {
                       Bagiya, Near Nariya Gate, Banaras Hindu University Campus,
                       Varanasi (U.P.) - 221005 India
                     </li>
+
                   </ul>
+
+                  <ul className="social_list">
+                    <li className="social_icon">
+                      <i className="icofont-facebook"></i>
+                      <a href="https://www.facebook.com/profile.php?id=100057011783740" target="_blank">
+
+                      </a>
+                    </li>
+                    <li className="social_icon">
+                      <i className="icofont-twitter"></i>
+                      <a href="https://twitter.com/TMC_Varanasi" target="_blank">
+
+                      </a>
+                    </li>
+                    <li className="social_icon">
+                      <i className="icofont-linkedin"></i>
+                      <a href="https://www.linkedin.com/" target="_blank">
+                      </a>
+                    </li>
+                  </ul>
+
+
+
                 </div>
               </div>
             </div>

@@ -9,8 +9,8 @@ const ContactInfo = () => {
                         <div className="location-item">
                             <i className="icofont-location-pin"></i>
                             <h3>Location</h3>
-                            <p>2Mahamana Pandit Madan Mohan Malaviya Cancer Centre, Sundar Bagiya, Near Nariya Gate, <br /> Banaras Hindu University Campus,
-                                Varanasi (U.P.) - 221005 India.., </p>
+                            <p>Mahamana Pandit Madan Mohan Malaviya Cancer Centre, Sundar Bagiya, Near Nariya Gate, <br /> Banaras Hindu University Campus,
+                                Varanasi (U.P.) - 221005 India. </p>
                         </div>
                     </div>
 
@@ -27,7 +27,7 @@ const ContactInfo = () => {
                         <div className="location-item">
                             <i className="icofont-ui-call"></i>
                             <h3>Phone</h3>
-                            <p>+91-0542-2575032,35</p>
+                            <p>+91-0542-2575032, 35</p>
                             <p>+91-0542-2517699</p>
                         </div>
                     </div>

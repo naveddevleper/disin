@@ -579,6 +579,11 @@ button:focus {
   /* .slider-item::before {
     min-height: 100vh;
   } */
+  .social_list {
+    display: flex;
+    position: relative;
+    top: 12px !important;
+  }
   .slider-item-img {
     min-height: 82vh;
   }
@@ -2171,7 +2176,7 @@ footer {
   margin-bottom: 0;
   color: #ffffff;
   position: absolute;
-  right: 142px;
+  right: 100px;
   top: 56px;
 }
 
@@ -5212,4 +5217,9 @@ footer {
     -webkit-transform: translateY(100%); /* Firefox bug fix */
     transform: translateY(100%);
   }
+}
+.social_list {
+  display: flex;
+  position: relative;
+  top: 40px;
 }

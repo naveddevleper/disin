@@ -10,7 +10,7 @@ const NodalOfficer = () => {
       <TopHeader />
 
       <Navbar />
-      
+
       <div className="text-center pt-4">
         <h1>Mahamana Pandit Madan Mohan Malaviya Cancer Centre, Varanasi</h1>
         <h4>A unit of Tata Memorial Centre, Mumbai</h4>
@@ -38,7 +38,7 @@ const NodalOfficer = () => {
                       <th scope="row">Name of the Unit</th>
                       <th>
                         Mahamana Pandit Madan Mohan Malaviya Cancer Centre,
-                        Varanasi
+                        Varanasi.
                       </th>
                     </tr>
                     <tr>
@@ -47,7 +47,7 @@ const NodalOfficer = () => {
                     </tr>
                     <tr>
                       <th scope="row">Designation</th>
-                      <th>Chief Administrative Officer</th>
+                      <th>Director (Administration)</th>
                     </tr>
                     <tr>
                       <th scope="row">Contact Address (Office)</th>
@@ -73,7 +73,7 @@ const NodalOfficer = () => {
                     </tr>
                     <tr>
                       <th scope="row">Email</th>
-                      <td>cao@mpmmcc.tmc.gov.in</td>
+                      <td>director.admin@mpmmcc.tmc.gov.in</td>
                     </tr>
                   </tbody>
                 </table>
