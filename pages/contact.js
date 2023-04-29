@@ -14,13 +14,13 @@ const Contact = () => {
 
             <Navbar />
 
-            <PageBanner
+            {/* <PageBanner
                 pageTitle="Contact Us"
                 homePageUrl="/"
                 homePageText="Home"
                 activePageText="Contact Us"
                 bgImage="page-banner-mpmmcc"
-            />
+            /> */}
 
             <ContactInfo />
 

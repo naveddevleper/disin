@@ -11,13 +11,13 @@ const TermsCondition = () => {
 
             <Navbar />
 
-            <PageBanner
+            {/* <PageBanner
                 pageTitle="Terms & Condition"
                 homePageUrl="/"
                 homePageText="Home"
                 activePageText="Terms & Condition"
                 bgImage="page-banner-mpmmcc"
-            />
+            /> */}
 
             <div className="privacy-area ptb-100">
                 <div className="container">

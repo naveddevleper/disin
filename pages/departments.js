@@ -12,13 +12,13 @@ const Departments = () => {
 
             <Navbar />
 
-            <PageBanner
+            {/* <PageBanner
                 pageTitle="Departments"
                 homePageUrl="/"
                 homePageText="Home"
                 activePageText="Departments"
                 bgImage="page-banner-mpmmcc"
-            />
+            /> */}
 
             <div className="departments-area pt-100 pb-70">
                 <div className="container">

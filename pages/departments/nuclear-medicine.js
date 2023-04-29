@@ -11,13 +11,13 @@ const NuclearMedicine = () => {
 
             <Navbar />
 
-            <PageBanner
+            {/* <PageBanner
                 pageTitle="Nuclear Medicine"
                 homePageUrl="/"
                 homePageText="Home"
                 activePageText="Departments"
                 bgImage="page-banner-mpmmcc"
-            />
+            /> */}
 
             <div className="doctor-details-area pt-100 pb-70">
                 <div className="container">

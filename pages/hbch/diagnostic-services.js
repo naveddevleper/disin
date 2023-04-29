@@ -11,13 +11,13 @@ const DiagnosticServices = () => {
 
             <Navbar />
 
-            <PageBanner
+            {/* <PageBanner
                 pageTitle="Diagnostic Services"
                 homePageUrl="/"
                 homePageText="Home"
                 activePageText="HBCH Services"
                 bgImage="page-banner-tmc"
-            />
+            /> */}
 
             <div className="doctor-details-area pt-100 pb-70">
                 <div className="container">

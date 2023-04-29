@@ -13,13 +13,13 @@ const Services = () => {
 
             <Navbar />
 
-            <PageBanner
+            {/* <PageBanner
                 pageTitle="Services"
                 homePageUrl="/"
                 homePageText="Home"
                 activePageText="Services"
                 bgImage="page-banner-mpmmcc"
-            />
+            /> */}
 
             <div className="services-area pt-100 pb-70">
                 <div className="container">

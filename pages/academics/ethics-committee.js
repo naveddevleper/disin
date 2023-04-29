@@ -11,13 +11,13 @@ const EthicsCommittee = () => {
 
       <Navbar />
 
-      <PageBanner
+      {/* <PageBanner
         pageTitle="INSTITUTIONAL ETHICS COMMITTEES (IEC)"
         homePageUrl="/"
         homePageText="Home"
         activePageText="About"
         bgImage="page-banner-mpmmcc"
-      />
+      /> */}
 
       <div className="about-area pt-100 pb-70">
         <div className="container">

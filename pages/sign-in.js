@@ -12,13 +12,13 @@ const SignIn = () => {
 
             <Navbar />
 
-            <PageBanner
+            {/* <PageBanner
                 pageTitle="Sign In"
                 homePageUrl="/"
                 homePageText="Home"
                 activePageText="Sign In"
                 bgImage="page-banner-mpmmcc"
-            />
+            /> */}
 
             <div className="signup-area ptb-100">
                 <div className="container-fluid">

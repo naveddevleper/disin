@@ -18,7 +18,7 @@ const AboutSection = () => {
                         <div className="about-item about-right">
                             <img src="/images/about-shape1.png" alt="Animation" />
                             <h2>
-                                Mahamana Pandit Madan Mohan Malaviya Cancer Centre, Varanasi.
+                                To Know About Us
                             </h2>
                             <p>
                                 The priorities of a cancer patient remains the cancer treatment.

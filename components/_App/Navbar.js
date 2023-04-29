@@ -212,7 +212,7 @@ const Navbar = () => {
 
                     <li className="nav-item">
                       <Link href="https://tmc.gov.in/tmh/pdf/Common_Cancer_FAQs.pdf" activeClassName="active">
-                        <a onClick={toggleNavbar} className="nav-link">
+                        <a onClick={toggleNavbar} className="nav-link" target="_blank">
                           FAQ's
                         </a>
                       </Link>

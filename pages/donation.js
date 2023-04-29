@@ -11,13 +11,13 @@ const Donation = () => {
 
             <Navbar />
 
-            <PageBanner
+            {/* <PageBanner
                 pageTitle="Donation To MPMMCC"
                 homePageUrl="/"
                 homePageText="Home"
                 activePageText="Donation To MPMMCC"
                 bgImage="page-banner-mpmmcc"
-            />
+            /> */}
 
             <div className="about-area pt-4 pb-70">
                 <div className="container">

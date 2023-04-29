@@ -12,13 +12,13 @@ const DoctorDetails = () => {
 
             <Navbar />
 
-            <PageBanner
+            {/* <PageBanner
                 pageTitle="Dr. Sarah Taylor (Neurosurgeon)"
                 homePageUrl="/"
                 homePageText="Home"
                 activePageText="Doctor Details"
                 bgImage="page-banner-mpmmcc"
-            />
+            /> */}
 
             <div className="doctor-details-area pt-100 pb-70">
                 <div className="container">

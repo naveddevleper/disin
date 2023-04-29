@@ -11,13 +11,13 @@ const ServiceDetails = () => {
 
             <Navbar />
 
-            <PageBanner
+            {/* <PageBanner
                 pageTitle="Service Details"
                 homePageUrl="/"
                 homePageText="Home"
                 activePageText="Service Details"
                 bgImage="page-banner-mpmmcc"
-            />
+            /> */}
 
             <div className="service-details-area ptb-100">
                 <div className="container">

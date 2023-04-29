@@ -11,13 +11,13 @@ const Appointment = () => {
 
             <Navbar />
 
-            <PageBanner
+            {/* <PageBanner
                 pageTitle="Appointment"
                 homePageUrl="/"
                 homePageText="Home"
                 activePageText="Appointment"
                 bgImage="page-banner-mpmmcc"
-            />
+            /> */}
 
             <div className="appointment-area-two ptb-100">
                 <div className="container">

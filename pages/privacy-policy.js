@@ -11,13 +11,13 @@ const PrivacyPolicy = () => {
 
             <Navbar />
 
-            <PageBanner
+            {/* <PageBanner
                 pageTitle="Privacy Policy"
                 homePageUrl="/"
                 homePageText="Home"
                 activePageText="Privacy Policy"
                 bgImage="page-banner-mpmmcc"
-            />
+            /> */}
 
             <div className="privacy-area ptb-100">
                 <div className="container">

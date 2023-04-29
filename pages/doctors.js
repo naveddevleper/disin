@@ -12,13 +12,13 @@ const Doctors = () => {
 
             <Navbar />
 
-            <PageBanner
+            {/* <PageBanner
                 pageTitle="Meet Our Qualified Doctors"
                 homePageUrl="/"
                 homePageText="Home"
                 activePageText="Doctors"
                 bgImage="page-banner-mpmmcc"
-            />
+            /> */}
 
             <div className="doctor-search-area">
                 <div className="container">

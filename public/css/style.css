@@ -58,7 +58,8 @@ This files table contents are outlined below>>>>>
 
 /*-- Default CSS --*/
 body {
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "Oswald", sans-serif;
   color: #344c5d;
   background-color: #ffffff;
   font-size: 15px;

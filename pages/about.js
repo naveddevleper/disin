@@ -12,13 +12,13 @@ const About = () => {
 
       <Navbar />
 
-      <PageBanner
+      {/* <PageBanner
         pageTitle="About"
         homePageUrl="/"
         homePageText="Home"
         activePageText="About"
-        bgImage="page-banner-mpmmcc"
-      />
+      // bgImage="page-banner-mpmmcc"
+      /> */}
 
       <Stats />
 

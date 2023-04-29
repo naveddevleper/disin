@@ -11,13 +11,13 @@ const TermsOfUse = () => {
 
             <Navbar />
 
-            <PageBanner
+            {/* <PageBanner
                 pageTitle="Privacy Policy & Terms Of Use"
                 homePageUrl="/"
                 homePageText="Home"
                 activePageText="Privacy Policy & Terms Of Use"
                 bgImage="page-banner-mpmmcc"
-            />
+            /> */}
 
             <div className="about-area pt-2 pb-70">
                 <div className="container">
