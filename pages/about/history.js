@@ -11,13 +11,13 @@ const History = () => {
 
       <Navbar />
 
-      <PageBanner
+      {/* <PageBanner
         pageTitle="History"
         homePageUrl="/"
         homePageText="Home"
         activePageText="About"
         bgImage="page-banner-mpmmcc"
-      />
+      /> */}
 
       <div className="about-area pt-100 pb-70">
         <div className="container">
