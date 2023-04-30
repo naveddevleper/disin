@@ -112,9 +112,11 @@ img {
 }
 
 .pt-100 {
+  padding-top: 10px;
+}
+.pt-10 {
   padding-top: 100px;
 }
-
 .pb-70 {
   padding-bottom: 70px;
 }

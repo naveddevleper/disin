@@ -17,23 +17,23 @@ const Stats = () => {
                         <div className="counter-item">
                             <i className="icofont-people"></i>
                             <h3><span className="counter">5000</span>+</h3>
-                            <p>Happy Patients</p>
+                            <p>Patients Visits</p>
                         </div>
                     </div>
 
                     <div className="col-sm-6 col-md-3 col-lg-3">
                         <div className="counter-item">
                             <i className="icofont-doctor-alt"></i>
-                            <h3 className="counter">750</h3>
-                            <p>Doctors  & Nurse</p>
+                            <h3><span className="counter">500</span>+</h3>
+                            <p>Medical Staffs</p>
                         </div>
                     </div>
 
                     <div className="col-sm-6 col-md-3 col-lg-3">
                         <div className="counter-item">
                             <i className="icofont-badge"></i>
-                            <h3 className="counter">82</h3>
-                            <p>Year Experience</p>
+                            <h3 className="counter">2019</h3>
+                            <p>Year Of Commissioned</p>
                         </div>
                     </div>
                 </div>
