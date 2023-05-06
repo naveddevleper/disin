@@ -21,33 +21,32 @@ const AboutUs = () => {
                                 <li>
                                     <i className="icofont-doctor-alt"></i>
                                     <div className="welcome-inner">
-                                        <h3>Certified Doctors</h3>
+                                        <h3>LEGACY OF CANCER CARE</h3>
                                         <p>
-                                            In our job, you will never go home at the end of the day
-                                            thinking that you haven’t done something valuable and
-                                            important.
+                                            We are the units of the Tata Memorial Centre (TMC), Mumbai. Tata Memorial Hospital has a legacy
+                                            of leadership in cancer care, research, and education in India.
                                         </p>
                                     </div>
                                 </li>
                                 <li>
                                     <i className="icofont-stretcher"></i>
                                     <div className="welcome-inner">
-                                        <h3>Emergency 24 hours</h3>
+                                        <h3>24-HOURS EMERGENCY</h3>
                                         <p>
-                                            MPMMCC is providing services for medical emergencies 24
-                                            hours a day, seven days a week apart from routine
-                                            consulting hours.
+                                            We are also providing services for 24-hour medical emergencies, seven days a week, apart from
+                                            routine consulting hours. The care is paid for or subsidised as needed. We offer ethical, professional
+                                            treatment, creating trust and hope.
                                         </p>
                                     </div>
                                 </li>
                                 <li>
                                     <i className="icofont-network"></i>
                                     <div className="welcome-inner">
-                                        <h3>Modern Technologey</h3>
+                                        <h3>MODERN IT TECHNOLOGIES</h3>
                                         <p>
-                                            Managing clinical software and the other processes that
-                                            help administrative staff to keep patient records and
-                                            admissions systems ticking along.
+                                            Online Electronic Medical Record (EMR), Telemedicine, PACS, and CIS are modern IT technologies
+                                            that are helping to improve the quality and efficiency of cancer care while also empowering patients
+                                            to take a more active role in their own health.
                                         </p>
                                     </div>
                                 </li>

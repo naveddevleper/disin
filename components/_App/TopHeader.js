@@ -36,9 +36,9 @@ const TopHeader = () => {
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="mailto:ams@mpmmcc.tmc.gov.in">
+                                        <a href="mailto:ms@mpmmcc.tmc.gov.in">
                                             <i className="icofont-ui-message"></i>
-                                            ams@mpmmcc.tmc.gov.in
+                                            ms@mpmmcc.tmc.gov.in
                                         </a>
                                     </li>
                                 </ul>

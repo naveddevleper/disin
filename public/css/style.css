@@ -1977,8 +1977,8 @@ footer {
 /*-- End Emergency --*/
 /*-- Welcome --*/
 .welcome-left {
-  background-image: url("/images/about3.webp");
-  background-size: cover;
+  background-image: url("/images/TMH.JPG");
+  background-size: 710px 710px;
   background-position: center center;
   background-repeat: no-repeat;
   border-radius: 0 10px 10px 0;
@@ -2016,7 +2016,7 @@ footer {
 .welcome-item ul li i {
   display: inline-block;
   position: absolute;
-  top: 9px;
+  top: 25px;
   left: 0;
   text-align: center;
   font-size: 35px;
@@ -5225,4 +5225,45 @@ footer {
   display: flex;
   position: relative;
   top: 40px;
+}
+.welcome-inner p {
+  text-align: justify;
+}
+.message-box th {
+  text-align: left;
+  border: double;
+  padding: 10px;
+}
+.message-box td {
+  border: double;
+  padding: 10px;
+}
+.message-box table {
+  width: 100%;
+}
+.message-box tbody .first-col {
+  background-color: #be552e;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+#menubox1 .first_row {
+  background-color: #be552e;
+  color: #ffffff;
+  font-size: 1.1em;
+  width: 98%;
+  padding: 10px;
+}
+#menubox1 th {
+  border: double;
+  padding: 10px;
+}
+
+#menubox1 td {
+  border: double;
+  padding: 10px;
+}
+#menubox1 thead {
+  margin-top: 0px;
+  border: double;
 }

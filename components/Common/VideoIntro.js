@@ -35,11 +35,9 @@ const VideoIntro = () => {
                                             <div className="video-content">
                                                 <h3>Hospital Administration</h3>
                                                 <p>
-                                                    Administration is managing and overseeing the daily
-                                                    operations of the hospital, ensuring that patients
-                                                    receive high-quality care, and coordinating with the
-                                                    medical departments to ensure that the hospital runs
-                                                    smoothly.
+                                                    Administration is responsible for managing and overseeing the daily operations of the hospital,
+                                                    ensuring that patients receive high-quality care, and coordinating with the medical departments to
+                                                    ensure that the hospital runs smoothly.
                                                 </p>
                                             </div>
                                         </div>
@@ -66,14 +64,11 @@ const VideoIntro = () => {
                                             </div>
 
                                             <div className="video-content">
-                                                <h3>About Our Pharmacy</h3>
+                                                <h3>Pharmacy</h3>
                                                 <p>
-                                                    Pharmacists helps in ensuring the safe and effective
-                                                    use of medications for cancer patients. Compounding
-                                                    and dispensing: Pharmacists may compound medications.
-                                                    They also dispense medications to patients, ensuring
-                                                    that patients receive the correct medications and
-                                                    doses.
+                                                    The in-house pharmacy is established and works 24 hours a day. Pharmacists help ensure the safe
+                                                    and effective use of medications for cancer patients. They also compound medications and dispense
+                                                    them to patients, ensuring that patients receive the correct medications and doses.
                                                 </p>
                                             </div>
                                         </div>
@@ -99,14 +94,11 @@ const VideoIntro = () => {
                                                 <i className="icofont-ui-play"></i>
                                             </div>
                                             <div className="video-content">
-                                                <h3>Our reasearch center and lab</h3>
+                                                <h3>KEVAT</h3>
                                                 <p>
-                                                    Research and lab facilities play a vital role in
-                                                    advancing scientific knowledge and improving our
-                                                    ability to address complex challenges across many
-                                                    fields of science.Research and lab facilities for the
-                                                    development and implementation of new and innovative
-                                                    cancer treatments.
+                                                    Patient navigation is a process by which a trained healthcare professional, known as a patient
+                                                    navigator, guides patients through the healthcare system, helping them to navigate the complexities
+                                                    of diagnosis, treatment, and survivorship.
                                                 </p>
                                             </div>
                                         </div>
@@ -132,15 +124,12 @@ const VideoIntro = () => {
                                                 <i className="icofont-ui-play"></i>
                                             </div>
                                             <div className="video-content">
-                                                <h3>Biomedical Waste Management</h3>
+                                                <h3>MSW</h3>
                                                 <p>
-                                                    Hospital is crucial to ensure that the waste produced
-                                                    in the hospital is handled and disposed of properly,
-                                                    to prevent the spread of infections and protect public
-                                                    health. Segregation, Collection, Treatment, Disposal. We
-                                                    ensuring that hospital operates safely and
-                                                    hygienically, protecting both patients and staff from
-                                                    the risks of infection and contamination.
+                                                    Medical Social Work department plays a critical role in ensuring that patients receive the
+                                                    comprehensive care they need to manage their health and well-being. Medical social workers
+                                                    provide a wide range of services, including Psychosocial assessments, Counselling, Financial
+                                                    assistance etc.
                                                 </p>
                                             </div>
                                         </div>
@@ -168,11 +157,10 @@ const VideoIntro = () => {
                                             <div className="video-content">
                                                 <h3>IT Services</h3>
                                                 <p>
-                                                    IT plays an important role in hospitals by helping to
-                                                    manage patient information, medical records, and other
-                                                    healthcare data. These technologies can improve
-                                                    patient care, reduce medical errors, and increase
-                                                    efficiency in healthcare delivery.
+                                                    IT plays an important role in hospitals by helping to manage patient information, medical records,
+                                                    and other healthcare data. These technologies can improve patient care, reduce medical errors, and
+                                                    increase efficiency in healthcare delivery. IT services include networking, servers and software
+                                                    applications.
                                                 </p>
                                             </div>
                                         </div>
@@ -185,8 +173,8 @@ const VideoIntro = () => {
                     <TabList>
                         <Tab>Hospital Administration</Tab>
                         <Tab>Pharmacy</Tab>
-                        <Tab>Reasearch & Lab</Tab>
-                        <Tab>Biomedical Waste Management</Tab>
+                        <Tab>KEVAT</Tab>
+                        <Tab>MSW</Tab>
                         <Tab>IT Services</Tab>
                     </TabList>
                 </Tabs>

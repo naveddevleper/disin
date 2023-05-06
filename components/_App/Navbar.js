@@ -100,15 +100,29 @@ const Navbar = () => {
                     <li className="nav-item">
                       <Link href="/about/history" activeClassName="active">
                         <a onClick={toggleNavbar} className="nav-link">
-                          History Of The Institute
+                          History
                         </a>
                       </Link>
                     </li>
 
                     <li className="nav-item">
-                      <Link href="/about/mission" activeClassName="active">
+                      <Link href="/about/organisationalchart" activeClassName="active">
                         <a onClick={toggleNavbar} className="nav-link">
-                          Vision & Mission
+                          Organisational Chart
+                        </a>
+                      </Link>
+                    </li>
+                    <li className="nav-item">
+                      <Link href="/about/collegiummembers" activeClassName="active">
+                        <a onClick={toggleNavbar} className="nav-link">
+                          Collegium Members
+                        </a>
+                      </Link>
+                    </li>
+                    <li className="nav-item">
+                      <Link href="/about/thegoverningcouncil" activeClassName="active">
+                        <a onClick={toggleNavbar} className="nav-link">
+                          The Governing Council
                         </a>
                       </Link>
                     </li>
@@ -221,12 +235,59 @@ const Navbar = () => {
                 </li>
 
                 <li className="nav-item">
+                  <Link href="#">
+                    <a
+                      onClick={(e) => e.preventDefault()}
+                      className="nav-link dropdown-toggle"
+                    >
+                      Recruitment
+                    </a>
+                  </Link>
+
+                  <ul className="dropdown-menu">
+                    <li className="nav-item">
+                      <Link href="https://tmc.gov.in/m_events/Events/JobVacancies" activeClassName="active">
+                        <a onClick={toggleNavbar} className="nav-link" target="_blank">
+                          Careers
+                        </a>
+                      </Link>
+                    </li>
+
+                    <li className="nav-item">
+                      <Link href="https://tmc.gov.in/m_events/events/examination" activeClassName="active">
+                        <a onClick={toggleNavbar} className="nav-link" target="_blank">
+                          Examination
+                        </a>
+                      </Link>
+                    </li>
+
+                    <li className="nav-item">
+                      <Link
+                        href="https://tmc.gov.in/m_events/events/interviews"
+                        activeClassName="active"
+                      >
+                        <a onClick={toggleNavbar} className="nav-link" target="_blank">
+                          Interview
+                        </a>
+                      </Link>
+                    </li>
+
+                    <li className="nav-item">
+                      <Link href="https://tmc.gov.in/m_events/events/results" activeClassName="active">
+                        <a onClick={toggleNavbar} className="nav-link" target="_blank">
+                          Results
+                        </a>
+                      </Link>
+                    </li>
+                  </ul>
+                </li>
+                {/* <li className="nav-item">
                   <Link href="/coming-soon" activeClassName="active">
                     <a onClick={toggleNavbar} className="nav-link">
                       Recruitment
                     </a>
                   </Link>
-                </li>
+                </li> */}
 
                 <li className="nav-item">
                   <Link href="/coming-soon" activeClassName="active">

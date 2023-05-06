@@ -16,9 +16,9 @@ const Footer = () => {
                     <li>
                       <i className="icofont-ui-message"></i>
                       <a>
-                        For Patient care & queries
+                        For Patient Care &amp; Related Queries
                       </a>
-                      <a href="mailto:ams@mpmmcc.tmc.gov.in">ams@mpmmcc.tmc.gov.in</a>
+                      <a href="mailto:ms@mpmmcc.tmc.gov.in">ms@mpmmcc.tmc.gov.in</a>
                     </li>
                     <li>
                       <i className="icofont-stock-mobile"></i>
@@ -62,15 +62,45 @@ const Footer = () => {
                 </div>
               </div>
             </div>
+            <div className="col-sm-6 col-lg-3">
+              <div className="footer-item">
+                <div className="footer-quick">
+                  <h3>Patients Services</h3>
+                  <ul>
+                    <li>
+                      <Link href="https://online.mpmmcc.tmc.gov.in/OnlineAppt/">
+                        <a>Appointment</a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="https://online.mpmmcc.tmc.gov.in/EMR">
+                        <a>
+                          E-Medical Records (EMR)</a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/donation">
+                        <a>How To Help Us</a>
+                      </Link>
+                    </li>
 
+                  </ul>
+                </div>
+              </div>
+            </div>
             <div className="col-sm-6 col-lg-2">
               <div className="footer-item">
                 <div className="footer-quick">
                   <h3>Quick Links</h3>
                   <ul>
                     <li>
+                      <Link href="/contact">
+                        <a>Contact Us</a>
+                      </Link>
+                    </li>
+                    <li>
                       <Link href="/about">
-                        <a>About us</a>
+                        <a>Gallery</a>
                       </Link>
                     </li>
                     <li>
@@ -79,56 +109,16 @@ const Footer = () => {
                       </Link>
                     </li>
                     <li>
-                      <Link href="/contact">
-                        <a>Contact us</a>
-                      </Link>
-                    </li>
-                    <li>
                       <Link href="/PRO">
                         <a>Public Relations Officer</a>
                       </Link>
                     </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
 
-            <div className="col-sm-6 col-lg-3">
-              <div className="footer-item">
-                <div className="footer-quick">
-                  <h3>Global Navigation</h3>
-                  <ul>
                     <li>
-                      <Link href="/service-details">
-                        <a>Gallery</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/terms-of-use">
-                        <a>
-                          Policies & Terms of Use</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/donation">
-                        <a>How To Help Us</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/service-details">
+                      <Link href="#">
                         <a>Site Map</a>
                       </Link>
                     </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-sm-6 col-lg-3">
-              <div className="footer-item">
-                <div className="footer-quick">
-                  <h3>Institute Links</h3>
-                  <ul>
                     <li>
                       <Link href="https://tmc.gov.in/index.php/en/">
                         <a target="_blank">TMC, Mumbai</a>
@@ -140,26 +130,40 @@ const Footer = () => {
                           TMH, Mumbai</a>
                       </Link>
                     </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div className="col-sm-6 col-lg-3">
+              <div className="footer-item">
+                <div className="footer-quick">
+                  <h3>Website Policies</h3>
+                  <ul>
                     <li>
-                      <Link href="http://tmcepi.gov.in/">
-                        <a target="_blank">CCE, Mumbai</a>
+                      <Link href="https://tmc.gov.in/index.php/en/">
+                        <a target="_blank">Copyright Policy</a>
                       </Link>
                     </li>
                     <li>
-                      <Link href="https://tmc.gov.in/tmh/index.php/en/hbch-sangrur">
-                        <a target="_blank">HBCH, Sangrur, Punjab</a>
+                      <Link href="https://tmc.gov.in/tmh/index.php/en/">
+                        <a target="_blank">
+                          Disclaimer</a>
                       </Link>
                     </li>
                     <li>
-                      <Link href="https://tmc.gov.in/tmh/index.php/en/hbchrc-vizag">
-                        <a target="_blank">HBCHRC, Vishakhapatnam</a>
+                      <Link href="/privacy-policy">
+                        <a>Privacy Policy</a>
                       </Link>
                     </li>
                     <li>
-                      <Link href="https://www.bbcionline.org/">
-                        <a target="_blank">BBCI, Guhawati</a>
+                      <Link href="/terms-of-use">
+                        <a target="_blank">Policies &amp; Terms of Use</a>
                       </Link>
                     </li>
+
                   </ul>
                 </div>
               </div>
