@@ -1,25 +1,25 @@
 import React, { useEffect, useState } from 'react';
 
 const TopHeader = () => {
-    useEffect(() => {
-        var addScript = document.createElement('script');
-        addScript.setAttribute(
-            'src',
-            '//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'
-        );
-        document.body.appendChild(addScript);
-        window.googleTranslateElementInit = googleTranslateElementInit;
-    }, []);
-    const googleTranslateElementInit = () => {
-        new window.google.translate.TranslateElement(
-            {
-                pageLanguage: 'en',
-                includedLanguages: 'en,hi', // include this for selected languages
-                layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
-            },
-            'google_translate_element'
-        );
-    };
+    // useEffect(() => {
+    //     var addScript = document.createElement('script');
+    //     addScript.setAttribute(
+    //         'src',
+    //         '//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'
+    //     );
+    //     document.body.appendChild(addScript);
+    //     window.googleTranslateElementInit = googleTranslateElementInit;
+    // }, []);
+    // const googleTranslateElementInit = () => {
+    //     new window.google.translate.TranslateElement(
+    //         {
+    //             pageLanguage: 'en',
+    //             includedLanguages: 'en,hi', // include this for selected languages
+    //             layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+    //         },
+    //         'google_translate_element'
+    //     );
+    // };
     return (
         <div className="header-top">
             <div className="container">
