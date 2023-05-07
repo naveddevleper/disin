@@ -194,9 +194,10 @@ button:focus {
 }
 
 .header-top-item .header-top-right .lang-list {
-  margin-right: 30px;
+  /* margin-right: 30px;
   position: relative;
-  top: -2px;
+  top: -2px; */
+  display: flex;
 }
 
 .header-top-item .header-top-right .lang-list li a {
@@ -5266,4 +5267,7 @@ footer {
 #menubox1 thead {
   margin-top: 0px;
   border: double;
+}
+.lang-list li {
+  white-space: nowrap;
 }

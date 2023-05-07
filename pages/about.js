@@ -8,7 +8,7 @@ import Stats from '../components/HomeOne/Stats';
 const About = () => {
   return (
     <>
-      <TopHeader />
+      {/* <TopHeader /> */}
 
       <Navbar />
 

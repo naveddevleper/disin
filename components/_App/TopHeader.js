@@ -49,12 +49,15 @@ const TopHeader = () => {
                     <div className="col-sm-4 col-lg-3">
                         <div className="header-top-item">
                             <div className="header-top-right">
-                                <div id="google_translate_element"> </div>
+                                {/* <div id="google_translate_element"> </div> */}
                                 {/* <ul className="lang-list">
                                     <li><a href="/">EN</a></li>
                                     <li><a href="/ar">AR</a></li>
                                 </ul> */}
-
+                                <ul className="lang-list">
+                                    <li><button className='btn btn-primary'> Make Appointment </button></li>
+                                    <li><button className='btn btn-primary'> Donate Now </button></li>
+                                </ul>
                                 {/* <ul>
                                     <li>
                                         <a href="https://www.facebook.com/profile.php?id=100057011783740" target="_blank">
