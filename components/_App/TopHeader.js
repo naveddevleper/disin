@@ -56,7 +56,7 @@ const TopHeader = () => {
                                 </ul> */}
                                 <ul className="lang-list">
                                     <a href="https://online.mpmmcc.tmc.gov.in/OnlineAppt/" target='_blank'><li><button className='btn btn-primary btn-sm'> Make Appointment </button></li></a>
-                                    <a href="#"><li><button className='btn btn-primary btn-sm'> Donate Now </button></li></a>
+                                    <a href="/donation"><li><button className='btn btn-primary btn-sm'> Donate Now </button></li></a>
                                 </ul>
                                 {/* <ul>
                                     <li>

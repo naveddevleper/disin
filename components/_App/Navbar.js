@@ -296,8 +296,8 @@ const Navbar = () => {
                 </li> */}
 
                 <li className="nav-item">
-                  <Link href="/coming-soon" activeClassName="active">
-                    <a onClick={toggleNavbar} className="nav-link">
+                  <Link href="https://tmc.gov.in/m_events/Events/Tenders" activeClassName="active">
+                    <a onClick={toggleNavbar} className="nav-link" target="_blank">
                       Tenders
                     </a>
                   </Link>

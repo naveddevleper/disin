@@ -203,7 +203,7 @@ const HBCHVaranasi = () => {
           </div>
 
           <Link href="/hbch-varanasi-details">
-            <a>Know More</a>
+            <a className="btn btn-primary">Know More</a>
           </Link>
 
         </div>
