@@ -55,8 +55,8 @@ const TopHeader = () => {
                                     <li><a href="/ar">AR</a></li>
                                 </ul> */}
                                 <ul className="lang-list">
-                                    <li><button className='btn btn-primary'> Make Appointment </button></li>
-                                    <li><button className='btn btn-primary'> Donate Now </button></li>
+                                    <a href="https://online.mpmmcc.tmc.gov.in/OnlineAppt/" target='_blank'><li><button className='btn btn-primary btn-sm'> Make Appointment </button></li></a>
+                                    <a href="#"><li><button className='btn btn-primary btn-sm'> Donate Now </button></li></a>
                                 </ul>
                                 {/* <ul>
                                     <li>
@@ -80,7 +80,7 @@ const TopHeader = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 

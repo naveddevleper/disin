@@ -32,11 +32,11 @@ const AboutSection = () => {
                             <ul>
                                 <li>
                                     <i className="icofont-check-circled"></i>
-                                    Browse Our Website
+                                    To provide comprehensive cancer care to one and all, through its motto of excellence in service, education and research.
                                 </li>
                                 <li>
                                     <i className="icofont-check-circled"></i>
-                                    Choose Service
+                                    To provide leadership in guiding the national policy and strategy for cancer
                                 </li>
                                 {/* <li>
                                     <i className="icofont-check-circled"></i>

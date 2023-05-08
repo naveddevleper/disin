@@ -96,7 +96,13 @@ const Navbar = () => {
                         </a>
                       </Link>
                     </li>
-
+                    <li className="nav-item">
+                      <Link href="/about/collegiummembers" activeClassName="active">
+                        <a onClick={toggleNavbar} className="nav-link">
+                          Collegium Members
+                        </a>
+                      </Link>
+                    </li>
                     <li className="nav-item">
                       <Link href="/about/history" activeClassName="active">
                         <a onClick={toggleNavbar} className="nav-link">
@@ -104,18 +110,10 @@ const Navbar = () => {
                         </a>
                       </Link>
                     </li>
-
                     <li className="nav-item">
                       <Link href="/about/organisationalchart" activeClassName="active">
                         <a onClick={toggleNavbar} className="nav-link">
                           Organisational Chart
-                        </a>
-                      </Link>
-                    </li>
-                    <li className="nav-item">
-                      <Link href="/about/collegiummembers" activeClassName="active">
-                        <a onClick={toggleNavbar} className="nav-link">
-                          Collegium Members
                         </a>
                       </Link>
                     </li>
@@ -126,6 +124,15 @@ const Navbar = () => {
                         </a>
                       </Link>
                     </li>
+                    <li className="nav-item">
+                      <Link href="/about/mission" activeClassName="active">
+                        <a onClick={toggleNavbar} className="nav-link">
+                          Vision & Mission
+                        </a>
+                      </Link>
+                    </li>
+
+
                   </ul>
                 </li>
 
@@ -198,6 +205,23 @@ const Navbar = () => {
 
                   <ul className="dropdown-menu">
                     <li className="nav-item">
+                      <Link
+                        href="https://tmc.gov.in/m_webemr_Varanasi/emr/Login"
+                        activeClassName="active"
+                      >
+                        <a onClick={toggleNavbar} className="nav-link">
+                          E-Medical Records(EMR)
+                        </a>
+                      </Link>
+                    </li>
+                    <li className="nav-item">
+                      <Link href="https://tmc.gov.in/tmh/pdf/Common_Cancer_FAQs.pdf" activeClassName="active">
+                        <a onClick={toggleNavbar} className="nav-link" target="_blank">
+                          FAQ's
+                        </a>
+                      </Link>
+                    </li>
+                    <li className="nav-item">
                       <Link href="#" activeClassName="active">
                         <a onClick={toggleNavbar} className="nav-link">
                           International Patients Advisor
@@ -213,24 +237,6 @@ const Navbar = () => {
                       </Link>
                     </li>
 
-                    <li className="nav-item">
-                      <Link
-                        href="https://tmc.gov.in/m_webemr_Varanasi/emr/Login"
-                        activeClassName="active"
-                      >
-                        <a onClick={toggleNavbar} className="nav-link">
-                          E-Medical Records(EMR)
-                        </a>
-                      </Link>
-                    </li>
-
-                    <li className="nav-item">
-                      <Link href="https://tmc.gov.in/tmh/pdf/Common_Cancer_FAQs.pdf" activeClassName="active">
-                        <a onClick={toggleNavbar} className="nav-link" target="_blank">
-                          FAQ's
-                        </a>
-                      </Link>
-                    </li>
                   </ul>
                 </li>
 

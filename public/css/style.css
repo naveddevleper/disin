@@ -5270,4 +5270,5 @@ footer {
 }
 .lang-list li {
   white-space: nowrap;
+  margin: 0px 5px;
 }

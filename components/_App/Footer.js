@@ -73,7 +73,7 @@ const Footer = () => {
                       </Link>
                     </li>
                     <li>
-                      <Link href="https://online.mpmmcc.tmc.gov.in/EMR">
+                      <Link href="https://tmc.gov.in/m_webemr_Varanasi/emr/Login">
                         <a>
                           E-Medical Records (EMR)</a>
                       </Link>
@@ -125,9 +125,9 @@ const Footer = () => {
                       </Link>
                     </li>
                     <li>
-                      <Link href="https://tmc.gov.in/tmh/index.php/en/">
+                      <Link href="https://actrec.gov.in/">
                         <a target="_blank">
-                          TMH, Mumbai</a>
+                          ACTREC, Mumbai</a>
                       </Link>
                     </li>
                   </ul>
