@@ -150,23 +150,6 @@ const AdministrativeServices = () => {
                                                         </p>
                                                     </td>
                                                 </tr>
-                                                <tr>
-                                                    <td>
-                                                        <b>H.</b>
-                                                    </td>
-                                                    <td>
-                                                        <strong>Dental &amp; Prosthetic Surgery</strong>
-                                                    </td>
-                                                    <td>
-                                                        <p>
-                                                            1. General Dental Services for Cancer Patients
-                                                            <br></br>2. Maxillo-facial Prosthetic
-                                                            Rehabilitation Services<br></br>3. Dental Services
-                                                            for Cancer Patients &nbsp;before and after
-                                                            receiving chemotherapy and radiotherapy
-                                                        </p>
-                                                    </td>
-                                                </tr>
                                             </tbody>
                                         </table>
                                     </div>
