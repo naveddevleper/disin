@@ -19,11 +19,11 @@ const TermsOfUse = () => {
                 bgImage="page-banner-mpmmcc"
             /> */}
 
-            <div className="about-area pt-2 pb-70">
+            <div className="privacy-area about-area pt-5 pb-70">
                 <div className="container">
-                    <div class="row p-4">
-
-                        <div class="col-md-12">
+                    <div className="row align-items-start">
+                        <div className="about-item about-right">
+                            <img src="/images/about-shape1.png" alt="About" />
                             <h3>Content Policy</h3>
                             <p align="justify">“ This portal is designed, developed and maintained by Mahamana Pandit Madan Mohan Malaviya Cancer Centre a unit of TMC an autonomous body owned, funded and under the control of the Department of Atomic Energy, Government of India. ”</p>
                             <hr></hr>

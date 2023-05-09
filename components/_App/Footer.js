@@ -143,12 +143,12 @@ const Footer = () => {
                   <h3>Website Policies</h3>
                   <ul>
                     <li>
-                      <Link href="https://tmc.gov.in/index.php/en/">
+                      <Link href="copyright-policy">
                         <a target="_blank">Copyright Policy</a>
                       </Link>
                     </li>
                     <li>
-                      <Link href="https://tmc.gov.in/tmh/index.php/en/">
+                      <Link href="/disclaimer">
                         <a target="_blank">
                           Disclaimer</a>
                       </Link>

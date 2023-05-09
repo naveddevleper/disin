@@ -203,7 +203,7 @@ const Services = () => {
                 {/* <i className="icofont-patient-file"></i> */}
                 <i class="icofont-medical-sign"></i>
                 <h3>Clinical Services</h3>
-                <a href="/hbch/clinical-services">Know More</a>
+                <a href="/clinical-services">Know More</a>
               </div>
             </div>
           </div>
@@ -220,7 +220,7 @@ const Services = () => {
                 {/* <i className="icofont-blood-drop"></i> */}
                 <i className="icofont-patient-file"></i>
                 <h3>Diagnostic Services</h3>
-                <a href="/hbch/diagnostic-services">Know More</a>
+                <a href="/diagnostic-services">Know More</a>
               </div>
             </div>
           </div>
@@ -237,7 +237,7 @@ const Services = () => {
                 {/* <i className="icofont-xray"></i> */}
                 <i class="icofont-surgeon"></i>
                 <h3>Ancillary Services</h3>
-                <a href="/hbch/ancillary-services">Know More</a>
+                <a href="/ancillary-services">Know More</a>
               </div>
             </div>
           </div>
@@ -253,8 +253,8 @@ const Services = () => {
               <div className="service-end">
                 {/* <i className="icofont-dna-alt-1"></i> */}
                 <i class="icofont-live-support"></i>
-                <h3>Administrative Service</h3>
-                <a href="/">Know More</a>
+                <h3>Administrative Services</h3>
+                <a href="/administrative-services">Know More</a>
               </div>
             </div>
           </div>

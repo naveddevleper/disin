@@ -18,7 +18,7 @@ const ContactInfo = () => {
                         <div className="location-item">
                             <i className="icofont-ui-message"></i>
                             <h3>Email</h3>
-                            <p>ams@mpmmcc.tmc.gov.in</p>
+                            <p>ms@mpmmcc.tmc.gov.in</p>
                             {/* <p>emailexample@name.com</p> */}
                         </div>
                     </div>

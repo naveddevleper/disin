@@ -1,8 +1,8 @@
 import React from "react";
-import TopHeader from "../../components/_App/TopHeader";
-import Navbar from "../../components/_App/Navbar";
-import PageBanner from "../../components/Common/PageBanner";
-import Footer from "../../components/_App/Footer";
+import TopHeader from "../components/_App/TopHeader";
+import Navbar from "../components/_App/Navbar";
+import PageBanner from "../components/Common/PageBanner";
+import Footer from "../components/_App/Footer";
 
 const ClinicalServices = () => {
     return (
@@ -30,8 +30,8 @@ const ClinicalServices = () => {
                                         <table class="table table-hover table-bordered">
                                             <thead>
                                                 <tr>
-                                                    <th scope="col">S.No</th>
-                                                    <th scope="col">SERVICES;</th>
+                                                    <th scope="col">Sr.No</th>
+                                                    <th scope="col">Services</th>
                                                     <th scope="col">Sub-Category</th>
                                                 </tr>
                                             </thead>
@@ -72,7 +72,9 @@ const ClinicalServices = () => {
                                                     </td>
                                                 </tr>
                                                 <tr>
-                                                    <td>F.</td>
+                                                    <td>
+                                                        <b>F.</b>
+                                                    </td>
                                                     <td><strong>Preventive Oncology</strong></td>
                                                     <td>
                                                         <p>1. Population Based Cancer Registry<br></br>2. Hospital Based Cancer Registry<br></br>3. Cancer Screening</p>
