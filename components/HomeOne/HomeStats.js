@@ -15,11 +15,11 @@ const HomeStats = () => {
                             </div>
                             {/* <h2 class="card-title text-center">Notices</h2> */}
                             <div class="card-body exmple-body">
-                                <iframe src="/images/Holiday_List_2023.pdf" width="500px" height="300px" />
+                                <a href="/images/Holiday_List_2023.pdf" target='__blank'>Holiday List</a>
 
                             </div>
                             <div class="card-footer text-muted">
-                                2 days ago
+                                {/* 2 days ago */}
                             </div>
                         </div>
 
@@ -41,7 +41,7 @@ const HomeStats = () => {
                                 </div>
                             </div>
                             <div class="card-footer text-muted">
-                                2 days ago
+                                {/* 2 days ago */}
                             </div>
                         </div>
                     </div>
