@@ -70,7 +70,7 @@ const MedicalAdministration = () => {
                                 <div className="doctor-details-right">
                                     <div className="doctor-details-biography">
                                         <h3>DEPARTMENT OF MEDICAL ADMINISTRATION</h3>
-                                        <p>MBBS in Neurology, PHD in Neurosurgeon</p>
+                                        {/* <p>MBBS in Neurology, PHD in Neurosurgeon</p> */}
                                     </div>
 
                                     <div className="doctor-details-biography">
@@ -97,24 +97,24 @@ const MedicalAdministration = () => {
                                         </p>
                                         <ul>
                                             <li>Running of COVID facility at HBCH, Varanasi. </li>
-                                            <br></br>
+
                                             <li>Un-interrupted cancer care during COVID pandemic.</li>
-                                            <br></br>
+
                                             <li>
                                                 Coordination of Donation of 150 Oxygen Concentrator to
                                                 Varanasi Division.
                                             </li>
-                                            <br></br>
+
                                             <li>
                                                 Coordination with Varanasi Administration and other
                                                 Institutions/ Organizations.
                                             </li>
-                                            <br></br>
+
                                             <li>
                                                 Coordination of Installation of Oxygen Plant at HBCH
                                                 &amp; MPMMCC.
                                             </li>
-                                            <br></br>
+
                                         </ul>
                                         <p align="justify">
                                             The departments of Nursing, Biomedical Engineering,

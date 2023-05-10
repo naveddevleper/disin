@@ -132,7 +132,7 @@ const Academics = () => {
                   </li>
                 </ol>
                 <table class="table table-hover table-bordered">
-                  <thead>
+                  <thead >
                     <tr>
                       <th scope="col">
                         DEPARTMENT OF RADIATION ONCOLOGY PERFORMANCE STATISTICS

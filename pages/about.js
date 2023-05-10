@@ -92,7 +92,7 @@ const About = () => {
             <div className="col-lg-6">
               <div className="about-item about-right">
                 <img src="/images/about-shape1.png" alt="About" />
-                <h2>About Our Hospital</h2>
+                <h2>About Us</h2>
                 <p>
                   Uttar Pradesh, with nearly 20 crore population, is the most
                   populous state in the country. In India, the State of Uttar

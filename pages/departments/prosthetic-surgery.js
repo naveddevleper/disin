@@ -121,10 +121,10 @@ const ProstheticSurgery = () => {
                   <div className="doctor-details-biography">
 
                     <h4 align="left">
-                      <u>
-                        Annual Dental Services provided from January 2021 to
-                        December 2021:
-                      </u>
+
+                      Annual Dental Services provided from January 2021 to
+                      December 2021:
+
                     </h4>
                     <ul>
                       <li>Consultation done in the Dental OPD: 2995</li>
@@ -151,16 +151,17 @@ const ProstheticSurgery = () => {
                         (Prostheses): 07
                       </li>
                     </ul>
+                    <br />
                     <h4>
-                      <strong>
-                        <u>Research:</u>
-                      </strong>
+
+                      Research:
+
                     </h4>
                     <p align="justify">
                       <strong>
                         <u>Publication:</u>
                       </strong>
-                      One
+                      &nbsp;One
                     </p>
                     <p align="justify">
                       Department is conducting a certified training Course in

@@ -326,17 +326,17 @@ const OncoPathology = () => {
                                                 Role of immune-escape mechanisms in prognostication of
                                                 B-ALL and AML patients.
                                             </li>
-                                            <br></br>
+
                                             <li>
                                                 Utility of newer leukemic stem cell antigens in risk
                                                 stratification of AML patients.
                                             </li>
-                                            <br></br>
+
                                             <li>
                                                 Standardization of lymph nodal biopsy flow cytometry and
                                                 study of new nuclear markers in lymphoma subtyping.
                                             </li>
-                                            <br></br>
+
                                             <li>
                                                 Analysis of the predictive role of Circulating Tumour
                                                 Cells detected by flow cytometry as a biomarker in lung

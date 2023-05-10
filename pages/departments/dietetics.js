@@ -5,6 +5,9 @@ import PageBanner from "../../components/Common/PageBanner";
 import Footer from "../../components/_App/Footer";
 
 const Dietetics = () => {
+
+
+
     return (
         <>
             <TopHeader />
@@ -86,39 +89,39 @@ const Dietetics = () => {
                                             along with diet chart is provided to indoor as well as
                                             outdoor patients.
                                         </p>
-                                        <br></br>
-                                        <p>
-                                            <strong>Clinical Rounds:</strong>
-                                        </p>
+                                        <br />
+
+                                        <strong>Clinical Rounds:</strong>
+                                        <br />  <br />
                                         <ul>
                                             <li>
                                                 A Standard Operating Protocol (SOP) has been formulated
                                                 in order to provide right diet of good quality &amp;
                                                 adequate quantity to the inpatients.
                                             </li>
-                                            <br></br>
+
                                             <li>
                                                 Dietician conduct daily bed to bed ward rounds and sees
                                                 the doctor’s instruction regarding diet based on
                                                 diagnosis.
                                             </li>
-                                            <br></br>
+
                                             <li>
                                                 Observe the condition of the patients in terms of
                                                 his/her illness, appetite, oral tolerance vis-à-vis
                                                 requirement
                                             </li>
-                                            <br></br>
+
                                             <li>
                                                 Required diet modification Is done as per requirement,
                                                 after consultation with treating doctor.
                                             </li>
-                                            <br></br>
+
                                             <li>
                                                 Briefly counsel the patient’s attendant regarding the
                                                 diet to be provided from the hospital
                                             </li>
-                                            <br></br>
+
                                             <li>
                                                 Get feedback regarding the diet acceptance or tolerance
                                                 by the patient
@@ -127,9 +130,9 @@ const Dietetics = () => {
                                     </div>
 
                                     <div className="doctor-details-biography">
-                                        <h5>
-                                            <u>Dietetics Department Consultations, 2021:</u>
-                                        </h5>
+                                        <h4>
+                                            Dietetics Department Consultations, 2021:
+                                        </h4>
                                         <table class="table table-hover table-bordered">
                                             <tbody>
                                                 <tr>
@@ -170,7 +173,7 @@ const Dietetics = () => {
                                         </table>
                                         <br></br>
                                         <h5 align="left">
-                                            <u>Staff Members:</u>
+                                            Staff Members:
                                         </h5>
                                         <table class="table table-hover table-bordered">
                                             <tbody>
@@ -180,8 +183,7 @@ const Dietetics = () => {
                                                     </td>
                                                     <td scope="col" colspan="2">
                                                         Ms. Navneet Kaur, (Adhoc)
-                                                        <br></br>
-                                                        Ms. Anjali Priya, (Contractual)
+
                                                     </td>
                                                 </tr>
                                             </tbody>

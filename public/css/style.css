@@ -5179,7 +5179,7 @@ footer {
   /* Starting position */
   -moz-transform: translateY(-100%);
   -webkit-transform: translateY(-100%);
-  transform: translateY(-100%);
+  transform: translateY(100%);
   /* Apply animation to this element */
   -moz-animation: example 15s linear infinite;
   -webkit-animation: example 15s linear infinite;
@@ -5214,12 +5214,12 @@ footer {
   0% {
     -moz-transform: translateY(-100%); /* Firefox bug fix */
     -webkit-transform: translateY(-100%); /* Firefox bug fix */
-    transform: translateY(-100%);
+    transform: translateY(100%);
   }
   100% {
     -moz-transform: translateY(100%); /* Firefox bug fix */
     -webkit-transform: translateY(100%); /* Firefox bug fix */
-    transform: translateY(100%);
+    transform: translateY(-100%);
   }
 }
 .social_list {
@@ -5276,4 +5276,7 @@ footer {
   background-color: #0046c0;
   color: #fff;
   text-align: center;
+}
+h4 {
+  color: #2f60bd;
 }

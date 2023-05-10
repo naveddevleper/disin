@@ -26,7 +26,7 @@ const CollegiumMembers = () => {
                         <div className="col">
                             <div className="about-item about-center">
                                 {/* <img src="/images/about-shape1.png" alt="About" /> */}
-                                <h2>Organisational Chart</h2>
+                                {/* <h2>Organisational Chart</h2> */}
                                 <div className="row align-items-start">
                                     <div class="col-lg-12">
                                         <div class="row">
@@ -55,18 +55,17 @@ const CollegiumMembers = () => {
                                                         <td>Member</td>
                                                     </tr>
                                                     <tr>
-                                                        <th scope="row"><span class="blackhead">Dr. Sudeep Gupta, Director, ACTREC </span></th>
+                                                        <th scope="row">Dr. Sudeep Gupta, Director, ACTREC</th>
                                                         <td>Member</td>
                                                     </tr>
                                                     <tr>
                                                         <th scope="row">Dr. Umesh Mahantshetty, Director, HBCH, Vizag</th>
                                                         <td>Member</td>
                                                     </tr>
-                                                </tbody>
-                                                <tbody>
+
                                                     <tr>
-                                                        <th scope="col">Dr. A.C Kataki, Director, BBCI</th>
-                                                        <th scope="col">Member</th>
+                                                        <th scope="row">Dr. A.C Kataki, Director, BBCI</th>
+                                                        <th >Member</th>
                                                     </tr>
                                                     <tr>
                                                         <th scope="row">Dr. S. Pradhan, Director, HBCH &amp; MPMMCC, Varanasi</th>

@@ -31,7 +31,7 @@ const HBCHVaranasiDetails = () => {
                         <div className="col-md-6">
                             <h3 className="mb-4">DEPARTMENT OF RADIATION ONCOLOGY</h3>
                             <table class="table table-hover table-bordered mb-5">
-                                <thead>
+                                <thead className="bg-color">
                                     <tr>
                                         <th colSpan="2" scope="col">
                                             Available Major Equipment
@@ -71,7 +71,7 @@ const HBCHVaranasiDetails = () => {
                             </table>
                             <h3 className="mb-4">DEPARTMENT OF ANAESTHESIOLOGY</h3>
                             <table class="table table-hover table-bordered mb-5">
-                                <thead>
+                                <thead className="bg-color">
                                     <tr>
                                         <th colSpan="2" scope="col">
                                             Available Major Equipment
@@ -162,7 +162,7 @@ const HBCHVaranasiDetails = () => {
                                 DEPARTMENT OF RADIODIAGNOSIS & DEPARTMENT OF NUCLEAR MEDICINE
                             </h3>
                             <table class="table table-hover table-bordered mb-5">
-                                <thead>
+                                <thead className="bg-color">
                                     <tr>
                                         <th colSpan="2" scope="col">
                                             Available Major Equipment
@@ -186,7 +186,7 @@ const HBCHVaranasiDetails = () => {
                             </table>
                             <h3 className="mb-4">DEPARTMENT OF RADIODIAGNOSIS</h3>
                             <table class="table table-hover table-bordered mb-5">
-                                <thead>
+                                <thead className="bg-color">
                                     <tr>
                                         <th colSpan="2" scope="col">
                                             Available Major Equipment
@@ -239,7 +239,7 @@ const HBCHVaranasiDetails = () => {
                             </table>
                             <h3 className="mb-4">DEPARTMENT OF ONCO-PATHOLOGY</h3>
                             <table class="table table-bordered table-hover">
-                                <thead>
+                                <thead className="bg-color">
                                     <tr>
                                         <th colSpan="2" scope="col">
                                             Available Major Equipment
@@ -534,7 +534,7 @@ const HBCHVaranasiDetails = () => {
                             </table>
                             <h3 className="mb-4">DEPARTMENT OF BIOCHEMISTRY</h3>
                             <table class="table table-bordered table-hover">
-                                <thead>
+                                <thead className="bg-color">
                                     <tr>
                                         <th colSpan="2" scope="col">
                                             Available Major Equipment
@@ -612,7 +612,7 @@ const HBCHVaranasiDetails = () => {
                         <div className="col-md-6">
                             <h3 className="mb-4">DEPARTMENT OF SURGICAL ONCOLOGY</h3>
                             <table class="table table-bordered table-hover">
-                                <thead>
+                                <thead className="bg-color">
                                     <tr>
                                         <th colSpan="2" scope="col">
                                             Available Major Equipment
@@ -746,7 +746,7 @@ const HBCHVaranasiDetails = () => {
                             </table>
                             <h3 className="mb-4">DEPARTMENT OF MICROBIOLOGY</h3>
                             <table class="table table-bordered table-hover">
-                                <thead>
+                                <thead className="bg-color">
                                     <tr>
                                         <th colSpan="2" scope="col">
                                             Available Major Equipment
@@ -929,7 +929,7 @@ const HBCHVaranasiDetails = () => {
                             </table>
                             <h3 className="mb-4">DEPARTMENT OF TRANSFUSION MEDICINE</h3>
                             <table class="table table-bordered table-hover">
-                                <thead>
+                                <thead className="bg-color">
                                     <tr>
                                         <th colSpan="2" scope="col">
                                             Available Major Equipment

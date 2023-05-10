@@ -26,7 +26,7 @@ const NodalOfficer = () => {
               <div className="about-item about-right">
                 <img src="/images/about-shape1.png" alt="About" />
                 <table class="table table-bordered table-hover">
-                  <thead>
+                  <thead className="bg-color">
                     <tr>
                       <th colspan="2" scope="col">
                         CONTACT DETAILS OF NODAL OFFICER

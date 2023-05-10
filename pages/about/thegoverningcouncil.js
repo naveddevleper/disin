@@ -26,7 +26,7 @@ const Thegoverningcouncil = () => {
                         <div className="col">
                             <div className="about-item about-center">
                                 {/* <img src="/images/about-shape1.png" alt="About" /> */}
-                                <h2>Organisational Chart</h2>
+                                {/* <h2>Organisational Chart</h2> */}
                                 <div class="row align-items-start">
                                     <div class="col-lg-12">
                                         <div id="main2">

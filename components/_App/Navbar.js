@@ -145,7 +145,7 @@ const Navbar = () => {
                         activeClassName="active"
                       >
                         <a onClick={toggleNavbar} className="nav-link">
-                          The Governing Council
+                          Governing Council
                         </a>
                       </Link>
                     </li>
@@ -256,6 +256,14 @@ const Navbar = () => {
                       <Link href="/online-payment" activeClassName="active">
                         <a onClick={toggleNavbar} className="nav-link">
                           Online Payment
+                        </a>
+                      </Link>
+                    </li>
+
+                    <li className="nav-item">
+                      <Link href="/images/SCHEDULE_OF_CHARGES.pdf" activeClassName="active">
+                        <a onClick={toggleNavbar} className="nav-link" target="__blank">
+                          Schedule Of Charges
                         </a>
                       </Link>
                     </li>

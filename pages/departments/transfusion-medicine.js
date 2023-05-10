@@ -80,10 +80,10 @@ const TransfusionMedicine = () => {
                                     <div className="doctor-details-biography">
                                         <p align="center">
                                             <strong>
-                                                <u>
-                                                    Overview of Transfusion Medicine Activities: 1st
-                                                    January 2021 to 31st December 2021
-                                                </u>
+
+                                                Overview of Transfusion Medicine Activities: 1st
+                                                January 2021 to 31st December 2021
+
                                             </strong>
                                         </p>
 
@@ -222,9 +222,9 @@ const TransfusionMedicine = () => {
                                             <strong>Research:</strong>
                                         </p>
                                         <p>Total Number of Ongoing Studies - 2</p>
-                                        <p>
-                                            <strong>Staff Members:</strong>
-                                        </p>
+
+                                        <strong>Staff Members:</strong>
+
                                         <h4 class="itemTitle" align="left">
                                             <strong>Staff Members:</strong>
                                         </h4>

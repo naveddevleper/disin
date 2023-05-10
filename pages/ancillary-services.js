@@ -27,7 +27,7 @@ const AncillaryServices = () => {
                                 <div className="doctor-details-right">
                                     <div className="doctor-details-biography">
                                         <table class="table table-hover table-bordered">
-                                            <thead>
+                                            <thead className="bg-color">
                                                 <tr>
                                                     <th scope="col">Sr.No</th>
                                                     <th scope="col">Services</th>
@@ -80,7 +80,7 @@ const AncillaryServices = () => {
                                                     </td>
                                                     <td>
                                                         <p>
-                                                            . Activities of Daily Life and Quality of Life
+                                                            1. Activities of Daily Life and Quality of Life
                                                             Training<br></br>2. Gait training for Bone and
                                                             Soft Tissue Tumor patients<br></br>3. Mirror
                                                             therapy for amputation patients <br></br>4. Hand

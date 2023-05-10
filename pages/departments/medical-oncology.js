@@ -39,7 +39,7 @@ const MedicalOncology = () => {
                                         </li>
                                         <li>
                                             <i className="icofont-location-pin"></i>
-                                            4th Floor, 408 No Chamber
+                                            DNT Building 1st Floor
                                         </li>
                                     </ul>
                                 </div>

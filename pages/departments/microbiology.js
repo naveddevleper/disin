@@ -84,17 +84,17 @@ const Microbiology = () => {
                                         </p>
                                         <ul>
                                             <li>Bacteriology- 10,726</li>
-                                            <br></br>
+
                                             <li>Clinical Microbiology Section- 3,299</li>
-                                            <br></br>
+
                                             <li>Molecular Microbiology- 6,616 </li>
-                                            <br></br>
+
                                             <li>Mycobacteriology-288 </li>
-                                            <br></br>
+
                                             <li>Mycology- 113 </li>
-                                            <br></br>
+
                                             <li>Serology Section- 17,586 </li>
-                                            <br></br>
+
                                         </ul>
                                         <p align="justify">
                                             The laboratory regularly participates in External Quality
