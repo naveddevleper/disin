@@ -32,8 +32,8 @@ const Thegoverningcouncil = () => {
                                         <div id="main2">
                                             <div id="menubox1">
                                                 <div class="menu1">
-                                                    <table>
-                                                        <thead>
+                                                    <table className="table table-bordered table-hover">
+                                                        <thead className="bg-color">
                                                             <tr>
                                                                 <td className="first_row" colspan="2">GOVERNING COUNCIL MEMBERS</td>
                                                             </tr>

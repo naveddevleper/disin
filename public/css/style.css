@@ -5230,7 +5230,7 @@ footer {
 .welcome-inner p {
   text-align: justify;
 }
-.message-box th {
+/* .message-box th {
   text-align: left;
   border: double;
   padding: 10px;
@@ -5241,8 +5241,8 @@ footer {
 }
 .message-box table {
   width: 100%;
-}
-.message-box tbody .first-col {
+} */
+/* .message-box tbody .first-col {
   background-color: #be552e;
   color: white;
   padding: 10px;
@@ -5254,8 +5254,8 @@ footer {
   font-size: 1.1em;
   width: 98%;
   padding: 10px;
-}
-#menubox1 th {
+} */
+/* #menubox1 th {
   border: double;
   padding: 10px;
 }
@@ -5267,8 +5267,13 @@ footer {
 #menubox1 thead {
   margin-top: 0px;
   border: double;
-}
+} */
 .lang-list li {
   white-space: nowrap;
   margin: 0px 5px;
+}
+.bg-color {
+  background-color: #0046c0;
+  color: #fff;
+  text-align: center;
 }

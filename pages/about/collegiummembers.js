@@ -27,72 +27,77 @@ const CollegiumMembers = () => {
                             <div className="about-item about-center">
                                 {/* <img src="/images/about-shape1.png" alt="About" /> */}
                                 <h2>Organisational Chart</h2>
-                                <div class="row align-items-start">
+                                <div className="row align-items-start">
                                     <div class="col-lg-12">
-                                        <div class="message-box">
-                                            <table >
-                                                <tbody>
-                                                    <tr >
-                                                        <td colspan="2" className="first-col">COLLEGIUM MEMBERS</td>
-                                                    </tr>
+                                        <div class="row">
+                                            <table className="table table-bordered table-hover">
+                                                <thead className="bg-color">
                                                     <tr>
-                                                        <th>Dr. R.A. Badwe, Director, TMC</th>
+                                                        <th scope="col" colspan="2">COLLEGIUM MEMBERS</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+
+                                                    <tr>
+                                                        <th scope="row">Dr. R.A. Badwe, Director, TMC</th>
                                                         <td>Chairman</td>
                                                     </tr>
                                                     <tr>
-                                                        <th>Dr. C.S. Pramesh, Director, TMH</th>
+                                                        <th scope="row" >Dr. C.S. Pramesh, Director, TMH</th>
                                                         <td>Member</td>
                                                     </tr>
                                                     <tr>
-                                                        <th>Dr. S.D. Banavali, Director (Academic), TMC</th>
+                                                        <th scope="row">Dr. S.D. Banavali, Director (Academic), TMC</th>
                                                         <td>Member</td>
                                                     </tr>
                                                     <tr>
-                                                        <th>Dr. Kailash Sharma, Dean (Academics) Projects</th>
+                                                        <th scope="row">Dr. Kailash Sharma, Dean (Academics) Projects</th>
                                                         <td>Member</td>
                                                     </tr>
                                                     <tr>
-                                                        <th><span class="blackhead">Dr. Sudeep Gupta, Director, ACTREC </span></th>
+                                                        <th scope="row"><span class="blackhead">Dr. Sudeep Gupta, Director, ACTREC </span></th>
                                                         <td>Member</td>
                                                     </tr>
                                                     <tr>
-                                                        <th>Dr. Umesh Mahantshetty, Director, HBCH, Vizag</th>
+                                                        <th scope="row">Dr. Umesh Mahantshetty, Director, HBCH, Vizag</th>
+                                                        <td>Member</td>
+                                                    </tr>
+                                                </tbody>
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="col">Dr. A.C Kataki, Director, BBCI</th>
+                                                        <th scope="col">Member</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">Dr. S. Pradhan, Director, HBCH &amp; MPMMCC, Varanasi</th>
                                                         <td>Member</td>
                                                     </tr>
                                                     <tr>
-                                                        <th>Dr. A.C Kataki, Director, BBCI</th>
-                                                        <th>Member</th>
-                                                    </tr>
-                                                    <tr>
-                                                        <th>Dr. S. Pradhan, Director, HBCH &amp; MPMMCC, Varanasi</th>
+                                                        <th scope="row">Dr. R. Dikshit, Director, CCE</th>
                                                         <td>Member</td>
                                                     </tr>
                                                     <tr>
-                                                        <th>Dr. R. Dikshit, Director, CCE</th>
+                                                        <th scope="row">Dr. S.V. Shrikhande, Dy. Director, TMH</th>
                                                         <td>Member</td>
                                                     </tr>
                                                     <tr>
-                                                        <th>Dr. S.V. Shrikhande, Dy. Director, TMH</th>
+                                                        <th scope="row">Dr. S. Laskar, Dy. Director (Academics), TMC</th>
                                                         <td>Member</td>
                                                     </tr>
                                                     <tr>
-                                                        <th>Dr. S. Laskar, Dy. Director (Academics), TMC</th>
+                                                        <th scope="row">Dr. Pankaj Chaturvedi, Dy. Director, CCE</th>
                                                         <td>Member</td>
                                                     </tr>
                                                     <tr>
-                                                        <th>Dr. Pankaj Chaturvedi, Dy. Director, CCE</th>
+                                                        <th scope="row">Dr. N. Khattry, Dy. Director, CRC, ACTREC</th>
                                                         <td>Member</td>
                                                     </tr>
                                                     <tr>
-                                                        <th>Dr. N. Khattry, Dy. Director, CRC, ACTREC</th>
+                                                        <th scope="row">Dr. Prasanna V. Dy. Director, CRI, ACTREC</th>
                                                         <td>Member</td>
                                                     </tr>
                                                     <tr>
-                                                        <th>Dr. Prasanna V. Dy. Director, CRI, ACTREC</th>
-                                                        <td>Member</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <th>Mr. A. N. Sathe, Chief Administrative Officer, TMC</th>
+                                                        <th scope="row">Mr. A. N. Sathe, Chief Administrative Officer, TMC</th>
                                                         <td>Secretary</td>
                                                     </tr>
                                                 </tbody>

@@ -39,7 +39,7 @@ const About = () => {
               </div>
               <div className="row">
                 <table class="table table-bordered table-hover">
-                  <thead>
+                  <thead className="bg-color">
                     <tr>
                       <th scope="col">Block</th>
                       <th scope="col">Facilities</th>
