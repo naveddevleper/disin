@@ -27,7 +27,7 @@ const DiagnosticServices = () => {
                                 <div className="doctor-details-right">
                                     <div className="doctor-details-biography">
                                         <table class="table table-hover table-bordered">
-                                            <thead>
+                                            <thead className="bg-color">
                                                 <tr>
                                                     <th scope="col">Sr.No</th>
                                                     <th scope="col">Services</th>

@@ -18,25 +18,26 @@ const AboutSection = () => {
                         <div className="about-item about-right">
                             <img src="/images/about-shape1.png" alt="Animation" />
                             <h2>
-                                To Know About Us
+                                About Us
                             </h2>
-                            <p>
+                            <p className="text-justify">
                                 The priorities of a cancer patient remains the cancer treatment.
                                 Dedicated to providing the most advanced and effective
                                 treatments for the cancer,as well as support services to help
                                 patients and their families. There's a lot of shared
                                 decision-making that goes into this.We are being open and
                                 transparent with patients about our decisions.
+
                             </p>
 
                             <ul>
                                 <li>
                                     <i class="icofont-eye-alt"></i>
-                                    To provide comprehensive cancer care to one and all, through its motto of excellence in service, education and research.
+                                    <strong>Mission: </strong> To provide comprehensive cancer care to one and all, through its motto of excellence in service, education and research.
                                 </li>
                                 <li>
                                     <i class="icofont-bullseye"></i>
-                                    To provide leadership in guiding the national policy and strategy for cancer
+                                    <strong>Vision: </strong>To provide leadership in guiding the national policy and strategy for cancer
                                 </li>
                                 {/* <li>
                                     <i className="icofont-check-circled"></i>

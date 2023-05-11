@@ -5280,3 +5280,9 @@ footer {
 h4 {
   color: #2f60bd;
 }
+.text-justify {
+  text-align: justify;
+}
+.icofont-ui-contact-list {
+  font-size: 32px;
+}

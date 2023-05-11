@@ -14,6 +14,12 @@ const Footer = () => {
                   <h3>Contact Us</h3>
                   <ul>
                     <li>
+                      <i class="icofont-ui-contact-list"></i>
+                      <Link href="/contact">
+                        <a>Contact Us</a>
+                      </Link>
+                    </li>
+                    <li>
                       <i className="icofont-ui-message"></i>
                       <a>
                         For Patient Care &amp; Related Queries
@@ -93,11 +99,7 @@ const Footer = () => {
                 <div className="footer-quick">
                   <h3>Quick Links</h3>
                   <ul>
-                    <li>
-                      <Link href="/contact">
-                        <a>Contact Us</a>
-                      </Link>
-                    </li>
+
                     <li>
                       <Link href="/about">
                         <a>Gallery</a>

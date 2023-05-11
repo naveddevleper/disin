@@ -26,7 +26,7 @@ const History = () => {
             <div className="col">
               <div className="about-item about-right">
                 <img src="/images/about-shape1.png" alt="About" />
-                <h2>The Hospital</h2>
+                <h2>History</h2>
                 <p>
                   Mahamana Pandit Madan Mohan Malaviya Cancer Centre (MPMMCC)
                   and Homi Bhabha Cancer Hospital (HBCH), Varanasi are the Units
@@ -75,7 +75,7 @@ const History = () => {
                   to rapid urbanization in these areas. Through our twin
                   hospitals, we are bringing comprehensive and high-quality
                   cancer care at affordable costs to the doorsteps of patients
-                  of Varanasi (Uttar Pradesh), its neighboring districts and
+                  of Varanasi and its neighboring districts and
                   adjoining States.
                 </p>
               </div>

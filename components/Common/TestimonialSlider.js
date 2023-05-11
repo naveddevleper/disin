@@ -36,7 +36,7 @@ const TestimonialSlider = () => {
               <div className="client-img">
                 <img
                   className="rounded-circle director-image"
-                  src="/images/Satyajit Photo_TMC.jpg"
+                  src="/images/Satyajit Photo_TMC.png"
                   alt="MPMMCC Director"
                 />
                 <h3>Dr. Satyajit Pradhan</h3>

@@ -39,7 +39,7 @@ const SurgicalOncology = () => {
                                         </li>
                                         <li>
                                             <i className="icofont-location-pin"></i>
-                                            4th Floor, 408 No Chamber
+                                            DNT Building GND Floor OPD 12,13,26
                                         </li>
                                     </ul>
                                 </div>
@@ -306,9 +306,9 @@ const SurgicalOncology = () => {
                                             -1141(Office) for Department of Surgical Oncology; HBCH:
                                             Extension number 4122 for Department of Surgical Oncology
                                         </p>
-                                        <p align="justify">
+                                        {/* <p align="justify">
                                             <strong>E-mail ID:</strong> mpmmcc.info@tmc.gov.in
-                                        </p>
+                                        </p> */}
                                     </div>
                                 </div>
                             </div>
