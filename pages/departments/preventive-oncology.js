@@ -111,12 +111,14 @@ const PreventiveOncology = () => {
                                         <h5 align="left"><strong>Staff Members:</strong></h5>
 
                                         <table class="table table-hover table-bordered">
-
-                                            <tbody>
+                                            <thead className="bg-color">
                                                 <tr>
-                                                    <td scope="col"><strong>Assistant Professor</strong></td>
-                                                    <td scope="col">Dr. Divya Khanna </td>
+                                                    <th scope="col"><strong>Assistant Professor</strong></th>
+                                                    <th scope="col">Dr. Divya Khanna </th>
                                                 </tr>
+                                            </thead>
+                                            <tbody>
+
                                                 <tr>
                                                     <td scope="col">Senior Resident</td>
                                                     <td scope="col">Dr. Abhishek Dandpat<br></br>

@@ -88,7 +88,7 @@ const TransfusionMedicine = () => {
                                         </p>
 
                                         <table class="table table-hover table-bordered">
-                                            <tbody>
+                                            <thead className="bg-color">
                                                 <tr>
                                                     <th height="40" scope="col">
                                                         Activities
@@ -100,6 +100,9 @@ const TransfusionMedicine = () => {
                                                         MPMMCC Blood Centre
                                                     </th>
                                                 </tr>
+                                            </thead>
+                                            <tbody>
+
                                                 <tr>
                                                     <th colspan="3" scope="row">
                                                         <div align="left">Blood Donation</div>
@@ -223,7 +226,7 @@ const TransfusionMedicine = () => {
                                         </p>
                                         <p>Total Number of Ongoing Studies - 2</p>
 
-                                        <strong>Staff Members:</strong>
+
 
                                         <h4 class="itemTitle" align="left">
                                             <strong>Staff Members:</strong>

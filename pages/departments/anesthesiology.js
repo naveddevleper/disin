@@ -82,7 +82,7 @@ const Anesthesiology = () => {
                                         <h3>Patient Service Data for 2021</h3>
 
                                         <table class="table table-hover table-bordered">
-                                            <thead>
+                                            <thead className="bg-color">
                                                 <tr>
                                                     <th scope="col">Anaesthesia Services</th>
                                                 </tr>
@@ -114,9 +114,10 @@ const Anesthesiology = () => {
                                                     <td>HBCH: 104 patients MPMMCC: 1981 patients</td>
                                                 </tr>
                                             </tbody>
-                                            <thead>
+                                            <thead className="bg-color">
                                                 <tr>
                                                     <th scope="col">Critical Care services</th>
+                                                    <th scope="col"></th>
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -131,9 +132,10 @@ const Anesthesiology = () => {
                                                     <td>90 sessions (28 patients)</td>
                                                 </tr>
                                             </tbody>
-                                            <thead>
+                                            <thead className="bg-color">
                                                 <tr>
                                                     <th scope="col">Pain Services</th>
+                                                    <th scope="col"></th>
                                                 </tr>
                                             </thead>
                                             <tbody>

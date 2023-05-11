@@ -87,7 +87,7 @@ const MedicalOncology = () => {
                                             </strong>
                                         </p>
                                         <table class="table table-hover table-bordered">
-                                            <thead>
+                                            <thead className="bg-color">
                                                 <tr>
                                                     <th scope="row">
                                                         <div align="left">Sl. No</div>
@@ -153,7 +153,7 @@ const MedicalOncology = () => {
                                         </p>
 
                                         <table class="table table-hover table-bordered">
-                                            <thead>
+                                            <thead className="bg-color">
                                                 <tr>
                                                     <th scope="col" colspan="2">
                                                         <p align="center">

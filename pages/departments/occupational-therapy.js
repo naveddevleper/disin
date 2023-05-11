@@ -97,52 +97,52 @@ const OccupationalTherapy = () => {
                                         </p>
                                         <p>
                                             <strong>
-                                                <u>Services provided:</u>
+                                                Services provided:
                                             </strong>
                                         </p>
                                         <ul>
                                             <li>
                                                 <strong>Multi-Layer Bandaging Technique-</strong>
                                                 provided to reduce lymphedema for cancer breast
-                                                patients.<br></br>
+                                                patients.
                                             </li>
-                                            <br></br>
+
                                             <li>
                                                 <strong>Cognitive perceptual rehabilitation-</strong>
                                                 provided for Neuro Onco-patients in HBCH&amp; MPMMCC.
-                                                <br></br>
+
                                             </li>
-                                            <br></br>
+
                                             <li>
                                                 <strong>Splinting, orthosis &amp; prosthesis-</strong>
                                                 had impact on quality of life &amp; functional
                                                 performance of patients at HBCH &amp; MPMMCC.
                                             </li>
-                                            <br></br>
+
                                             <li>
                                                 <strong>Mirror therapy- </strong>provided for amputation
                                                 patients to prevent phantom limb sensation.
                                             </li>
-                                            <br></br>
+
                                             <li>
                                                 <strong>Group and play therapy-</strong>for Paediatrics
                                                 Onco-patients to take care of depression as well as
                                                 improve self-involvement in community.<br></br>
                                             </li>
-                                            <br></br>
+
                                             <li>
                                                 <strong>Vocational rehabilitation </strong>counselling
                                                 also done to enhance return to transitional /permanent
                                                 job for patients with one’s own capabilities.<br></br>
                                             </li>
-                                            <br></br>
+
                                             <li>
                                                 Free distribution of Vaginal Dilation kit provided by
                                                 INDIAN CANCER SOCIETY, Mumbai for NC/B Category
                                                 Gynaec-onco patients at HBCH &amp; MPMMCC, respectively.
                                             </li>
                                         </ul>
-                                        <br></br>
+                                        <br />
                                         <p>
                                             <strong>Education:</strong>
                                         </p>
@@ -150,14 +150,14 @@ const OccupationalTherapy = () => {
                                             <li>
                                                 Staff regularly participated in departmental academic
                                                 &amp; DMG meetings, CMEs, Conferences and Workshops,
-                                                held in and outside HBCH/MPMMCC.<br></br>
+                                                held in and outside HBCH/MPMMCC.
                                             </li>
-                                            <br></br>
+
                                             <li>
                                                 The department has been involved in education of
                                                 observers from various faculties like Occupational
                                                 Therapy, Palliative Medicine, Dental, Physiotherapy and
-                                                Nursing.<br></br>
+                                                Nursing.
                                             </li>
                                         </ul>
                                     </div>

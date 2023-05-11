@@ -110,7 +110,7 @@ const SurgicalOncology = () => {
                                             cellspacing="0"
                                             cellpadding="1"
                                         >
-                                            <tbody>
+                                            <thead className="bg-color">
                                                 <tr>
                                                     <th height="40" colspan="5" scope="col">
                                                         <p align="center">
@@ -120,6 +120,9 @@ const SurgicalOncology = () => {
                                                         </p>
                                                     </th>
                                                 </tr>
+                                            </thead>
+                                            <tbody>
+
                                                 <tr>
                                                     <th height="40" scope="col"></th>
                                                     <th height="40" scope="col">

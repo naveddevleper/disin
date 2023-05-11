@@ -255,7 +255,7 @@ const RadiationOncology = () => {
                                             class="table table-hover table-bordered"
                                             data-bt-active="true"
                                         >
-                                            <thead>
+                                            <thead className="bg-color">
                                                 <tr>
                                                     <th>STUDY NAME</th>
                                                     <th>IEC APPROVAL</th>
@@ -417,12 +417,15 @@ const RadiationOncology = () => {
                                         </h4>
 
                                         <table class="table table-hover table-bordered">
-                                            <tbody>
+                                            <thead className="bg-color">
                                                 <tr>
                                                     <th height="40" colspan="2" scope="col">
                                                         <p align="Left">Radiation Oncologists</p>
                                                     </th>
                                                 </tr>
+                                            </thead>
+                                            <tbody>
+
                                                 <tr>
                                                     <td scope="col">Professor</td>
                                                     <td scope="col">
