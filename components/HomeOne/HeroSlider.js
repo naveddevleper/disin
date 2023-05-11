@@ -33,6 +33,7 @@ const HeroSlider = () => {
                 {...options}
             >
 
+
                 <div className="new-slider-item new-slider-item-img">
                     <div className="d-table">
                         <div className="d-table-cell">
