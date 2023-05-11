@@ -7,7 +7,7 @@ const AboutUs = () => {
                 <div className="row m-0">
                     <div className="col-lg-6 p-0">
                         <div className="welcome-item welcome-left">
-                            <img src="/images/about3.webp" alt="image" />
+                            <img src="/images/TMH.JPG" alt="image" />
                         </div>
                     </div>
 
