@@ -232,18 +232,15 @@ const Navbar = () => {
                     </li>
                     <li className="nav-item">
                       <Link
-                        href="https://tmc.gov.in/tmh/pdf/Common_Cancer_FAQs.pdf"
+                        href="https://tmc.gov.in/tmh/index.php/en/cancer-information/what-is-cancer"
                         activeClassName="active"
                       >
-                        <a
-                          onClick={toggleNavbar}
-                          className="nav-link"
-                          target="_blank"
-                        >
-                          FAQ's
+                        <a onClick={toggleNavbar} className="nav-link" target="__blank">
+                          Cancer Information
                         </a>
                       </Link>
                     </li>
+
                     <li className="nav-item">
                       <Link href="#" activeClassName="active">
                         <a onClick={toggleNavbar} className="nav-link">
@@ -264,6 +261,20 @@ const Navbar = () => {
                       <Link href="/images/SCHEDULE_OF_CHARGES.pdf" activeClassName="active">
                         <a onClick={toggleNavbar} className="nav-link" target="__blank">
                           Schedule Of Charges
+                        </a>
+                      </Link>
+                    </li>
+                    <li className="nav-item">
+                      <Link
+                        href="https://tmc.gov.in/tmh/pdf/Common_Cancer_FAQs.pdf"
+                        activeClassName="active"
+                      >
+                        <a
+                          onClick={toggleNavbar}
+                          className="nav-link"
+                          target="_blank"
+                        >
+                          FAQ's
                         </a>
                       </Link>
                     </li>

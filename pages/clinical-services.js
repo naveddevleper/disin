@@ -40,7 +40,7 @@ const ClinicalServices = () => {
                                                     <td><b>A.</b></td>
                                                     <td><strong>Surgical Oncology</strong></td>
                                                     <td>
-                                                        <p>1.Gastrointestinal Oncology<br></br>2.Thoracic Oncology<br></br>3. Head &amp; Neck Oncology<br></br>4.Plastic and Reconstructive Surgery<br></br>5. Breast Oncology<br></br>6. Gynecology Oncology<br></br>7. Bone &amp; Soft tissue tumor<br></br>8. Genito-urinary Oncology<br></br>9. ediatric Surgical Oncology<br></br>10. Neuro Surgical Oncology</p>
+                                                        <p>1.Gastrointestinal Oncology<br></br>2.Thoracic Oncology<br></br>3. Head &amp; Neck Oncology<br></br>4.Plastic and Reconstructive Surgery<br></br>5. Breast Oncology<br></br>6. Gynecology Oncology<br></br>7. Bone &amp; Soft tissue tumor<br></br>8. Genito-urinary Oncology<br></br>9. Ediatric Surgical Oncology<br></br>10. Neuro Surgical Oncology</p>
                                                     </td>
                                                 </tr>
                                                 <tr>

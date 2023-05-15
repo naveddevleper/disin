@@ -40,6 +40,36 @@ const AdministrativeServices = () => {
                                                         <b>A.</b>
                                                     </td>
                                                     <td>
+                                                        <strong>General Administration </strong>
+                                                    </td>
+                                                    <td>
+                                                        <p>
+                                                            1.Clerical and Administrative Support<br></br>2.Inventory and Supplies Management
+                                                            <br></br>3.Compliance and Regulatory Affairs
+                                                            <br></br>
+                                                        </p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <b>B.</b>
+                                                    </td>
+                                                    <td>
+                                                        <strong>Medical Administration </strong>
+                                                    </td>
+                                                    <td>
+                                                        <p>
+                                                            1.Medical Office Management<br></br>2.Medical Records Management
+                                                            <br></br>3.Medical Coding and Billing<br></br>4.Patient Registration and Admission
+                                                            <br></br>
+                                                        </p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <b>C.</b>
+                                                    </td>
+                                                    <td>
                                                         <strong>Accounts Department</strong>
                                                     </td>
                                                     <td>
@@ -53,7 +83,7 @@ const AdministrativeServices = () => {
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <b>B.</b>
+                                                        <b>D.</b>
                                                     </td>
                                                     <td>
                                                         <strong>Engineering Department</strong>
@@ -69,7 +99,7 @@ const AdministrativeServices = () => {
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <b>C.</b>
+                                                        <b>E.</b>
                                                     </td>
                                                     <td>
                                                         <strong>HR Department</strong>
@@ -86,7 +116,7 @@ const AdministrativeServices = () => {
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <b>D.</b>
+                                                        <b>F.</b>
                                                     </td>
                                                     <td>
                                                         <strong>IT Department</strong>
@@ -103,7 +133,7 @@ const AdministrativeServices = () => {
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <b>E.</b>
+                                                        <b>G.</b>
                                                     </td>
                                                     <td>
                                                         <strong>Purchase Department</strong>
@@ -119,7 +149,7 @@ const AdministrativeServices = () => {
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <b>F.</b>
+                                                        <b>H.</b>
                                                     </td>
                                                     <td>
                                                         <strong>Public Relation Department</strong>
@@ -136,7 +166,7 @@ const AdministrativeServices = () => {
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <b>G.</b>
+                                                        <b>I.</b>
                                                     </td>
                                                     <td>
                                                         <strong>Security Services Department</strong>

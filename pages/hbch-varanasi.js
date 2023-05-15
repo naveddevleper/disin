@@ -69,9 +69,9 @@ const HBCHVaranasi = () => {
               <div className="doctor-details-work">
                 <h3>Services</h3>
                 <div class="list-group mb-3">
-                  <a href="/hbch/clinical-services" class="list-group-item list-group-item-action">Clinical Services</a>
-                  <a href="/hbch/diagnostic-services" class="list-group-item list-group-item-action">Diagnostic Services</a>
-                  <a href="/hbch/ancillary-services" class="list-group-item list-group-item-action">Ancillary Services</a>
+                  <span class="list-group-item list-group-item-action">Clinical Services</span>
+                  <span class="list-group-item list-group-item-action">Diagnostic Services</span>
+                  <span class="list-group-item list-group-item-action">Ancillary Services</span>
                 </div>
               </div>
 

@@ -111,13 +111,10 @@ const Departments = () => {
 
                         <div className="col-sm-6 col-lg-4">
                             <div className="department-item h-100 d-flex flex-column align-items-center">
-                                <i className="icofont-doctor"></i>
-                                <h3>Medical Administration</h3>
+                                <i class="icofont-xray"></i>
+                                <h3>Radiodiagnosis & Imaging</h3>
                                 <p>
-                                    Medical Administration is administration or management
-                                    utilising the medical and clinical knowledge, skill, and
-                                    judgement of a registered medical practitioner, and capable of
-                                    affecting the health and safety of the public or any person.
+                                    Radiodiagnosis, also known as diagnostic imaging, is the medical specialty which deals with generating images of the interior of the body through different physical agents.
                                 </p>
                                 <p className="flex-grow-1"></p>
                                 <p className="flex-grow-1"></p>
@@ -158,13 +155,12 @@ const Departments = () => {
 
                         <div className="col-sm-6 col-lg-4">
                             <div className="department-item h-100 d-flex flex-column align-items-center">
-                                <i className="icofont-crutch"></i>
-                                <h3>Medical Social Works</h3>
+                                <i class="icofont-nurse-alt"></i>
+                                <h3>Oncology Nursing</h3>
                                 <p>
-                                    MSW are responsible for offering the support and resources
-                                    that patients need in order to fully recover from a medical
-                                    illness or injury as well as the resulting emotional,
-                                    physical, or psychological concerns.
+                                    An oncology nurse is a specialized nurse who cares for cancer patients.
+                                    These nurses require advanced certifications and
+                                    clinical experiences in oncology.Oncology nursing cares during the time of their disease.
                                 </p>
                                 <p className="flex-grow-1"></p>
                                 <p className="flex-grow-1"></p>
@@ -407,9 +403,216 @@ const Departments = () => {
                                         Read More
                                     </button>
                                 </Link>
+
+                            </div>
+                        </div>
+                        <div className="col-sm-6 col-lg-4">
+                            <div className="department-item h-100 d-flex flex-column align-items-center">
+                                <i class="icofont-company"></i>
+                                <h3>General Administration</h3>
+                                <p>
+                                    Administration is responsible for managing and overseeing the daily operations of the hospital, ensuring that patients receive high-quality care, and coordinating with the medical departments to ensure that the hospital runs smoothly.
+                                </p>
+                                <p className="flex-grow-1"></p>
+                                <Link href="/departments/transfusion-medicine">
+                                    <button
+                                        type="submit"
+                                        className="btn btn-primary btn-drop mt-3"
+                                    >
+                                        Read More
+                                    </button>
+                                </Link>
+
+                            </div>
+                        </div>
+                        <div className="col-sm-6 col-lg-4">
+                            <div className="department-item h-100 d-flex flex-column align-items-center">
+                                <i className="icofont-doctor"></i>
+                                <h3>Medical Administration</h3>
+                                <p>
+                                    Medical Administration is administration or management
+                                    utilising the medical and clinical knowledge, skill, and
+                                    judgement of a registered medical practitioner, and capable of
+                                    affecting the health and safety of the public or any person.
+                                </p>
+                                <p className="flex-grow-1"></p>
+                                <p className="flex-grow-1"></p>
+                                <Link href="/departments/medical-administration">
+                                    <button
+                                        type="submit"
+                                        className="btn btn-primary btn-drop mt-3"
+                                    >
+                                        Read More
+                                    </button>
+                                    {/* <a>Read More</a> */}
+                                </Link>
+                            </div>
+                        </div>
+                        <div className="col-sm-6 col-lg-4">
+                            <div className="department-item h-100 d-flex flex-column align-items-center">
+                                <i className="icofont-crutch"></i>
+                                <h3>Medical Social Works</h3>
+                                <p>
+                                    MSW are responsible for offering the support and resources
+                                    that patients need in order to fully recover from a medical
+                                    illness or injury as well as the resulting emotional,
+                                    physical, or psychological concerns.
+                                </p>
+                                <p className="flex-grow-1"></p>
+                                <p className="flex-grow-1"></p>
+                                <Link href="/departments/medical-social-works">
+                                    <button
+                                        type="submit"
+                                        className="btn btn-primary btn-drop mt-3"
+                                    >
+                                        Read More
+                                    </button>
+                                    {/* <a>Read More</a> */}
+                                </Link>
+                            </div>
+                        </div>
+                        <div className="col-sm-6 col-lg-4">
+                            <div className="department-item h-100 d-flex flex-column align-items-center">
+                                <i class="icofont-file-spreadsheet"></i>
+                                <h3>Accounts Department</h3>
+                                <p>
+
+                                </p>
+                                <p className="flex-grow-1"></p>
+                                <p className="flex-grow-1"></p>
+                                <Link href="#">
+                                    <button
+                                        type="submit"
+                                        className="btn btn-primary btn-drop mt-3"
+                                    >
+                                        Read More
+                                    </button>
+                                    {/* <a>Read More</a> */}
+                                </Link>
+                            </div>
+                        </div>
+                        <div className="col-sm-6 col-lg-4">
+                            <div className="department-item h-100 d-flex flex-column align-items-center">
+                                <i class="icofont-engineer"></i>
+                                <h3>Engineering Department</h3>
+                                <p>
+
+                                </p>
+                                <p className="flex-grow-1"></p>
+                                <p className="flex-grow-1"></p>
+                                <Link href="#">
+                                    <button
+                                        type="submit"
+                                        className="btn btn-primary btn-drop mt-3"
+                                    >
+                                        Read More
+                                    </button>
+                                    {/* <a>Read More</a> */}
+                                </Link>
+                            </div>
+                        </div>
+                        <div className="col-sm-6 col-lg-4">
+                            <div className="department-item h-100 d-flex flex-column align-items-center">
+                                <i class="icofont-people"></i>
+                                <h3>HR Department</h3>
+                                <p>
+
+                                </p>
+                                <p className="flex-grow-1"></p>
+                                <p className="flex-grow-1"></p>
+                                <Link href="#">
+                                    <button
+                                        type="submit"
+                                        className="btn btn-primary btn-drop mt-3"
+                                    >
+                                        Read More
+                                    </button>
+                                    {/* <a>Read More</a> */}
+                                </Link>
+                            </div>
+                        </div>
+                        <div className="col-sm-6 col-lg-4">
+                            <div className="department-item h-100 d-flex flex-column align-items-center">
+                                <i class="icofont-computer"></i>
+                                <h3>IT Department</h3>
+                                <p>
+                                    IT plays an important role in hospitals by helping to manage patient information, medical records, and other healthcare data. These technologies can improve patient care, reduce medical errors, and increase efficiency in healthcare delivery.
+                                </p>
+                                <p className="flex-grow-1"></p>
+                                <p className="flex-grow-1"></p>
+                                <Link href="#">
+                                    <button
+                                        type="submit"
+                                        className="btn btn-primary btn-drop mt-3"
+                                    >
+                                        Read More
+                                    </button>
+                                    {/* <a>Read More</a> */}
+                                </Link>
+                            </div>
+                        </div>
+                        <div className="col-sm-6 col-lg-4">
+                            <div className="department-item h-100 d-flex flex-column align-items-center">
+                                <i class="icofont-shopping-cart"></i>
+                                <h3>Purchase Department</h3>
+                                <p>
+
+                                </p>
+                                <p className="flex-grow-1"></p>
+                                <p className="flex-grow-1"></p>
+                                <Link href="#">
+                                    <button
+                                        type="submit"
+                                        className="btn btn-primary btn-drop mt-3"
+                                    >
+                                        Read More
+                                    </button>
+                                    {/* <a>Read More</a> */}
+                                </Link>
+                            </div>
+                        </div>
+                        <div className="col-sm-6 col-lg-4">
+                            <div className="department-item h-100 d-flex flex-column align-items-center">
+                                <i class="icofont-handshake-deal"></i>
+                                <h3>Public Relation Department</h3>
+                                <p>
+
+                                </p>
+                                <p className="flex-grow-1"></p>
+                                <p className="flex-grow-1"></p>
+                                <Link href="#">
+                                    <button
+                                        type="submit"
+                                        className="btn btn-primary btn-drop mt-3"
+                                    >
+                                        Read More
+                                    </button>
+                                    {/* <a>Read More</a> */}
+                                </Link>
+                            </div>
+                        </div>
+                        <div className="col-sm-6 col-lg-4">
+                            <div className="department-item h-100 d-flex flex-column align-items-center">
+                                <i class="icofont-ssl-security"></i>
+                                <h3>Security Services Department</h3>
+                                <p>
+
+                                </p>
+                                <p className="flex-grow-1"></p>
+                                <p className="flex-grow-1"></p>
+                                <Link href="#">
+                                    <button
+                                        type="submit"
+                                        className="btn btn-primary btn-drop mt-3"
+                                    >
+                                        Read More
+                                    </button>
+                                    {/* <a>Read More</a> */}
+                                </Link>
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
 
