@@ -68,7 +68,8 @@ const ClinicalResearchSecretariat = () => {
             <div className="col-lg-7">
               <div className="doctor-details-item">
                 <div className="doctor-details-right">
-                  <div className="doctor-details-biography">
+                  <div className="about-item about-right">
+                    <img src="/images/about-shape1.png" alt="About" />
                     <h3>CLINICAL RESEARCH SECRETARIAT</h3>
                     <p> Clinical Research Secretariat (CRS) of HBCH, Varanasi was
                       officially inaugurated by Dr. R.A. Badwe, Director, Tata

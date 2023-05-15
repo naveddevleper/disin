@@ -51,7 +51,7 @@ const Donation = () => {
                             <hr></hr>
                             <br></br>
                             <h3>For donations transferred from Abroad (Outside India)</h3>
-                            <table class="table" data-bt-active="true">
+                            <table class="table table-bordered" data-bt-active="true">
                                 <thead>
                                     <tr>
                                         <th>Benificiary Name</th>

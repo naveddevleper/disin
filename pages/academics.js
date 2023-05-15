@@ -68,7 +68,8 @@ const Academics = () => {
             <div className="col-lg-7">
               <div className="doctor-details-item">
                 <div className="doctor-details-right">
-                  <div className="doctor-details-biography">
+                  <div className="about-item about-right">
+                    <img src="/images/about-shape1.png" alt="About" />
                     <h3>EDUCATION</h3>
                     <p>
                       The mission of Tata Memorial Centre is to provide comprehensive cancer care to one and has the motto to achieve excellence in Service, Research, and Education. It has been observed that there is an acute shortage of trained Oncology manpower in the country. To partly overcome this problem and to fulfill the mandate of Education, Academics Section was formally started in HBCH, Varanasi from June, 2020.
