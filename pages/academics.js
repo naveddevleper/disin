@@ -24,22 +24,22 @@ const Academics = () => {
           <div className="row">
             <div className="col-lg-5">
               <div className="doctor-details-item doctor-details-left">
-                <img src="/images/departments/biochem.webp" alt="Doctor" />
+                <img src="/images/Academic_Dept.jpg" alt="Doctor" />
 
                 <div className="doctor-details-contact">
                   <h3>Contact info</h3>
                   <ul>
                     <li>
                       <i className="icofont-ui-call"></i>
-                      Call: +91-0542-2575032,35
+                      Call: +91-0542-2517699,Ext-1504
                     </li>
                     <li>
                       <i className="icofont-ui-message"></i>
-                      biochemistry@mpmmcc.tmc.gov.in
+                      academics@hbchk.tmc.gov.in
                     </li>
                     <li>
                       <i className="icofont-location-pin"></i>
-                      RT Building 3rd Floor
+                      DNT Building 5th Floor
                     </li>
                   </ul>
                 </div>

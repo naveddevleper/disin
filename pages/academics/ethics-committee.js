@@ -24,22 +24,22 @@ const EthicsCommittee = () => {
           <div className="row">
             <div className="col-lg-5">
               <div className="doctor-details-item doctor-details-left">
-                <img src="/images/departments/biochem.webp" alt="Doctor" />
+                <img src="/images/Ethics.jpg" alt="Doctor" />
 
                 <div className="doctor-details-contact">
                   <h3>Contact info</h3>
                   <ul>
                     <li>
                       <i className="icofont-ui-call"></i>
-                      Call: +91-0542-2575032,35
+                      Call: +91-0542-2517699, Ext-1117,1118
                     </li>
                     <li>
                       <i className="icofont-ui-message"></i>
-                      biochemistry@mpmmcc.tmc.gov.in
+                      iec@mpmmcc.tmc.gov.in
                     </li>
                     <li>
                       <i className="icofont-location-pin"></i>
-                      RT Building 3rd Floor
+                      DNT Building 1th Floor
                     </li>
                   </ul>
                 </div>

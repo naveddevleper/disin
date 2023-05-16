@@ -476,7 +476,8 @@ const Departments = () => {
                                 <i class="icofont-file-spreadsheet"></i>
                                 <h3>Accounts Department</h3>
                                 <p>
-
+                                    Department responsible for all financial transactions of the organization, including sales, purchases, expenses,
+                                    payroll, and other monetary activities.
                                 </p>
                                 <p className="flex-grow-1"></p>
                                 <p className="flex-grow-1"></p>
@@ -496,7 +497,8 @@ const Departments = () => {
                                 <i class="icofont-engineer"></i>
                                 <h3>Engineering Department</h3>
                                 <p>
-
+                                    Department is a vital function within an organization that focuses on the design, development, and implementation of
+                                    various engineering projects and solutions.
                                 </p>
                                 <p className="flex-grow-1"></p>
                                 <p className="flex-grow-1"></p>
@@ -516,7 +518,8 @@ const Departments = () => {
                                 <i class="icofont-people"></i>
                                 <h3>HR Department</h3>
                                 <p>
-
+                                    It is responsible for a wide range of tasks related to employee recruitment, hiring, training, development,
+                                    compensation, benefits, and employee relations.
                                 </p>
                                 <p className="flex-grow-1"></p>
                                 <p className="flex-grow-1"></p>
@@ -556,7 +559,8 @@ const Departments = () => {
                                 <i class="icofont-shopping-cart"></i>
                                 <h3>Purchase Department</h3>
                                 <p>
-
+                                    It is responsible for acquiring the goods, materials, and services necessary for an organization's operations and ensure that the organization obtains the required products or
+                                    services at the right price, quality, and quantity.
                                 </p>
                                 <p className="flex-grow-1"></p>
                                 <p className="flex-grow-1"></p>
@@ -596,7 +600,7 @@ const Departments = () => {
                                 <i class="icofont-ssl-security"></i>
                                 <h3>Security Services Department</h3>
                                 <p>
-
+                                    It is responsible for ensuring the safety and security of an organization, its employees, assets, and premises and maintaining a secure environment.
                                 </p>
                                 <p className="flex-grow-1"></p>
                                 <p className="flex-grow-1"></p>
