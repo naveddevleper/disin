@@ -575,26 +575,7 @@ const Departments = () => {
                                 </Link>
                             </div>
                         </div>
-                        <div className="col-sm-6 col-lg-4">
-                            <div className="department-item h-100 d-flex flex-column align-items-center">
-                                <i class="icofont-handshake-deal"></i>
-                                <h3>Public Relation Department</h3>
-                                <p>
 
-                                </p>
-                                <p className="flex-grow-1"></p>
-                                <p className="flex-grow-1"></p>
-                                <Link href="#">
-                                    <button
-                                        type="submit"
-                                        className="btn btn-primary btn-drop mt-3"
-                                    >
-                                        Read More
-                                    </button>
-                                    {/* <a>Read More</a> */}
-                                </Link>
-                            </div>
-                        </div>
                         <div className="col-sm-6 col-lg-4">
                             <div className="department-item h-100 d-flex flex-column align-items-center">
                                 <i class="icofont-ssl-security"></i>

@@ -121,10 +121,10 @@ const Navbar = () => {
                     </li>
                     <li className="nav-item">
                       <Link
-                        href="/about/collegiummembers"
+                        href="https://tmc.gov.in/index.php/en/aboutus/collegium"
                         activeClassName="active"
                       >
-                        <a onClick={toggleNavbar} className="nav-link">
+                        <a onClick={toggleNavbar} className="nav-link" target="__blank">
                           Collegium Members
                         </a>
                       </Link>
@@ -141,10 +141,10 @@ const Navbar = () => {
                     </li>
                     <li className="nav-item">
                       <Link
-                        href="/about/thegoverningcouncil"
+                        href="https://tmc.gov.in/index.php/en/aboutus/governing-council"
                         activeClassName="active"
                       >
-                        <a onClick={toggleNavbar} className="nav-link">
+                        <a onClick={toggleNavbar} className="nav-link" target="__blank">
                           Governing Council
                         </a>
                       </Link>
@@ -237,6 +237,16 @@ const Navbar = () => {
                       >
                         <a onClick={toggleNavbar} className="nav-link" target="__blank">
                           Cancer Information
+                        </a>
+                      </Link>
+                    </li>
+                    <li className="nav-item">
+                      <Link
+                        href="https://navya.care"
+                        activeClassName="active"
+                      >
+                        <a onClick={toggleNavbar} className="nav-link" target="__blank">
+                          Online Expert Opinion - Navya
                         </a>
                       </Link>
                     </li>

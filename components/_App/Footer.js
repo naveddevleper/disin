@@ -75,7 +75,7 @@ const Footer = () => {
                   <ul>
                     <li>
                       <Link href="https://online.mpmmcc.tmc.gov.in/OnlineAppt/">
-                        <a>Appointment</a>
+                        <a>Appointment-New Registration</a>
                       </Link>
                     </li>
                     <li>
@@ -87,6 +87,11 @@ const Footer = () => {
                     <li>
                       <Link href="/donation">
                         <a>How To Help Us</a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/donation">
+                        <a target="__blank">Online Expert Opinion - Navya</a>
                       </Link>
                     </li>
 
