@@ -24,7 +24,7 @@ const MissionVision = () => {
                                 To provide leadership in guiding the national policy and
                                 strategy for cancer care by:
                             </p>
-                            <ol>
+                            <ul>
                                 <li>
                                     Promoting outstanding services through evidence-based
                                     practice of oncology.
@@ -37,7 +37,7 @@ const MissionVision = () => {
                                     Emphasizing on research that is affordable, innovative and
                                     relevant to the needs of the country.
                                 </li>
-                            </ol>
+                            </ul>
                         </div>
                     </div>
 
