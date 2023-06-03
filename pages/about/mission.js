@@ -3,6 +3,7 @@ import TopHeader from "../../components/_App/TopHeader";
 import Navbar from "../../components/_App/Navbar";
 import PageBanner from "../../components/Common/PageBanner";
 import Footer from "../../components/_App/Footer";
+import MissionVision from "../../components/Common/MissionVision";
 
 const Mission = () => {
   return (
@@ -23,7 +24,7 @@ const Mission = () => {
         <div className="container">
           <div className="row align-items-start">
             <div className="col">
-              <div className="about-item about-right">
+              {/* <div className="about-item about-right">
                 <img src="/images/about-shape1.png" alt="About" />
                 <h2>MISSION</h2>
                 <p>
@@ -50,7 +51,8 @@ const Mission = () => {
                     relevant to the needs of the country.
                   </li>
                 </ol>
-              </div>
+              </div> */}
+              <MissionVision />
             </div>
           </div>
         </div>
