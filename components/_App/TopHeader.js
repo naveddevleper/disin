@@ -30,9 +30,9 @@ const TopHeader = () => {
                                 <ul>
                                     <li>
 
-                                        <a href="tel:+07554332322">
+                                        <a href="#">
                                             <i className="icofont-ui-call"></i>
-                                            Call : +91-0542-2575032,35, 0542-2517699
+                                            Call : +91-0542-6917700, 0542-2517699
                                         </a>
                                     </li>
                                     <li>

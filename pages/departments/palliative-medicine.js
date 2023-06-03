@@ -31,7 +31,7 @@ const PalliativeMedicine = () => {
                                     <ul>
                                         <li>
                                             <i className="icofont-ui-call"></i>
-                                            Call: +91-0542-2575032,35
+                                            Call: +91-0542-6917700
                                         </li>
                                         <li>
                                             <i className="icofont-ui-message"></i>

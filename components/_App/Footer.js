@@ -29,7 +29,7 @@ const Footer = () => {
                     <li>
                       <i className="icofont-stock-mobile"></i>
                       <a href="tel:+91-0542-2575032">
-                        Call: +91-0542-2575032,35
+                        Call: +91-0542-6917700
                       </a>
                       <a href="tel:+91-0542-2517699">Call: +91-0542-2517699 </a>
                     </li>
